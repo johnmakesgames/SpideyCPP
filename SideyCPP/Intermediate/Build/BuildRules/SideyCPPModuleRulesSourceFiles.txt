@@ -1,0 +1,3 @@
+D:\Git\SpideyCPP\SideyCPP\Source\SideyCPP\SideyCPP.Build.cs
+D:\Git\SpideyCPP\SideyCPP\Source\SideyCPP.Target.cs
+D:\Git\SpideyCPP\SideyCPP\Source\SideyCPPEditor.Target.cs
