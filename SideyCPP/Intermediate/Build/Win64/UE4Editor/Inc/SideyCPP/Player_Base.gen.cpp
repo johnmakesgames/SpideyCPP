@@ -31,6 +31,19 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_animMovementSpeedRight_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_animMovementSpeedRight;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_animMovementSpeedForward_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_animMovementSpeedForward;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_movementSpeed_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_movementSpeed;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -45,6 +58,32 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 		{ "ModuleRelativePath", "Player_Base.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayer_Base_Statics::NewProp_animMovementSpeedRight_MetaData[] = {
+		{ "Category", "Player Movement" },
+		{ "ModuleRelativePath", "Player_Base.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlayer_Base_Statics::NewProp_animMovementSpeedRight = { UE4CodeGen_Private::EPropertyClass::Float, "animMovementSpeedRight", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(APlayer_Base, animMovementSpeedRight), METADATA_PARAMS(Z_Construct_UClass_APlayer_Base_Statics::NewProp_animMovementSpeedRight_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayer_Base_Statics::NewProp_animMovementSpeedRight_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayer_Base_Statics::NewProp_animMovementSpeedForward_MetaData[] = {
+		{ "Category", "Player Movement" },
+		{ "ModuleRelativePath", "Player_Base.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlayer_Base_Statics::NewProp_animMovementSpeedForward = { UE4CodeGen_Private::EPropertyClass::Float, "animMovementSpeedForward", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(APlayer_Base, animMovementSpeedForward), METADATA_PARAMS(Z_Construct_UClass_APlayer_Base_Statics::NewProp_animMovementSpeedForward_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayer_Base_Statics::NewProp_animMovementSpeedForward_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayer_Base_Statics::NewProp_movementSpeed_MetaData[] = {
+		{ "Category", "Player Movement" },
+		{ "ModuleRelativePath", "Player_Base.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlayer_Base_Statics::NewProp_movementSpeed = { UE4CodeGen_Private::EPropertyClass::Float, "movementSpeed", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(APlayer_Base, movementSpeed), METADATA_PARAMS(Z_Construct_UClass_APlayer_Base_Statics::NewProp_movementSpeed_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayer_Base_Statics::NewProp_movementSpeed_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APlayer_Base_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer_Base_Statics::NewProp_animMovementSpeedRight,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer_Base_Statics::NewProp_animMovementSpeedForward,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer_Base_Statics::NewProp_movementSpeed,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_APlayer_Base_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<APlayer_Base>::IsAbstract,
 	};
@@ -53,7 +92,7 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 		DependentSingletons, ARRAY_COUNT(DependentSingletons),
 		0x009000A0u,
 		nullptr, 0,
-		nullptr, 0,
+		Z_Construct_UClass_APlayer_Base_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_APlayer_Base_Statics::PropPointers),
 		nullptr,
 		&StaticCppClassTypeInfo,
 		nullptr, 0,
@@ -68,7 +107,7 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayer_Base, 3545042267);
+	IMPLEMENT_CLASS(APlayer_Base, 1102570420);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APlayer_Base(Z_Construct_UClass_APlayer_Base, &APlayer_Base::StaticClass, TEXT("/Script/SideyCPP"), TEXT("APlayer_Base"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APlayer_Base);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

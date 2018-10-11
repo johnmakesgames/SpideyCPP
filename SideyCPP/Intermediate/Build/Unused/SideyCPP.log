@@ -1,0 +1,2 @@
+﻿  The system cannot find the path specified.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3073: The command ""D:\Program Files\Epic Games\UE_4.20\Engine\Build\BatchFiles\Build.bat" SideyCPPEditor Win64 Development "C:\Users\w017177h\OneDrive - Staffordshire University\SpideyCPP\SideyCPP\SideyCPP.uproject" -WaitMutex -FromMsBuild" exited with code 3.
