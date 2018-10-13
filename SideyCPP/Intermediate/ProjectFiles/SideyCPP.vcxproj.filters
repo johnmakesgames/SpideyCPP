@@ -46,9 +46,15 @@
     <ClInclude Include="..\..\Source\SideyCPP\Player_Base.h">
       <Filter>Source\SideyCPP</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\SideyCPP\WebPoint.h">
+      <Filter>Source\SideyCPP</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\SideyCPP\Player_Base.cpp">
+      <Filter>Source\SideyCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SideyCPP\WebPoint.cpp">
       <Filter>Source\SideyCPP</Filter>
     </ClCompile>
   </ItemGroup>

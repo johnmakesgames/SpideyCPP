@@ -1,0 +1,19 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-SideyCPP-4150.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\w017177h\OneDrive - Staffordshire University\SpideyCPP\SideyCPP\Intermediate\Build\Win64\SideyCPPEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\w017177h\OneDrive - Staffordshire University\SpideyCPP\SideyCPP\Intermediate\Build\Win64\UE4Editor\Development\SideyCPP\Player_Base.cpp.obj"
+"C:\Users\w017177h\OneDrive - Staffordshire University\SpideyCPP\SideyCPP\Intermediate\Build\Win64\UE4Editor\Development\SideyCPP\SideyCPP.cpp.obj"
+"C:\Users\w017177h\OneDrive - Staffordshire University\SpideyCPP\SideyCPP\Intermediate\Build\Win64\UE4Editor\Development\SideyCPP\SideyCPPGameModeBase.cpp.obj"
+"C:\Users\w017177h\OneDrive - Staffordshire University\SpideyCPP\SideyCPP\Intermediate\Build\Win64\UE4Editor\Development\SideyCPP\WebPoint.cpp.obj"
+"C:\Users\w017177h\OneDrive - Staffordshire University\SpideyCPP\SideyCPP\Intermediate\Build\Win64\UE4Editor\Development\SideyCPP\Player_Base.gen.cpp.obj"
+"C:\Users\w017177h\OneDrive - Staffordshire University\SpideyCPP\SideyCPP\Intermediate\Build\Win64\UE4Editor\Development\SideyCPP\SideyCPP.init.gen.cpp.obj"
+"C:\Users\w017177h\OneDrive - Staffordshire University\SpideyCPP\SideyCPP\Intermediate\Build\Win64\UE4Editor\Development\SideyCPP\SideyCPPGameModeBase.gen.cpp.obj"
+"C:\Users\w017177h\OneDrive - Staffordshire University\SpideyCPP\SideyCPP\Intermediate\Build\Win64\UE4Editor\Development\SideyCPP\WebPoint.gen.cpp.obj"
+"C:\Users\w017177h\OneDrive - Staffordshire University\SpideyCPP\SideyCPP\Intermediate\Build\Win64\UE4Editor\Development\SideyCPP\PCLaunch.rc.res"
+/OUT:"C:\Users\w017177h\OneDrive - Staffordshire University\SpideyCPP\SideyCPP\Intermediate\Build\Win64\UE4Editor\Development\SideyCPP\UE4Editor-SideyCPP-4150.lib"

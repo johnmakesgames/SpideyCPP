@@ -410,6 +410,8 @@
     <NMakeOutput>..\..\Binaries\HTML5\SideyCPP-HTML5-Shipping.js</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\SideyCPP\WebPoint.cpp" />
+    <ClInclude Include="..\..\Source\SideyCPP\WebPoint.h" />
     <None Include="..\..\SideyCPP.uproject" />
     <None Include="..\..\Source\SideyCPP.Target.cs" />
     <None Include="..\..\Source\SideyCPPEditor.Target.cs" />
