@@ -28,8 +28,8 @@ void AWebPoint::Tick(float DeltaTime)
 	FString Z = FString::SanitizeFloat(GetActorLocation.Z);*/
 
 
-	if (GEngine)
-		GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, FString::Printf(TEXT("Pos %f %f %f"), pointLocation.X, pointLocation.Y, pointLocation.Z));
+	//if (GEngine)
+	//	GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, FString::Printf(TEXT("Pos %f %f %f"), pointLocation.X, pointLocation.Y, pointLocation.Z));
 
 }
 

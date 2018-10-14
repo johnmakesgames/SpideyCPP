@@ -35,6 +35,8 @@ public:
 		FRotator pitchChange;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Movement")
 		bool dancing = false;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Movement")
+		bool tryingToSwing = false;
 
 	//Variables for web swinging;
 	TArray<AWebPoint*> PotentialWebPoints;
@@ -45,6 +47,7 @@ public:
 	FVector swingPoint;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Movement")
 	float swingSpeed;
+	float swingAngle;
 
 private:
 	FVector * directionalSpeed;
@@ -66,6 +69,9 @@ protected:
 	virtual void Pitch(float value);
 	virtual void JumpAction();
 	virtual void Dance();
+	virtual void Swing();
+	virtual void CalculateSwingSpeed(FVector newLocation, FVector currentLocation);
+
 
 public:	
 	// Called every frame

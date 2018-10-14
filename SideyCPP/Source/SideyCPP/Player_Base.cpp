@@ -36,9 +36,8 @@ void APlayer_Base::Tick(float DeltaTime)
 	yawChange = currentRotX * DeltaTime;
 	pitchChange = FRotator{ currentRotY*DeltaTime, 0, 0 };
 	CharacterMovement->MaxWalkSpeed = movementSpeed;
-
+	Swing();
 	dancing = false;
-
 }
 
 // Called to bind functionality to input
@@ -120,7 +119,10 @@ void APlayer_Base::Web(float value)
 		{
 			if (!swinging)
 			{
+				if (GEngine)
+					GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, "Trying to swing");
 				FindSwingPoint();
+				tryingToSwing = true;
 			}
 			/*if (GEngine)
 				GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Web Pressed"));*/
@@ -128,6 +130,10 @@ void APlayer_Base::Web(float value)
 	}
 	else
 	{
+		if (swinging)
+		{
+			swinging = false;
+		}
 		movementSpeed = maxWalkingSpeed;
 	}
 	
@@ -158,8 +164,16 @@ void APlayer_Base::SetScannedObjects(TArray<AWebPoint*> scannedLocations)
 	PotentialWebPoints = scannedLocations;
 	int scannedNum = PotentialWebPoints.Num();
 	FVector currentClosest;
-	for (int i = 0; i < scannedNum; i++)
+	/*for (int i = 0; i < scannedNum; i++)
 	{
+		if (FGenericPlatformMath::Abs(GetActorLocation().X - PotentialWebPoints[i]->GetActorLocation().X) > 300)
+		{
+			PotentialWebPoints.Remove(PotentialWebPoints[i]);
+			scannedNum--;
+		}
+	}*/
+	for (int i = 0; i < scannedNum; i++)
+	{	
 		if (i == 0)
 		{
 			currentClosest = PotentialWebPoints[i]->GetActorLocation();
@@ -171,6 +185,44 @@ void APlayer_Base::SetScannedObjects(TArray<AWebPoint*> scannedLocations)
 	}
 	swingPoint = currentClosest;
 	swinging = true;
+	swingAngle = 0;
+	swingSpeed = 30;
+}
+
+void APlayer_Base::Swing()
+{
+	if (swinging)
+	{
+		//I'm retarded : radius is pythag, switch the sin cos tan around, test with all
+		FVector distanceFromPoint = GetActorLocation() - swingPoint;
+		FVector swungPos;
+		swungPos.X = FMath::Cos(swingAngle + FMath::Acos(GetActorLocation().X/ distanceFromPoint.X));
+		swungPos.Y = FMath::Sin(swingAngle + FMath::Asin(GetActorLocation().Y / distanceFromPoint.Y));
+		swungPos.Z = FMath::Tan(swingAngle + FMath::Atan(GetActorLocation().Z / distanceFromPoint.Z));
+		CalculateSwingSpeed(swungPos, GetActorLocation());
+		swingAngle += swingSpeed;
+		GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, "Swinging");
+		GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, FString::Printf(TEXT("Pos %f %f %f"), GetActorLocation().X, GetActorLocation().Y, GetActorLocation().Z));
+		GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, FString::Printf(TEXT("SwungPos %f %f %f"), swungPos.X, swungPos.Y, swungPos.Z));
+
+		SetActorLocation(swungPos);
+	}
+}
+
+void APlayer_Base::CalculateSwingSpeed(FVector newLocation, FVector currentLocation)
+{
+	if (currentLocation.Z > newLocation.Z)
+	{
+		swingSpeed += 10;
+	}
+	else if (currentLocation.Z < newLocation.Z)
+	{
+		swingSpeed -= 5;
+	}
+	else
+	{
+		swingSpeed += 5;
+	}
 }
 
 
