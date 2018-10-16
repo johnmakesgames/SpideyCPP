@@ -48,6 +48,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Movement")
 	float swingSpeed;
 	float swingAngle;
+	FVector upVector;
+	float radiusOfSwing;
 
 private:
 	FVector * directionalSpeed;

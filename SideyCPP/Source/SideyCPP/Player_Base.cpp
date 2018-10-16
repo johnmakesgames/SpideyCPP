@@ -29,9 +29,12 @@ void APlayer_Base::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 	delta = DeltaTime;
 	
-	FVector NewDirection;
-	AddMovementInput(GetActorForwardVector(), directionalSpeed->X * DeltaTime);
-	AddMovementInput(GetActorRightVector(), directionalSpeed->Y * DeltaTime);
+	//FVector NewDirection;
+	if (!swinging)
+	{
+		AddMovementInput(GetActorForwardVector(), directionalSpeed->X * DeltaTime);
+		AddMovementInput(GetActorRightVector(), directionalSpeed->Y * DeltaTime);
+	}
 
 	yawChange = currentRotX * DeltaTime;
 	pitchChange = FRotator{ currentRotY*DeltaTime, 0, 0 };
@@ -186,26 +189,37 @@ void APlayer_Base::SetScannedObjects(TArray<AWebPoint*> scannedLocations)
 	swingPoint = currentClosest;
 	swinging = true;
 	swingAngle = 0;
-	swingSpeed = 30;
+	swingSpeed = 30.0f;
+	radiusOfSwing = FMath::Sqrt(FMath::Square(GetActorLocation().X - swingPoint.X) + FMath::Square(GetActorLocation().Y - swingPoint.Y) + FMath::Square(GetActorLocation().Z - swingPoint.Z));
+	upVector.X = swingPoint.X;
+	upVector.Y = swingPoint.Y;
+	upVector.Z = swingPoint.Z + radiusOfSwing;
+	FVector NormalPos = GetActorLocation();
+	FVector NormalUpVec = upVector;
+	NormalPos.Normalize();
+	NormalUpVec.Normalize();
+	swingAngle = FMath::Acos(FVector::DotProduct(upVector, GetActorLocation()));
+	GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, FString::Printf(TEXT("AngleOfSwing %f"), swingAngle));
 }
 
 void APlayer_Base::Swing()
 {
 	if (swinging)
 	{
-		//I'm retarded : radius is pythag, switch the sin cos tan around, test with all
-		FVector distanceFromPoint = GetActorLocation() - swingPoint;
+		CharacterMovement->GravityScale = 0;
 		FVector swungPos;
-		swungPos.X = FMath::Cos(swingAngle + FMath::Acos(GetActorLocation().X/ distanceFromPoint.X));
-		swungPos.Y = FMath::Sin(swingAngle + FMath::Asin(GetActorLocation().Y / distanceFromPoint.Y));
-		swungPos.Z = FMath::Tan(swingAngle + FMath::Atan(GetActorLocation().Z / distanceFromPoint.Z));
-		CalculateSwingSpeed(swungPos, GetActorLocation());
 		swingAngle += swingSpeed;
-		GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, "Swinging");
-		GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, FString::Printf(TEXT("Pos %f %f %f"), GetActorLocation().X, GetActorLocation().Y, GetActorLocation().Z));
-		GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, FString::Printf(TEXT("SwungPos %f %f %f"), swungPos.X, swungPos.Y, swungPos.Z));
-
-		SetActorLocation(swungPos);
+		//https://stackoverflow.com/questions/14829621/formula-to-find-points-on-the-circumference-of-a-circle-given-the-center-of-the
+		swungPos.Z = radiusOfSwing * FMath::Cos(swingAngle) + swingPoint.X;
+		swungPos.X = radiusOfSwing * FMath::Sin(swingAngle) + swingPoint.Z;
+		//GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, FString::Printf(TEXT("SwungPos %f %f %f"), swungPos.X, swungPos.Y, swungPos.Z));
+		swungPos = GetActorLocation() - swungPos;
+		swungPos.Normalize();
+		SetActorLocation(GetActorLocation() + (swungPos * swingSpeed * delta));
+	}
+	else
+	{
+		CharacterMovement->GravityScale = 1;
 	}
 }
 
