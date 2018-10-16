@@ -1,7 +1,6 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
-
 #include "Core.h"
 #include "GameFramework/Character.h"
 #include "Player_Base.generated.h"
@@ -50,6 +49,8 @@ public:
 	float swingAngle;
 	FVector upVector;
 	float radiusOfSwing;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Movement")
+	FVector returnedPosition;
 
 private:
 	FVector * directionalSpeed;
@@ -85,6 +86,8 @@ public:
 
 	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category = "Player Movement")
 		void FindSwingPoint();
+	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category = "Player Movement")
+		void RotateAroundAxis(FVector adjustedPosition, float swingAngle);
 	UFUNCTION(BlueprintCallable, Category = "Player Movement")
 		void SetScannedObjects(TArray<AWebPoint*> scannedLocations);
 };

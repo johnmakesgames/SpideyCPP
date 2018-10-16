@@ -110,6 +110,7 @@ void APlayer_Base::Web(float value)
 	{
 		if (grounded)
 		{
+			swinging = false;
 			if (movementSpeed <= maxWalkingSpeed)
 			{
 				movementSpeed = maxRunningSpeed;
@@ -192,9 +193,9 @@ void APlayer_Base::SetScannedObjects(TArray<AWebPoint*> scannedLocations)
 	swingAngle = 0;
 	swingSpeed = 1.0f;
 	radiusOfSwing = FMath::Sqrt(FMath::Square(GetActorLocation().X - swingPoint.X) + FMath::Square(GetActorLocation().Y - swingPoint.Y) + FMath::Square(GetActorLocation().Z - swingPoint.Z));
-	upVector.X = swingPoint.X;
-	upVector.Y = swingPoint.Y;
-	upVector.Z = swingPoint.Z + radiusOfSwing;
+	upVector.X = 0;
+	upVector.Y = 0;
+	upVector.Z = radiusOfSwing;
 	
 }
 
@@ -206,18 +207,28 @@ void APlayer_Base::Swing()
 		FVector NormalUpVec = upVector;
 		NormalPos.Normalize();
 		NormalUpVec.Normalize();
-		swingAngle = FMath::Acos(FVector::DotProduct(NormalPos, NormalUpVec));
+		swingAngle = FMath::Acos(FVector::DotProduct(GetActorLocation(), upVector));
 		swingAngle = FMath::RadiansToDegrees(swingAngle);
 		swingAngle += 1;
-		FVector swungPos;
+		FVector relativePlayerPosition = GetActorLocation() -= swingPoint;
+		RotateAroundAxis(relativePlayerPosition, swingAngle);
+		returnedPosition += swingPoint;
+		GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Blue, FString::Printf(TEXT("SwungPos %f %f %f"), returnedPosition.X, returnedPosition.Y, returnedPosition.Z));
+		//returnedPosition = returnedPosition - GetActorLocation();
+		//returnedPosition.Normalize();
+		GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, FString::Printf(TEXT("SwungPos %f %f %f"), returnedPosition.X, returnedPosition.Y, returnedPosition.Z));
+		SetActorLocation(returnedPosition);
+
+
+		/*FVector swungPos;
 		swungPos.X = 1 * FMath::Sin(swingAngle);
 		swungPos.Z = 1 - 1 * (1 - FMath::Cos(swingAngle));
 		swungPos.X *= radiusOfSwing;
-		GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, FString::Printf(TEXT("SwungPos %f %f %f"), swungPos.X, swungPos.Y, swungPos.Z));
+		
 		swungPos += swingPoint;
 		swungPos.Y = GetActorLocation().Y;
 		GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Green, FString::Printf(TEXT("SwungPos %f %f %f"), swungPos.X, swungPos.Y, swungPos.Z));
-		SetActorLocation(swungPos);
+		SetActorLocation(swungPos);*/
 		//GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, FString::Printf(TEXT("AngleOfSwing %f"), swingAngle));
 
 		//FVector swungPos;
@@ -227,9 +238,9 @@ void APlayer_Base::Swing()
 		//swungPos.X = radiusOfSwing * FMath::Sin(swingAngle) + swingPoint.Z;
 		//GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, FString::Printf(TEXT("SwungPos %f %f %f"), swungPos.X, swungPos.Y, swungPos.Z));
 		//GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, FString::Printf(TEXT("SwungPos %f %f %f"), GetActorLocation().X, GetActorLocation().Y, GetActorLocation().Z));
-		swungPos = swungPos - GetActorLocation();
-		swungPos.Normalize();
-		SetActorLocation(GetActorLocation() + (swungPos * swingSpeed * delta));
+		//swungPos = swungPos - GetActorLocation();
+		//swungPos.Normalize();
+		//SetActorLocation(GetActorLocation() + (swungPos * swingSpeed * delta));
 	}
 	else
 	{

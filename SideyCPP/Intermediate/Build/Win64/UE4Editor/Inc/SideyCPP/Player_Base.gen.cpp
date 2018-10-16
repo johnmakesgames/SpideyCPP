@@ -18,15 +18,24 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_SideyCPP();
 	SIDEYCPP_API UFunction* Z_Construct_UFunction_APlayer_Base_FindSwingPoint();
+	SIDEYCPP_API UFunction* Z_Construct_UFunction_APlayer_Base_RotateAroundAxis();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	SIDEYCPP_API UFunction* Z_Construct_UFunction_APlayer_Base_SetScannedObjects();
 	SIDEYCPP_API UClass* Z_Construct_UClass_AWebPoint_NoRegister();
-	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FRotator();
 // End Cross Module References
 	static FName NAME_APlayer_Base_FindSwingPoint = FName(TEXT("FindSwingPoint"));
 	void APlayer_Base::FindSwingPoint()
 	{
 		ProcessEvent(FindFunctionChecked(NAME_APlayer_Base_FindSwingPoint),NULL);
+	}
+	static FName NAME_APlayer_Base_RotateAroundAxis = FName(TEXT("RotateAroundAxis"));
+	void APlayer_Base::RotateAroundAxis(FVector adjustedPosition, float swingAngle)
+	{
+		Player_Base_eventRotateAroundAxis_Parms Parms;
+		Parms.adjustedPosition=adjustedPosition;
+		Parms.swingAngle=swingAngle;
+		ProcessEvent(FindFunctionChecked(NAME_APlayer_Base_RotateAroundAxis),&Parms);
 	}
 	void APlayer_Base::StaticRegisterNativesAPlayer_Base()
 	{
@@ -56,6 +65,38 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APlayer_Base_FindSwingPoint_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_APlayer_Base_RotateAroundAxis_Statics
+	{
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_swingAngle;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_adjustedPosition;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_APlayer_Base_RotateAroundAxis_Statics::NewProp_swingAngle = { UE4CodeGen_Private::EPropertyClass::Float, "swingAngle", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(Player_Base_eventRotateAroundAxis_Parms, swingAngle), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_APlayer_Base_RotateAroundAxis_Statics::NewProp_adjustedPosition = { UE4CodeGen_Private::EPropertyClass::Struct, "adjustedPosition", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(Player_Base_eventRotateAroundAxis_Parms, adjustedPosition), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_APlayer_Base_RotateAroundAxis_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APlayer_Base_RotateAroundAxis_Statics::NewProp_swingAngle,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APlayer_Base_RotateAroundAxis_Statics::NewProp_adjustedPosition,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APlayer_Base_RotateAroundAxis_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Player Movement" },
+		{ "ModuleRelativePath", "Player_Base.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APlayer_Base_RotateAroundAxis_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APlayer_Base, "RotateAroundAxis", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x0C820800, sizeof(Player_Base_eventRotateAroundAxis_Parms), Z_Construct_UFunction_APlayer_Base_RotateAroundAxis_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_APlayer_Base_RotateAroundAxis_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APlayer_Base_RotateAroundAxis_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_APlayer_Base_RotateAroundAxis_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_APlayer_Base_RotateAroundAxis()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APlayer_Base_RotateAroundAxis_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -106,6 +147,10 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_returnedPosition_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_returnedPosition;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_swingSpeed_MetaData[];
 #endif
@@ -164,6 +209,7 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_APlayer_Base_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_APlayer_Base_FindSwingPoint, "FindSwingPoint" }, // 2132337309
+		{ &Z_Construct_UFunction_APlayer_Base_RotateAroundAxis, "RotateAroundAxis" }, // 2162024564
 		{ &Z_Construct_UFunction_APlayer_Base_SetScannedObjects, "SetScannedObjects" }, // 864722930
 	};
 #if WITH_METADATA
@@ -173,6 +219,13 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 		{ "ModuleRelativePath", "Player_Base.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayer_Base_Statics::NewProp_returnedPosition_MetaData[] = {
+		{ "Category", "Player Movement" },
+		{ "ModuleRelativePath", "Player_Base.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_APlayer_Base_Statics::NewProp_returnedPosition = { UE4CodeGen_Private::EPropertyClass::Struct, "returnedPosition", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(APlayer_Base, returnedPosition), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_APlayer_Base_Statics::NewProp_returnedPosition_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayer_Base_Statics::NewProp_returnedPosition_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayer_Base_Statics::NewProp_swingSpeed_MetaData[] = {
 		{ "Category", "Player Movement" },
@@ -267,6 +320,7 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlayer_Base_Statics::NewProp_movementSpeed = { UE4CodeGen_Private::EPropertyClass::Float, "movementSpeed", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(APlayer_Base, movementSpeed), METADATA_PARAMS(Z_Construct_UClass_APlayer_Base_Statics::NewProp_movementSpeed_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayer_Base_Statics::NewProp_movementSpeed_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APlayer_Base_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer_Base_Statics::NewProp_returnedPosition,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer_Base_Statics::NewProp_swingSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer_Base_Statics::NewProp_swingPoint,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer_Base_Statics::NewProp_swinging,
@@ -302,7 +356,7 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayer_Base, 4057422855);
+	IMPLEMENT_CLASS(APlayer_Base, 6658670);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APlayer_Base(Z_Construct_UClass_APlayer_Base, &APlayer_Base::StaticClass, TEXT("/Script/SideyCPP"), TEXT("APlayer_Base"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APlayer_Base);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
