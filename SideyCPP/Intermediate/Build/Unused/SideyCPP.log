@@ -1,9 +1,9 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Building 3 actions with 4 processes...
+  Building 3 actions with 8 processes...
     [1/3] Player_Base.cpp
     [2/3] UE4Editor-SideyCPP.lib
        Creating library C:\Users\w017177h\Documents\GitHub\SpideyCPP\SideyCPP\Intermediate\Build\Win64\UE4Editor\Development\SideyCPP\UE4Editor-SideyCPP.lib and object C:\Users\w017177h\Documents\GitHub\SpideyCPP\SideyCPP\Intermediate\Build\Win64\UE4Editor\Development\SideyCPP\UE4Editor-SideyCPP.exp
     [3/3] UE4Editor-SideyCPP.dll
        Creating library C:\Users\w017177h\Documents\GitHub\SpideyCPP\SideyCPP\Intermediate\Build\Win64\UE4Editor\Development\SideyCPP\UE4Editor-SideyCPP.suppressed.lib and object C:\Users\w017177h\Documents\GitHub\SpideyCPP\SideyCPP\Intermediate\Build\Win64\UE4Editor\Development\SideyCPP\UE4Editor-SideyCPP.suppressed.exp
   Deploying SideyCPPEditor Win64 Development...
-  Total build time: 6.20 seconds (Parallel executor: 3.09 seconds)
+  Total build time: 5.70 seconds (Parallel executor: 3.02 seconds)

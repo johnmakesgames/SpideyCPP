@@ -126,6 +126,7 @@ void APlayer_Base::Web(float value)
 					GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, "Trying to swing");
 				FindSwingPoint();
 				tryingToSwing = true;
+				CharacterMovement->GravityScale = 0;
 			}
 			/*if (GEngine)
 				GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Web Pressed"));*/
@@ -189,31 +190,44 @@ void APlayer_Base::SetScannedObjects(TArray<AWebPoint*> scannedLocations)
 	swingPoint = currentClosest;
 	swinging = true;
 	swingAngle = 0;
-	swingSpeed = 30.0f;
+	swingSpeed = 1.0f;
 	radiusOfSwing = FMath::Sqrt(FMath::Square(GetActorLocation().X - swingPoint.X) + FMath::Square(GetActorLocation().Y - swingPoint.Y) + FMath::Square(GetActorLocation().Z - swingPoint.Z));
 	upVector.X = swingPoint.X;
 	upVector.Y = swingPoint.Y;
 	upVector.Z = swingPoint.Z + radiusOfSwing;
-	FVector NormalPos = GetActorLocation();
-	FVector NormalUpVec = upVector;
-	NormalPos.Normalize();
-	NormalUpVec.Normalize();
-	swingAngle = FMath::Acos(FVector::DotProduct(upVector, GetActorLocation()));
-	GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, FString::Printf(TEXT("AngleOfSwing %f"), swingAngle));
+	
 }
 
 void APlayer_Base::Swing()
 {
 	if (swinging)
 	{
-		CharacterMovement->GravityScale = 0;
+		FVector NormalPos = GetActorLocation();
+		FVector NormalUpVec = upVector;
+		NormalPos.Normalize();
+		NormalUpVec.Normalize();
+		swingAngle = FMath::Acos(FVector::DotProduct(NormalPos, NormalUpVec));
+		swingAngle = FMath::RadiansToDegrees(swingAngle);
+		swingAngle += 1;
 		FVector swungPos;
-		swingAngle += swingSpeed;
-		//https://stackoverflow.com/questions/14829621/formula-to-find-points-on-the-circumference-of-a-circle-given-the-center-of-the
-		swungPos.Z = radiusOfSwing * FMath::Cos(swingAngle) + swingPoint.X;
-		swungPos.X = radiusOfSwing * FMath::Sin(swingAngle) + swingPoint.Z;
+		swungPos.X = 1 * FMath::Sin(swingAngle);
+		swungPos.Z = 1 - 1 * (1 - FMath::Cos(swingAngle));
+		swungPos.X *= radiusOfSwing;
+		GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, FString::Printf(TEXT("SwungPos %f %f %f"), swungPos.X, swungPos.Y, swungPos.Z));
+		swungPos += swingPoint;
+		swungPos.Y = GetActorLocation().Y;
+		GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Green, FString::Printf(TEXT("SwungPos %f %f %f"), swungPos.X, swungPos.Y, swungPos.Z));
+		SetActorLocation(swungPos);
+		//GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, FString::Printf(TEXT("AngleOfSwing %f"), swingAngle));
+
+		//FVector swungPos;
+		//swingAngle += swingSpeed;
+		////https://stackoverflow.com/questions/14829621/formula-to-find-points-on-the-circumference-of-a-circle-given-the-center-of-the
+		//swungPos.Z = radiusOfSwing * FMath::Cos(swingAngle) + swingPoint.X;
+		//swungPos.X = radiusOfSwing * FMath::Sin(swingAngle) + swingPoint.Z;
 		//GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, FString::Printf(TEXT("SwungPos %f %f %f"), swungPos.X, swungPos.Y, swungPos.Z));
-		swungPos = GetActorLocation() - swungPos;
+		//GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, FString::Printf(TEXT("SwungPos %f %f %f"), GetActorLocation().X, GetActorLocation().Y, GetActorLocation().Z));
+		swungPos = swungPos - GetActorLocation();
 		swungPos.Normalize();
 		SetActorLocation(GetActorLocation() + (swungPos * swingSpeed * delta));
 	}
