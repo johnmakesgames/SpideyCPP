@@ -191,9 +191,12 @@ void APlayer_Base::SetScannedObjects(TArray<AWebPoint*> scannedLocations)
 		{
 			currentClosest = PotentialWebPoints[i]->GetActorLocation();
 		}
-		else if ((FGenericPlatformMath::Abs(GetActorLocation().X - currentClosest.X) > FGenericPlatformMath::Abs(GetActorLocation().X - PotentialWebPoints[i]->GetActorLocation().X))&&(FGenericPlatformMath::Abs(GetActorLocation().Y - currentClosest.Y) > FGenericPlatformMath::Abs(GetActorLocation().Y - PotentialWebPoints[i]->GetActorLocation().Y))&&(FGenericPlatformMath::Abs(GetActorLocation().Z - currentClosest.Z) > FGenericPlatformMath::Abs(GetActorLocation().Z - PotentialWebPoints[i]->GetActorLocation().Z)))
+		else if (true)//change this
 		{
-			currentClosest = PotentialWebPoints[i]->GetActorLocation();
+			if (FGenericPlatformMath::Abs(GetActorLocation().Y - currentClosest.Y) > FGenericPlatformMath::Abs(GetActorLocation().Y - PotentialWebPoints[i]->GetActorLocation().Y))
+			{
+				currentClosest = PotentialWebPoints[i]->GetActorLocation();
+			}
 		}
 	}
 	swingPoint = currentClosest;
