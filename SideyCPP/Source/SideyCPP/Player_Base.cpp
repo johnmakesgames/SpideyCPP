@@ -21,6 +21,7 @@ void APlayer_Base::BeginPlay()
 	directionalSpeed = new FVector(0,0,0);
 	movementSpeed = 500.0f;
 	CharacterMovement->MaxWalkSpeed = maxWalkingSpeed;
+	CharacterMovement->JumpZVelocity *= 2;
 }
 
 // Called every frame
@@ -156,7 +157,14 @@ void APlayer_Base::Pitch(float value)
 
 void APlayer_Base::JumpAction()
 {
-	Jump();
+	if (swinging)
+	{
+		CharacterMovement->AddImpulse(GetActorForwardVector() + FVector(0, 0, 10));
+	}
+	else
+	{
+		Jump();
+	}
 }
 
 void APlayer_Base::Dance()
@@ -183,7 +191,7 @@ void APlayer_Base::SetScannedObjects(TArray<AWebPoint*> scannedLocations)
 		{
 			currentClosest = PotentialWebPoints[i]->GetActorLocation();
 		}
-		else if (FGenericPlatformMath::Abs(GetActorLocation().Y - currentClosest.Y) > FGenericPlatformMath::Abs(GetActorLocation().Y - PotentialWebPoints[i]->GetActorLocation().Y))
+		else if ((FGenericPlatformMath::Abs(GetActorLocation().X - currentClosest.X) > FGenericPlatformMath::Abs(GetActorLocation().X - PotentialWebPoints[i]->GetActorLocation().X))&&(FGenericPlatformMath::Abs(GetActorLocation().Y - currentClosest.Y) > FGenericPlatformMath::Abs(GetActorLocation().Y - PotentialWebPoints[i]->GetActorLocation().Y))&&(FGenericPlatformMath::Abs(GetActorLocation().Z - currentClosest.Z) > FGenericPlatformMath::Abs(GetActorLocation().Z - PotentialWebPoints[i]->GetActorLocation().Z)))
 		{
 			currentClosest = PotentialWebPoints[i]->GetActorLocation();
 		}
@@ -213,7 +221,6 @@ void APlayer_Base::Swing()
 		FVector relativePlayerPosition = GetActorLocation() -= swingPoint;
 		RotateAroundAxis(relativePlayerPosition, swingAngle);
 		returnedPosition += swingPoint;
-		GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Blue, FString::Printf(TEXT("SwungPos %f %f %f"), returnedPosition.X, returnedPosition.Y, returnedPosition.Z));
 		//returnedPosition = returnedPosition - GetActorLocation();
 		//returnedPosition.Normalize();
 		GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, FString::Printf(TEXT("SwungPos %f %f %f"), returnedPosition.X, returnedPosition.Y, returnedPosition.Z));
