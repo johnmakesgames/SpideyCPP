@@ -214,22 +214,36 @@ void APlayer_Base::Swing()
 {
 	if (swinging)
 	{
-		FVector NormalPos = GetActorLocation();
-		FVector NormalUpVec = upVector;
-		NormalPos.Normalize();
-		NormalUpVec.Normalize();
+		///BP Swinging
+		//FVector NormalPos = GetActorLocation();
+		//FVector NormalUpVec = upVector;
+		//NormalPos.Normalize();
+		//NormalUpVec.Normalize();
+		//swingAngle = FMath::Acos(FVector::DotProduct(GetActorLocation(), upVector));
+		//swingAngle = FMath::RadiansToDegrees(swingAngle);
+		//swingAngle += 1;
+		//FVector relativePlayerPosition = GetActorLocation() -= swingPoint;
+		//RotateAroundAxis(relativePlayerPosition, swingAngle);
+		//returnedPosition += swingPoint;
+		////returnedPosition = returnedPosition - GetActorLocation();
+		////returnedPosition.Normalize();
+		//GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, FString::Printf(TEXT("SwungPos %f %f %f"), returnedPosition.X, returnedPosition.Y, returnedPosition.Z));
+		//SetActorLocation(returnedPosition);
+
+
+		///New Swinging
 		swingAngle = FMath::Acos(FVector::DotProduct(GetActorLocation(), upVector));
 		swingAngle = FMath::RadiansToDegrees(swingAngle);
 		swingAngle += 1;
-		FVector relativePlayerPosition = GetActorLocation() -= swingPoint;
-		RotateAroundAxis(relativePlayerPosition, swingAngle);
-		returnedPosition += swingPoint;
-		//returnedPosition = returnedPosition - GetActorLocation();
-		//returnedPosition.Normalize();
-		GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, FString::Printf(TEXT("SwungPos %f %f %f"), returnedPosition.X, returnedPosition.Y, returnedPosition.Z));
-		SetActorLocation(returnedPosition);
+		FVector swungPos;
+		swungPos.X = (FMath::Sin(swingAngle)) * radiusOfSwing;
+		swungPos.Y = (FMath::Sin(swingAngle)) * radiusOfSwing;
+		swungPos.Z = ((-1 * FMath::Cos(swingAngle))) * radiusOfSwing;
+		swungPos += swingPoint;
+		GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Green, FString::Printf(TEXT("SwungPos %f %f %f"), swungPos.X, swungPos.Y, swungPos.Z));
+		SetActorLocation(swungPos);
 
-
+		///Old Swinging
 		/*FVector swungPos;
 		swungPos.X = 1 * FMath::Sin(swingAngle);
 		swungPos.Z = 1 - 1 * (1 - FMath::Cos(swingAngle));

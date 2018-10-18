@@ -1,0 +1,945 @@
+﻿Log file open, 10/18/18 15:02:42
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: SideyCPP
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.425053
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.247s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.009s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.10.18-14.02.43:352][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.18-14.02.43:352][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.18-14.02.43:362][  0]LogHAL: Display: Platform has ~ 16 GB [17126547456 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.18-14.02.43:362][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.18-14.02.43:362][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.18-14.02.43:362][  0]LogInit: Computer: EDWARD
+[2018.10.18-14.02.43:362][  0]LogInit: User: John
+[2018.10.18-14.02.43:362][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.18-14.02.43:362][  0]LogInit: High frequency timer resolution =3.914065 MHz
+[2018.10.18-14.02.43:363][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.10.18-14.02.43:363][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.18-14.02.43:363][  0]LogMemory: Process Physical Memory: 101.55 MB used, 101.55 MB peak
+[2018.10.18-14.02.43:363][  0]LogMemory: Process Virtual Memory: 94.03 MB used, 94.03 MB peak
+[2018.10.18-14.02.43:363][  0]LogMemory: Physical Memory: 7377.29 MB used,  8955.86 MB free, 16333.15 MB total
+[2018.10.18-14.02.43:363][  0]LogMemory: Virtual Memory: 4642.52 MB used,  8955.86 MB free, 134217728.00 MB total
+[2018.10.18-14.02.43:483][  0]LogInit: Using OS detected language (en-US).
+[2018.10.18-14.02.43:483][  0]LogInit: Using OS detected locale (en-US).
+[2018.10.18-14.02.43:484][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.10.18-14.02.43:795][  0]LogStreaming: Display: Took  0.313s to InitEngineTextLocalization.
+[2018.10.18-14.02.43:799][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.18-14.02.43:868][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.18-14.02.43:868][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.18-14.02.44:145][  0]LogHMD: Failed to initialize OpenVR with code 102
+[2018.10.18-14.02.44:145][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.18-14.02.44:236][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2018.10.18-14.02.44:236][  0]LogD3D11RHI:       6061/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.10.18-14.02.44:272][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.18-14.02.44:272][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.18-14.02.44:272][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.18-14.02.44:291][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.18-14.02.44:292][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.18-14.02.44:292][  0]LogWindows: EnumDisplayDevices:
+[2018.10.18-14.02.44:292][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2018.10.18-14.02.44:293][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2018.10.18-14.02.44:294][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.10.18-14.02.44:294][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.10.18-14.02.44:295][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.10.18-14.02.44:296][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2018.10.18-14.02.44:296][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2018.10.18-14.02.44:296][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2018.10.18-14.02.44:296][  0]LogRHI: Texture pool is 4242 MB (70% of 6061 MB)
+[2018.10.18-14.02.44:326][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.18-14.02.44:343][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.10.18-14.02.44:439][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (../../../../../../Git/SpideyCPP/SideyCPP/Intermediate/Shaders/WorkingDirectory/8548/).
+[2018.10.18-14.02.44:439][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/John/AppData/Local/Temp/UnrealShaderWorkingDir/E64480EA47B6AA6E296C039CC5DBF30F/'.
+[2018.10.18-14.02.44:787][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.18-14.02.44:808][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.18-14.02.44:851][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.18-14.02.44:875][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.18-14.02.44:895][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.18-14.02.44:916][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.18-14.02.44:936][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.18-14.02.44:957][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.18-14.02.44:970][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.18-14.02.45:066][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-14.02.45:067][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-14.02.45:067][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-14.02.45:067][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-14.02.45:067][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-14.02.45:067][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-14.02.45:067][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-14.02.45:067][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-14.02.45:067][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-14.02.45:067][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-14.02.45:067][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-14.02.45:067][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-14.02.45:067][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-14.02.45:067][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-14.02.45:067][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-14.02.45:067][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-14.02.45:067][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-14.02.45:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.18-14.02.45:074][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.18-14.02.45:163][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.18-14.02.45:163][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.18-14.02.45:214][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.18-14.02.45:214][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.18-14.02.45:237][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.18-14.02.45:254][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.18-14.02.45:301][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.18-14.02.45:348][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.18-14.02.45:363][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.18-14.02.45:363][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.18-14.02.45:578][  0]LogXGEController: Cleaning working directory: C:/Users/John/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.10.18-14.02.45:578][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.18-14.02.45:578][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.18-14.02.45:578][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.18-14.02.46:506][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.18-14.02.46:554][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/John/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.18-14.02.46:554][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/John/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.18-14.02.46:554][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Git/SpideyCPP/SideyCPP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.18-14.02.46:554][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.18-14.02.46:555][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Git/SpideyCPP/SideyCPP/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.18-14.02.46:555][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.18-14.02.46:566][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.18-14.02.46:580][  0]LogDerivedDataCache: Using Local data cache path C:/Users/John/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.18-14.02.46:580][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.18-14.02.46:580][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.18-14.02.46:597][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.18-14.02.46:598][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.18-14.02.46:599][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.18-14.02.46:679][  0]LogAssetRegistry: FAssetRegistry took 0.0284 seconds to start up
+[2018.10.18-14.02.47:083][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.18-14.02.47:314][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.18-14.02.47:337][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.18-14.02.47:337][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.18-14.02.47:337][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.18-14.02.47:337][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.18-14.02.47:375][  0]LogNetVersion: SideyCPP 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 583984258)
+[2018.10.18-14.02.47:942][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.131384 seconds
+[2018.10.18-14.02.47:948][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.18-14.02.47:948][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.10.18-14.02.47:948][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.18-14.02.49:258][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.18-14.02.49:278][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.18-14.02.49:615][  0]SourceControl: Source control is disabled
+[2018.10.18-14.02.49:615][  0]SourceControl: Source control is disabled
+[2018.10.18-14.02.49:629][  0]SourceControl: Source control is disabled
+[2018.10.18-14.02.49:635][  0]SourceControl: Source control is disabled
+[2018.10.18-14.02.50:119][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.18-14.02.50:396][  0]LogOcInput: OculusInput pre-init called
+[2018.10.18-14.02.50:505][  0]LogEngine: Initializing Engine...
+[2018.10.18-14.02.50:507][  0]LogHMD: Failed to initialize OpenVR with code 102
+[2018.10.18-14.02.50:508][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.18-14.02.50:508][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.18-14.02.50:508][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.18-14.02.50:509][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.18-14.02.50:703][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.18-14.02.50:728][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.18-14.02.50:802][  0]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.18-14.02.50:878][  0]LogInit: FAudioDevice initialized.
+[2018.10.18-14.02.50:878][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.18-14.02.51:031][  0]LogDerivedDataCache: Saved boot cache 0.15s 71MB C:/Users/John/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.18-14.02.51:044][  0]LogInit: Texture streaming: Enabled
+[2018.10.18-14.02.51:089][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.18-14.02.51:089][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={50E51D25-4AD9-D8AD-BA12-C98E26A7439F}
+[2018.10.18-14.02.51:089][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={5FA9A4C6-47A3-BE95-1DF0-A496B5E8DC98}
+[2018.10.18-14.02.51:118][  0]LogInit: Transaction tracking system initialized
+[2018.10.18-14.02.51:199][  0]BlueprintLog: New page: Editor Load
+[2018.10.18-14.02.51:506][  0]LocalizationService: Localization service is disabled
+[2018.10.18-14.02.51:965][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.18-14.02.51:965][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.18-14.02.51:966][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.18-14.02.51:966][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.18-14.02.51:966][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.18-14.02.51:966][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.18-14.02.51:966][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.18-14.02.52:359][  0]LogFileCache: Scanning file cache for directory 'D:/Git/SpideyCPP/SideyCPP/Content/' took 0.02s
+[2018.10.18-14.02.52:359][  0]SourceControl: Source control is disabled
+[2018.10.18-14.02.52:359][  0]Cmd: MAP LOAD FILE="../../../../../../Git/SpideyCPP/SideyCPP/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.18-14.02.52:360][  0]LightingResults: New page: Lighting Build
+[2018.10.18-14.02.52:364][  0]MapCheck: New page: Map Check
+[2018.10.18-14.02.52:365][  0]LightingResults: New page: Lighting Build
+[2018.10.18-14.02.52:619][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.18-14.02.52:654][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.18-14.02.52:676][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.18-14.02.52:895][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 218.898ms to complete.
+[2018.10.18-14.02.52:895][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.536
+[2018.10.18-14.02.53:024][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.18-14.02.53:031][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.18-14.02.53:038][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.18-14.02.53:045][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.18-14.02.53:083][  0]LogCollectionManager: Loaded 0 collections in 0.002909 seconds
+[2018.10.18-14.02.53:145][  0]LogFileCache: Scanning file cache for directory 'D:/Git/SpideyCPP/SideyCPP/Saved/Collections/' took 0.02s
+[2018.10.18-14.02.53:145][  0]LogFileCache: Scanning file cache for directory 'D:/Git/SpideyCPP/SideyCPP/Content/Developers/John/Collections/' took 0.01s
+[2018.10.18-14.02.53:145][  0]LogFileCache: Scanning file cache for directory 'D:/Git/SpideyCPP/SideyCPP/Content/Collections/' took 0.01s
+[2018.10.18-14.02.53:145][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.10.18-14.02.53:154][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2576 classes and 605 folders.
+[2018.10.18-14.02.53:164][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.10.18-14.02.53:231][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.10.18-14.02.53:243][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.10.18-14.02.53:257][  0]LogSlate: Took 0.000321 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.18-14.02.53:259][  0]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.18-14.02.53:265][  0]LogSlate: Took 0.000262 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.18-14.02.53:339][  0]LogRenderer: Reallocating scene render targets to support 1208x600 Format 10 NumSamples 1 (Frame:1).
+[2018.10.18-14.02.53:414][  0]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.18-14.02.53:522][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.10.18-14.02.53:522][  0]LogLoad: (Engine Initialization) Total time: 13.03 seconds
+[2018.10.18-14.02.53:522][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.18-14.02.53:560][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.18-14.02.53:608][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.18-14.02.53:635][  1]LogAssetRegistry: Asset discovery search completed in 6.9800 seconds
+[2018.10.18-14.02.53:636][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.10.18-14.02.53:636][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000103 seconds (updated 0 objects)
+[2018.10.18-14.02.55:369][146]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.18-14.02.55:435][154]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.18-14.02.55:445][154]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.18-14.02.55:445][154]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.18-14.02.55:470][154]PIE: New page: PIE session: Minimal_Default (Oct 18, 2018, 4:02:55 PM)
+[2018.10.18-14.02.55:471][154]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.10.18-14.02.55:474][154]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003466s)
+[2018.10.18-14.02.55:475][154]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.18-14.02.55:475][154]LogPlayLevel: PIE: World Init took: (0.000665s)
+[2018.10.18-14.02.55:475][154]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004409s)
+[2018.10.18-14.02.55:535][154]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.18-14.02.55:600][154]LogInit: FAudioDevice initialized.
+[2018.10.18-14.02.55:836][154]LogLoad: Game class is 'MySideyCPPGameModeBase_C'
+[2018.10.18-14.02.55:840][154]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.10.18-15.02.55
+[2018.10.18-14.02.55:840][154]LogWorld: Bringing up level for play took: 0.001989
+[2018.10.18-14.02.55:865][154]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
+[2018.10.18-14.02.55:869][154]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.272
+[2018.10.18-14.02.55:869][154]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.18-14.02.55:870][154]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.55:896][155]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.55:908][156]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.55:916][157]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.55:925][158]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.55:933][159]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.55:941][160]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.55:950][161]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.55:958][162]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.55:966][163]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.55:975][164]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.55:983][165]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.55:992][166]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.56:000][167]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.56:008][168]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.56:016][169]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.56:025][170]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.56:033][171]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.56:042][172]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.56:050][173]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.56:058][174]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.56:066][175]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.56:075][176]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.56:083][177]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.56:092][178]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.56:100][179]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.56:108][180]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.56:116][181]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.56:124][182]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.56:132][183]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.56:141][184]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.56:150][185]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.56:158][186]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.56:166][187]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.56:174][188]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.56:183][189]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.56:191][190]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.56:237][191]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.56:245][192]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.56:254][193]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.56:261][194]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.56:270][195]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.56:278][196]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.000 Z=0.000
+[2018.10.18-14.02.56:287][197]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=-0.003 Z=0.000
+[2018.10.18-14.02.56:295][198]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=-0.006 Z=0.000
+[2018.10.18-14.02.56:303][199]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=-0.012 Z=0.000
+[2018.10.18-14.02.56:312][200]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=-0.017 Z=0.000
+[2018.10.18-14.02.56:320][201]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=-0.020 Z=0.000
+[2018.10.18-14.02.56:328][202]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=-0.020 Z=0.000
+[2018.10.18-14.02.56:379][203]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=-0.023 Z=0.000
+[2018.10.18-14.02.56:384][204]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=-0.023 Z=0.000
+[2018.10.18-14.02.56:393][205]LogBlueprintUserMessages: [Player_C_0] X=-0.981 Y=-0.195 Z=0.000
+[2018.10.18-14.02.56:401][206]LogBlueprintUserMessages: [Player_C_0] X=-0.979 Y=-0.205 Z=0.000
+[2018.10.18-14.02.56:410][207]LogBlueprintUserMessages: [Player_C_0] X=-0.976 Y=-0.216 Z=0.000
+[2018.10.18-14.02.56:418][208]LogBlueprintUserMessages: [Player_C_0] X=-0.973 Y=-0.229 Z=0.000
+[2018.10.18-14.02.56:426][209]LogBlueprintUserMessages: [Player_C_0] X=-0.970 Y=-0.242 Z=0.000
+[2018.10.18-14.02.56:434][210]LogBlueprintUserMessages: [Player_C_0] X=-0.966 Y=-0.257 Z=0.000
+[2018.10.18-14.02.56:443][211]LogBlueprintUserMessages: [Player_C_0] X=-0.963 Y=-0.268 Z=0.000
+[2018.10.18-14.02.56:463][212]LogBlueprintUserMessages: [Player_C_0] X=-0.961 Y=-0.278 Z=0.000
+[2018.10.18-14.02.56:471][213]LogBlueprintUserMessages: [Player_C_0] X=-0.958 Y=-0.286 Z=0.000
+[2018.10.18-14.02.56:479][214]LogBlueprintUserMessages: [Player_C_0] X=-0.951 Y=-0.309 Z=0.000
+[2018.10.18-14.02.56:486][215]LogBlueprintUserMessages: [Player_C_0] X=-0.951 Y=-0.309 Z=0.000
+[2018.10.18-14.02.56:510][216]LogBlueprintUserMessages: [Player_C_0] X=-0.951 Y=-0.309 Z=0.000
+[2018.10.18-14.02.56:542][217]LogBlueprintUserMessages: [Player_C_0] X=-0.951 Y=-0.309 Z=0.000
+[2018.10.18-14.02.56:551][218]LogBlueprintUserMessages: [Player_C_0] X=-0.951 Y=-0.309 Z=0.000
+[2018.10.18-14.02.56:559][219]LogBlueprintUserMessages: [Player_C_0] X=-0.951 Y=-0.309 Z=0.000
+[2018.10.18-14.02.56:567][220]LogBlueprintUserMessages: [Player_C_0] X=-0.951 Y=-0.309 Z=0.000
+[2018.10.18-14.02.56:576][221]LogBlueprintUserMessages: [Player_C_0] X=-0.951 Y=-0.309 Z=0.000
+[2018.10.18-14.02.56:585][222]LogBlueprintUserMessages: [Player_C_0] X=-0.951 Y=-0.309 Z=0.000
+[2018.10.18-14.02.56:592][223]LogBlueprintUserMessages: [Player_C_0] X=-0.951 Y=-0.309 Z=0.000
+[2018.10.18-14.02.56:601][224]LogBlueprintUserMessages: [Player_C_0] X=-0.951 Y=-0.309 Z=0.000
+[2018.10.18-14.02.56:609][225]LogBlueprintUserMessages: [Player_C_0] X=-0.951 Y=-0.309 Z=0.000
+[2018.10.18-14.02.56:656][226]LogBlueprintUserMessages: [Player_C_0] X=-0.951 Y=-0.309 Z=0.000
+[2018.10.18-14.02.56:664][227]LogBlueprintUserMessages: [Player_C_0] X=-0.951 Y=-0.309 Z=0.000
+[2018.10.18-14.02.56:673][228]LogBlueprintUserMessages: [Player_C_0] X=-0.951 Y=-0.309 Z=0.000
+[2018.10.18-14.02.56:711][229]LogBlueprintUserMessages: [Player_C_0] X=-0.951 Y=-0.309 Z=0.000
+[2018.10.18-14.02.56:719][230]LogBlueprintUserMessages: [Player_C_0] X=-0.951 Y=-0.309 Z=0.000
+[2018.10.18-14.02.56:727][231]LogBlueprintUserMessages: [Player_C_0] X=-0.951 Y=-0.309 Z=0.000
+[2018.10.18-14.02.56:736][232]LogBlueprintUserMessages: [Player_C_0] X=-0.951 Y=-0.309 Z=0.000
+[2018.10.18-14.02.56:744][233]LogBlueprintUserMessages: [Player_C_0] X=-0.951 Y=-0.309 Z=0.000
+[2018.10.18-14.02.56:753][234]LogBlueprintUserMessages: [Player_C_0] X=-0.951 Y=-0.309 Z=0.000
+[2018.10.18-14.02.56:761][235]LogBlueprintUserMessages: [Player_C_0] X=-0.951 Y=-0.309 Z=0.000
+[2018.10.18-14.02.56:769][236]LogBlueprintUserMessages: [Player_C_0] X=-0.951 Y=-0.309 Z=0.000
+[2018.10.18-14.02.56:793][237]LogBlueprintUserMessages: [Player_C_0] X=-0.951 Y=-0.309 Z=0.000
+[2018.10.18-14.02.56:866][238]LogBlueprintUserMessages: [Player_C_0] X=-0.951 Y=-0.309 Z=0.000
+[2018.10.18-14.02.56:871][239]LogBlueprintUserMessages: [Player_C_0] X=-0.951 Y=-0.309 Z=0.000
+[2018.10.18-14.02.56:880][240]LogBlueprintUserMessages: [Player_C_0] X=-0.951 Y=-0.309 Z=0.000
+[2018.10.18-14.02.56:888][241]LogBlueprintUserMessages: [Player_C_0] X=-0.951 Y=-0.309 Z=0.000
+[2018.10.18-14.02.56:897][242]LogBlueprintUserMessages: [Player_C_0] X=-0.951 Y=-0.309 Z=0.000
+[2018.10.18-14.02.56:905][243]LogBlueprintUserMessages: [Player_C_0] X=-0.952 Y=-0.307 Z=0.000
+[2018.10.18-14.02.56:913][244]LogBlueprintUserMessages: [Player_C_0] X=-0.952 Y=-0.307 Z=0.000
+[2018.10.18-14.02.56:922][245]LogBlueprintUserMessages: [Player_C_0] X=-0.953 Y=-0.304 Z=0.000
+[2018.10.18-14.02.56:931][246]LogBlueprintUserMessages: [Player_C_0] X=-0.953 Y=-0.302 Z=0.000
+[2018.10.18-14.02.56:938][247]LogBlueprintUserMessages: [Player_C_0] X=-0.954 Y=-0.299 Z=0.000
+[2018.10.18-14.02.56:947][248]LogBlueprintUserMessages: [Player_C_0] X=-0.955 Y=-0.295 Z=0.000
+[2018.10.18-14.02.56:956][249]LogBlueprintUserMessages: [Player_C_0] X=-0.957 Y=-0.292 Z=0.000
+[2018.10.18-14.02.56:964][250]LogBlueprintUserMessages: [Player_C_0] X=-0.958 Y=-0.286 Z=0.000
+[2018.10.18-14.02.56:972][251]LogBlueprintUserMessages: [Player_C_0] X=-0.960 Y=-0.280 Z=0.000
+[2018.10.18-14.02.56:980][252]LogBlueprintUserMessages: [Player_C_0] X=-0.962 Y=-0.274 Z=0.000
+[2018.10.18-14.02.56:987][253]LogBlueprintUserMessages: [Player_C_0] X=-0.964 Y=-0.266 Z=0.000
+[2018.10.18-14.02.56:996][254]LogBlueprintUserMessages: [Player_C_0] X=-0.966 Y=-0.259 Z=0.000
+[2018.10.18-14.02.57:004][255]LogBlueprintUserMessages: [Player_C_0] X=-0.967 Y=-0.253 Z=0.000
+[2018.10.18-14.02.57:012][256]LogBlueprintUserMessages: [Player_C_0] X=-0.968 Y=-0.250 Z=0.000
+[2018.10.18-14.02.57:021][257]LogBlueprintUserMessages: [Player_C_0] X=-0.970 Y=-0.245 Z=0.000
+[2018.10.18-14.02.57:030][258]LogBlueprintUserMessages: [Player_C_0] X=-0.970 Y=-0.245 Z=0.000
+[2018.10.18-14.02.57:037][259]LogBlueprintUserMessages: [Player_C_0] X=-0.970 Y=-0.245 Z=0.000
+[2018.10.18-14.02.57:046][260]LogBlueprintUserMessages: [Player_C_0] X=-0.970 Y=-0.243 Z=0.000
+[2018.10.18-14.02.57:054][261]LogBlueprintUserMessages: [Player_C_0] X=-0.970 Y=-0.243 Z=0.000
+[2018.10.18-14.02.57:063][262]LogBlueprintUserMessages: [Player_C_0] X=-0.970 Y=-0.243 Z=0.000
+[2018.10.18-14.02.57:071][263]LogBlueprintUserMessages: [Player_C_0] X=-0.971 Y=-0.240 Z=0.000
+[2018.10.18-14.02.57:079][264]LogBlueprintUserMessages: [Player_C_0] X=-0.971 Y=-0.238 Z=0.000
+[2018.10.18-14.02.57:088][265]LogBlueprintUserMessages: [Player_C_0] X=-0.971 Y=-0.238 Z=0.000
+[2018.10.18-14.02.57:096][266]LogBlueprintUserMessages: [Player_C_0] X=-0.972 Y=-0.235 Z=0.000
+[2018.10.18-14.02.57:104][267]LogBlueprintUserMessages: [Player_C_0] X=-0.973 Y=-0.233 Z=0.000
+[2018.10.18-14.02.57:113][268]LogBlueprintUserMessages: [Player_C_0] X=-0.973 Y=-0.233 Z=0.000
+[2018.10.18-14.02.57:122][269]LogBlueprintUserMessages: [Player_C_0] X=-0.973 Y=-0.230 Z=0.000
+[2018.10.18-14.02.57:130][270]LogBlueprintUserMessages: [Player_C_0] X=-0.973 Y=-0.230 Z=0.000
+[2018.10.18-14.02.57:138][271]LogBlueprintUserMessages: [Player_C_0] X=-0.974 Y=-0.228 Z=0.000
+[2018.10.18-14.02.57:146][272]LogBlueprintUserMessages: [Player_C_0] X=-0.974 Y=-0.225 Z=0.000
+[2018.10.18-14.02.57:155][273]LogBlueprintUserMessages: [Player_C_0] X=-0.974 Y=-0.225 Z=0.000
+[2018.10.18-14.02.57:163][274]LogBlueprintUserMessages: [Player_C_0] X=-0.975 Y=-0.223 Z=0.000
+[2018.10.18-14.02.57:172][275]LogBlueprintUserMessages: [Player_C_0] X=-0.975 Y=-0.220 Z=0.000
+[2018.10.18-14.02.57:180][276]LogBlueprintUserMessages: [Player_C_0] X=-0.976 Y=-0.218 Z=0.000
+[2018.10.18-14.02.57:188][277]LogBlueprintUserMessages: [Player_C_0] X=-0.977 Y=-0.213 Z=0.000
+[2018.10.18-14.02.57:197][278]LogBlueprintUserMessages: [Player_C_0] X=-0.978 Y=-0.210 Z=0.000
+[2018.10.18-14.02.57:205][279]LogBlueprintUserMessages: [Player_C_0] X=-0.979 Y=-0.203 Z=0.000
+[2018.10.18-14.02.57:213][280]LogBlueprintUserMessages: [Player_C_0] X=-0.980 Y=-0.200 Z=0.000
+[2018.10.18-14.02.57:222][281]LogBlueprintUserMessages: [Player_C_0] X=-0.981 Y=-0.195 Z=0.000
+[2018.10.18-14.02.57:230][282]LogBlueprintUserMessages: [Player_C_0] X=-0.981 Y=-0.192 Z=0.000
+[2018.10.18-14.02.57:281][283]LogBlueprintUserMessages: [Player_C_0] X=-0.982 Y=-0.189 Z=0.000
+[2018.10.18-14.02.57:286][284]LogBlueprintUserMessages: [Player_C_0] X=-0.983 Y=-0.182 Z=0.000
+[2018.10.18-14.02.57:294][285]LogBlueprintUserMessages: [Player_C_0] X=-0.984 Y=-0.176 Z=0.000
+[2018.10.18-14.02.57:303][286]LogBlueprintUserMessages: [Player_C_0] X=-0.987 Y=-0.161 Z=0.000
+[2018.10.18-14.02.57:311][287]LogBlueprintUserMessages: [Player_C_0] X=-0.988 Y=-0.155 Z=0.000
+[2018.10.18-14.02.57:319][288]LogBlueprintUserMessages: [Player_C_0] X=-0.988 Y=-0.152 Z=0.000
+[2018.10.18-14.02.57:328][289]LogBlueprintUserMessages: [Player_C_0] X=-0.989 Y=-0.148 Z=0.000
+[2018.10.18-14.02.57:336][290]LogBlueprintUserMessages: [Player_C_0] X=-0.990 Y=-0.144 Z=0.000
+[2018.10.18-14.02.57:345][291]LogBlueprintUserMessages: [Player_C_0] X=-0.990 Y=-0.138 Z=0.000
+[2018.10.18-14.02.57:353][292]LogBlueprintUserMessages: [Player_C_0] X=-0.991 Y=-0.133 Z=0.000
+[2018.10.18-14.02.57:361][293]LogBlueprintUserMessages: [Player_C_0] X=-0.992 Y=-0.126 Z=0.000
+[2018.10.18-14.02.57:370][294]LogBlueprintUserMessages: [Player_C_0] X=-0.993 Y=-0.119 Z=0.000
+[2018.10.18-14.02.57:422][295]LogBlueprintUserMessages: [Player_C_0] X=-0.994 Y=-0.112 Z=0.000
+[2018.10.18-14.02.57:428][296]LogBlueprintUserMessages: [Player_C_0] X=-0.994 Y=-0.108 Z=0.000
+[2018.10.18-14.02.57:436][297]LogBlueprintUserMessages: [Player_C_0] X=-0.995 Y=-0.104 Z=0.000
+[2018.10.18-14.02.57:445][298]LogBlueprintUserMessages: [Player_C_0] X=-0.997 Y=-0.073 Z=0.000
+[2018.10.18-14.02.57:453][299]LogBlueprintUserMessages: [Player_C_0] X=-0.998 Y=-0.070 Z=0.000
+[2018.10.18-14.02.57:461][300]LogBlueprintUserMessages: [Player_C_0] X=-0.998 Y=-0.065 Z=0.000
+[2018.10.18-14.02.57:470][301]LogBlueprintUserMessages: [Player_C_0] X=-0.998 Y=-0.061 Z=0.000
+[2018.10.18-14.02.57:478][302]LogBlueprintUserMessages: [Player_C_0] X=-0.998 Y=-0.058 Z=0.000
+[2018.10.18-14.02.57:486][303]LogBlueprintUserMessages: [Player_C_0] X=-0.998 Y=-0.055 Z=0.000
+[2018.10.18-14.02.57:495][304]LogBlueprintUserMessages: [Player_C_0] X=-0.999 Y=-0.053 Z=0.000
+[2018.10.18-14.02.57:503][305]LogBlueprintUserMessages: [Player_C_0] X=-0.999 Y=-0.053 Z=0.000
+[2018.10.18-14.02.57:511][306]LogBlueprintUserMessages: [Player_C_0] X=-0.999 Y=-0.053 Z=0.000
+[2018.10.18-14.02.57:520][307]LogBlueprintUserMessages: [Player_C_0] X=-0.999 Y=-0.050 Z=0.000
+[2018.10.18-14.02.57:528][308]LogBlueprintUserMessages: [Player_C_0] X=-0.999 Y=-0.050 Z=0.000
+[2018.10.18-14.02.57:536][309]LogBlueprintUserMessages: [Player_C_0] X=-0.999 Y=-0.050 Z=0.000
+[2018.10.18-14.02.57:554][310]LogBlueprintUserMessages: [Player_C_0] X=-0.999 Y=-0.050 Z=0.000
+[2018.10.18-14.02.57:593][311]LogBlueprintUserMessages: [Player_C_0] X=-0.999 Y=-0.048 Z=0.000
+[2018.10.18-14.02.57:599][312]LogBlueprintUserMessages: [Player_C_0] X=-0.999 Y=-0.048 Z=0.000
+[2018.10.18-14.02.57:607][313]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=-0.020 Z=0.000
+[2018.10.18-14.02.57:615][314]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=-0.020 Z=0.000
+[2018.10.18-14.02.57:625][315]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=-0.020 Z=0.000
+[2018.10.18-14.02.57:632][316]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=-0.018 Z=0.000
+[2018.10.18-14.02.57:642][317]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=-0.018 Z=0.000
+[2018.10.18-14.02.57:649][318]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=-0.015 Z=0.000
+[2018.10.18-14.02.57:702][319]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=-0.015 Z=0.000
+[2018.10.18-14.02.57:708][320]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=-0.013 Z=0.000
+[2018.10.18-14.02.57:749][321]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=-0.008 Z=0.000
+[2018.10.18-14.02.57:754][322]LogBlueprintUserMessages: [Player_C_0] X=-1.000 Y=0.007 Z=0.000
+[2018.10.18-14.02.57:762][323]LogBlueprintUserMessages: [Player_C_0] X=-0.999 Y=0.036 Z=0.000
+[2018.10.18-14.02.57:771][324]LogBlueprintUserMessages: [Player_C_0] X=-0.999 Y=0.044 Z=0.000
+[2018.10.18-14.02.57:780][325]LogBlueprintUserMessages: [Player_C_0] X=-0.999 Y=0.047 Z=0.000
+[2018.10.18-14.02.57:787][326]LogBlueprintUserMessages: [Player_C_0] X=-0.999 Y=0.052 Z=0.000
+[2018.10.18-14.02.57:796][327]LogBlueprintUserMessages: [Player_C_0] X=-0.998 Y=0.055 Z=0.000
+[2018.10.18-14.02.57:804][328]LogBlueprintUserMessages: [Player_C_0] X=-0.998 Y=0.059 Z=0.000
+[2018.10.18-14.02.57:812][329]LogBlueprintUserMessages: [Player_C_0] X=-0.998 Y=0.063 Z=0.000
+[2018.10.18-14.02.57:822][330]LogBlueprintUserMessages: [Player_C_0] X=-0.998 Y=0.066 Z=0.000
+[2018.10.18-14.02.57:907][331]LogBlueprintUserMessages: [Player_C_0] X=-0.998 Y=0.068 Z=0.000
+[2018.10.18-14.02.57:912][332]LogBlueprintUserMessages: [Player_C_0] X=-0.997 Y=0.071 Z=0.000
+[2018.10.18-14.02.57:921][333]LogBlueprintUserMessages: [Player_C_0] X=-0.986 Y=0.165 Z=0.000
+[2018.10.18-14.02.57:929][334]LogBlueprintUserMessages: [Player_C_0] X=-0.986 Y=0.165 Z=0.000
+[2018.10.18-14.02.57:938][335]LogBlueprintUserMessages: [Player_C_0] X=-0.986 Y=0.168 Z=0.000
+[2018.10.18-14.02.57:946][336]LogBlueprintUserMessages: [Player_C_0] X=-0.986 Y=0.168 Z=0.000
+[2018.10.18-14.02.57:954][337]LogBlueprintUserMessages: [Player_C_0] X=-0.985 Y=0.170 Z=0.000
+[2018.10.18-14.02.57:963][338]LogBlueprintUserMessages: [Player_C_0] X=-0.985 Y=0.170 Z=0.000
+[2018.10.18-14.02.57:971][339]LogBlueprintUserMessages: [Player_C_0] X=-0.985 Y=0.170 Z=0.000
+[2018.10.18-14.02.57:979][340]LogBlueprintUserMessages: [Player_C_0] X=-0.985 Y=0.173 Z=0.000
+[2018.10.18-14.02.57:988][341]LogBlueprintUserMessages: [Player_C_0] X=-0.985 Y=0.173 Z=0.000
+[2018.10.18-14.02.57:996][342]LogBlueprintUserMessages: [Player_C_0] X=-0.984 Y=0.176 Z=0.000
+[2018.10.18-14.02.58:004][343]LogBlueprintUserMessages: [Player_C_0] X=-0.984 Y=0.178 Z=0.000
+[2018.10.18-14.02.58:013][344]LogBlueprintUserMessages: [Player_C_0] X=-0.984 Y=0.181 Z=0.000
+[2018.10.18-14.02.58:021][345]LogBlueprintUserMessages: [Player_C_0] X=-0.984 Y=0.181 Z=0.000
+[2018.10.18-14.02.58:030][346]LogBlueprintUserMessages: [Player_C_0] X=-0.983 Y=0.183 Z=0.000
+[2018.10.18-14.02.58:038][347]LogBlueprintUserMessages: [Player_C_0] X=-0.983 Y=0.186 Z=0.000
+[2018.10.18-14.02.58:046][348]LogBlueprintUserMessages: [Player_C_0] X=-0.982 Y=0.188 Z=0.000
+[2018.10.18-14.02.58:055][349]LogBlueprintUserMessages: [Player_C_0] X=-0.982 Y=0.191 Z=0.000
+[2018.10.18-14.02.58:062][350]LogBlueprintUserMessages: [Player_C_0] X=-0.981 Y=0.196 Z=0.000
+[2018.10.18-14.02.58:070][351]LogBlueprintUserMessages: [Player_C_0] X=-0.980 Y=0.198 Z=0.000
+[2018.10.18-14.02.58:079][352]LogBlueprintUserMessages: [Player_C_0] X=-0.980 Y=0.198 Z=0.000
+[2018.10.18-14.02.58:087][353]LogBlueprintUserMessages: [Player_C_0] X=-0.980 Y=0.201 Z=0.000
+[2018.10.18-14.02.58:096][354]LogBlueprintUserMessages: [Player_C_0] X=-0.979 Y=0.203 Z=0.000
+[2018.10.18-14.02.58:104][355]LogBlueprintUserMessages: [Player_C_0] X=-0.979 Y=0.203 Z=0.000
+[2018.10.18-14.02.58:112][356]LogBlueprintUserMessages: [Player_C_0] X=-0.979 Y=0.206 Z=0.000
+[2018.10.18-14.02.58:120][357]LogBlueprintUserMessages: [Player_C_0] X=-0.979 Y=0.206 Z=0.000
+[2018.10.18-14.02.58:129][358]LogBlueprintUserMessages: [Player_C_0] X=-0.978 Y=0.208 Z=0.000
+[2018.10.18-14.02.58:137][359]LogBlueprintUserMessages: [Player_C_0] X=-0.978 Y=0.211 Z=0.000
+[2018.10.18-14.02.58:146][360]LogBlueprintUserMessages: [Player_C_0] X=-0.978 Y=0.211 Z=0.000
+[2018.10.18-14.02.58:154][361]LogBlueprintUserMessages: [Player_C_0] X=-0.977 Y=0.213 Z=0.000
+[2018.10.18-14.02.58:162][362]LogBlueprintUserMessages: [Player_C_0] X=-0.976 Y=0.216 Z=0.000
+[2018.10.18-14.02.58:171][363]LogBlueprintUserMessages: [Player_C_0] X=-0.976 Y=0.218 Z=0.000
+[2018.10.18-14.02.58:179][364]LogBlueprintUserMessages: [Player_C_0] X=-0.975 Y=0.221 Z=0.000
+[2018.10.18-14.02.58:188][365]LogBlueprintUserMessages: [Player_C_0] X=-0.974 Y=0.226 Z=0.000
+[2018.10.18-14.02.58:196][366]LogBlueprintUserMessages: [Player_C_0] X=-0.974 Y=0.229 Z=0.000
+[2018.10.18-14.02.58:204][367]LogBlueprintUserMessages: [Player_C_0] X=-0.973 Y=0.231 Z=0.000
+[2018.10.18-14.02.58:212][368]LogBlueprintUserMessages: [Player_C_0] X=-0.972 Y=0.233 Z=0.000
+[2018.10.18-14.02.58:221][369]LogBlueprintUserMessages: [Player_C_0] X=-0.972 Y=0.233 Z=0.000
+[2018.10.18-14.02.58:229][370]LogBlueprintUserMessages: [Player_C_0] X=-0.972 Y=0.236 Z=0.000
+[2018.10.18-14.02.58:237][371]LogBlueprintUserMessages: [Player_C_0] X=-0.971 Y=0.238 Z=0.000
+[2018.10.18-14.02.58:246][372]LogBlueprintUserMessages: [Player_C_0] X=-0.971 Y=0.238 Z=0.000
+[2018.10.18-14.02.58:254][373]LogBlueprintUserMessages: [Player_C_0] X=-0.971 Y=0.241 Z=0.000
+[2018.10.18-14.02.58:263][374]LogBlueprintUserMessages: [Player_C_0] X=-0.970 Y=0.243 Z=0.000
+[2018.10.18-14.02.58:271][375]LogBlueprintUserMessages: [Player_C_0] X=-0.969 Y=0.246 Z=0.000
+[2018.10.18-14.02.58:279][376]LogBlueprintUserMessages: [Player_C_0] X=-0.968 Y=0.251 Z=0.000
+[2018.10.18-14.02.58:330][377]LogBlueprintUserMessages: [Player_C_0] X=-0.967 Y=0.256 Z=0.000
+[2018.10.18-14.02.58:335][378]LogBlueprintUserMessages: [Player_C_0] X=-0.966 Y=0.260 Z=0.000
+[2018.10.18-14.02.58:343][379]LogBlueprintUserMessages: [Player_C_0] X=-0.959 Y=0.285 Z=0.000
+[2018.10.18-14.02.58:352][380]LogBlueprintUserMessages: [Player_C_0] X=-0.955 Y=0.296 Z=0.000
+[2018.10.18-14.02.58:360][381]LogBlueprintUserMessages: [Player_C_0] X=-0.954 Y=0.300 Z=0.000
+[2018.10.18-14.02.58:368][382]LogBlueprintUserMessages: [Player_C_0] X=-0.952 Y=0.305 Z=0.000
+[2018.10.18-14.02.58:377][383]LogBlueprintUserMessages: [Player_C_0] X=-0.951 Y=0.310 Z=0.000
+[2018.10.18-14.02.58:385][384]LogBlueprintUserMessages: [Player_C_0] X=-0.951 Y=0.310 Z=0.000
+[2018.10.18-14.02.58:394][385]LogBlueprintUserMessages: [Player_C_0] X=-0.950 Y=0.313 Z=0.000
+[2018.10.18-14.02.58:402][386]LogBlueprintUserMessages: [Player_C_0] X=-0.948 Y=0.317 Z=0.000
+[2018.10.18-14.02.58:410][387]LogBlueprintUserMessages: [Player_C_0] X=-0.947 Y=0.322 Z=0.000
+[2018.10.18-14.02.58:418][388]LogBlueprintUserMessages: [Player_C_0] X=-0.945 Y=0.327 Z=0.000
+[2018.10.18-14.02.58:469][389]LogBlueprintUserMessages: [Player_C_0] X=-0.943 Y=0.331 Z=0.000
+[2018.10.18-14.02.58:474][390]LogBlueprintUserMessages: [Player_C_0] X=-0.942 Y=0.336 Z=0.000
+[2018.10.18-14.02.58:482][391]LogBlueprintUserMessages: [Player_C_0] X=-0.938 Y=0.347 Z=0.000
+[2018.10.18-14.02.58:491][392]LogBlueprintUserMessages: [Player_C_0] X=-0.938 Y=0.347 Z=0.000
+[2018.10.18-14.02.58:499][393]LogBlueprintUserMessages: [Player_C_0] X=-0.938 Y=0.347 Z=0.000
+[2018.10.18-14.02.58:508][394]LogBlueprintUserMessages: [Player_C_0] X=-0.938 Y=0.347 Z=0.000
+[2018.10.18-14.02.58:516][395]LogBlueprintUserMessages: [Player_C_0] X=-0.938 Y=0.347 Z=0.000
+[2018.10.18-14.02.58:523][396]LogBlueprintUserMessages: [Player_C_0] X=-0.938 Y=0.347 Z=0.000
+[2018.10.18-14.02.58:532][397]LogBlueprintUserMessages: [Player_C_0] X=-0.937 Y=0.349 Z=0.000
+[2018.10.18-14.02.58:540][398]LogBlueprintUserMessages: [Player_C_0] X=-0.936 Y=0.351 Z=0.000
+[2018.10.18-14.02.58:549][399]LogBlueprintUserMessages: [Player_C_0] X=-0.935 Y=0.354 Z=0.000
+[2018.10.18-14.02.58:557][400]LogBlueprintUserMessages: [Player_C_0] X=-0.934 Y=0.357 Z=0.000
+[2018.10.18-14.02.58:565][401]LogBlueprintUserMessages: [Player_C_0] X=-0.933 Y=0.361 Z=0.000
+[2018.10.18-14.02.58:574][402]LogBlueprintUserMessages: [Player_C_0] X=-0.931 Y=0.364 Z=0.000
+[2018.10.18-14.02.58:582][403]LogBlueprintUserMessages: [Player_C_0] X=-0.929 Y=0.369 Z=0.000
+[2018.10.18-14.02.58:637][404]LogBlueprintUserMessages: [Player_C_0] X=-0.928 Y=0.373 Z=0.000
+[2018.10.18-14.02.58:644][405]LogBlueprintUserMessages: [Player_C_0] X=-0.927 Y=0.376 Z=0.000
+[2018.10.18-14.02.58:652][406]LogBlueprintUserMessages: [Player_C_0] X=-0.926 Y=0.377 Z=0.000
+[2018.10.18-14.02.58:660][407]LogBlueprintUserMessages: [Player_C_0] X=-0.926 Y=0.377 Z=0.000
+[2018.10.18-14.02.58:669][408]LogBlueprintUserMessages: [Player_C_0] X=-0.926 Y=0.377 Z=0.000
+[2018.10.18-14.02.58:677][409]LogBlueprintUserMessages: [Player_C_0] X=-0.926 Y=0.377 Z=0.000
+[2018.10.18-14.02.58:685][410]LogBlueprintUserMessages: [Player_C_0] X=-0.926 Y=0.377 Z=0.000
+[2018.10.18-14.02.58:693][411]LogBlueprintUserMessages: [Player_C_0] X=-0.926 Y=0.377 Z=0.000
+[2018.10.18-14.02.58:702][412]LogBlueprintUserMessages: [Player_C_0] X=-0.926 Y=0.377 Z=0.000
+[2018.10.18-14.02.58:748][413]LogBlueprintUserMessages: [Player_C_0] X=-0.926 Y=0.377 Z=0.000
+[2018.10.18-14.02.58:788][414]LogBlueprintUserMessages: [Player_C_0] X=-0.926 Y=0.377 Z=0.000
+[2018.10.18-14.02.58:796][415]LogBlueprintUserMessages: [Player_C_0] X=-0.915 Y=0.402 Z=0.000
+[2018.10.18-14.02.58:805][416]LogBlueprintUserMessages: [Player_C_0] X=-0.910 Y=0.414 Z=0.000
+[2018.10.18-14.02.58:814][417]LogBlueprintUserMessages: [Player_C_0] X=-0.909 Y=0.416 Z=0.000
+[2018.10.18-14.02.58:821][418]LogBlueprintUserMessages: [Player_C_0] X=-0.909 Y=0.416 Z=0.000
+[2018.10.18-14.02.58:830][419]LogBlueprintUserMessages: [Player_C_0] X=-0.908 Y=0.418 Z=0.000
+[2018.10.18-14.02.58:838][420]LogBlueprintUserMessages: [Player_C_0] X=-0.908 Y=0.418 Z=0.000
+[2018.10.18-14.02.58:847][421]LogBlueprintUserMessages: [Player_C_0] X=-0.906 Y=0.423 Z=0.000
+[2018.10.18-14.02.58:855][422]LogBlueprintUserMessages: [Player_C_0] X=-0.905 Y=0.425 Z=0.000
+[2018.10.18-14.02.58:863][423]LogBlueprintUserMessages: [Player_C_0] X=-0.903 Y=0.429 Z=0.000
+[2018.10.18-14.02.58:952][424]LogBlueprintUserMessages: [Player_C_0] X=-0.902 Y=0.433 Z=0.000
+[2018.10.18-14.02.58:957][425]LogBlueprintUserMessages: [Player_C_0] X=-0.899 Y=0.437 Z=0.000
+[2018.10.18-14.02.58:965][426]LogBlueprintUserMessages: [Player_C_0] X=-0.897 Y=0.443 Z=0.000
+[2018.10.18-14.02.58:974][427]LogBlueprintUserMessages: [Player_C_0] X=-0.846 Y=0.534 Z=0.000
+[2018.10.18-14.02.58:983][428]LogBlueprintUserMessages: [Player_C_0] X=-0.843 Y=0.538 Z=0.000
+[2018.10.18-14.02.58:990][429]LogBlueprintUserMessages: [Player_C_0] X=-0.839 Y=0.544 Z=0.000
+[2018.10.18-14.02.58:999][430]LogBlueprintUserMessages: [Player_C_0] X=-0.836 Y=0.549 Z=0.000
+[2018.10.18-14.02.59:007][431]LogBlueprintUserMessages: [Player_C_0] X=-0.832 Y=0.555 Z=0.000
+[2018.10.18-14.02.59:016][432]LogBlueprintUserMessages: [Player_C_0] X=-0.828 Y=0.560 Z=0.000
+[2018.10.18-14.02.59:024][433]LogBlueprintUserMessages: [Player_C_0] X=-0.825 Y=0.565 Z=0.000
+[2018.10.18-14.02.59:032][434]LogBlueprintUserMessages: [Player_C_0] X=-0.822 Y=0.569 Z=0.000
+[2018.10.18-14.02.59:040][435]LogBlueprintUserMessages: [Player_C_0] X=-0.820 Y=0.573 Z=0.000
+[2018.10.18-14.02.59:049][436]LogBlueprintUserMessages: [Player_C_0] X=-0.818 Y=0.575 Z=0.000
+[2018.10.18-14.02.59:057][437]LogBlueprintUserMessages: [Player_C_0] X=-0.816 Y=0.578 Z=0.000
+[2018.10.18-14.02.59:066][438]LogBlueprintUserMessages: [Player_C_0] X=-0.815 Y=0.579 Z=0.000
+[2018.10.18-14.02.59:074][439]LogBlueprintUserMessages: [Player_C_0] X=-0.813 Y=0.582 Z=0.000
+[2018.10.18-14.02.59:082][440]LogBlueprintUserMessages: [Player_C_0] X=-0.812 Y=0.584 Z=0.000
+[2018.10.18-14.02.59:091][441]LogBlueprintUserMessages: [Player_C_0] X=-0.810 Y=0.586 Z=0.000
+[2018.10.18-14.02.59:099][442]LogBlueprintUserMessages: [Player_C_0] X=-0.809 Y=0.588 Z=0.000
+[2018.10.18-14.02.59:107][443]LogBlueprintUserMessages: [Player_C_0] X=-0.809 Y=0.588 Z=0.000
+[2018.10.18-14.02.59:116][444]LogBlueprintUserMessages: [Player_C_0] X=-0.807 Y=0.590 Z=0.000
+[2018.10.18-14.02.59:124][445]LogBlueprintUserMessages: [Player_C_0] X=-0.805 Y=0.593 Z=0.000
+[2018.10.18-14.02.59:132][446]LogBlueprintUserMessages: [Player_C_0] X=-0.805 Y=0.593 Z=0.000
+[2018.10.18-14.02.59:141][447]LogBlueprintUserMessages: [Player_C_0] X=-0.805 Y=0.593 Z=0.000
+[2018.10.18-14.02.59:149][448]LogBlueprintUserMessages: [Player_C_0] X=-0.804 Y=0.595 Z=0.000
+[2018.10.18-14.02.59:158][449]LogBlueprintUserMessages: [Player_C_0] X=-0.804 Y=0.595 Z=0.000
+[2018.10.18-14.02.59:166][450]LogBlueprintUserMessages: [Player_C_0] X=-0.805 Y=0.593 Z=0.000
+[2018.10.18-14.02.59:174][451]LogBlueprintUserMessages: [Player_C_0] X=-0.805 Y=0.593 Z=0.000
+[2018.10.18-14.02.59:182][452]LogBlueprintUserMessages: [Player_C_0] X=-0.807 Y=0.591 Z=0.000
+[2018.10.18-14.02.59:191][453]LogBlueprintUserMessages: [Player_C_0] X=-0.808 Y=0.589 Z=0.000
+[2018.10.18-14.02.59:199][454]LogBlueprintUserMessages: [Player_C_0] X=-0.808 Y=0.589 Z=0.000
+[2018.10.18-14.02.59:206][455]LogBlueprintUserMessages: [Player_C_0] X=-0.810 Y=0.587 Z=0.000
+[2018.10.18-14.02.59:215][456]LogBlueprintUserMessages: [Player_C_0] X=-0.811 Y=0.585 Z=0.000
+[2018.10.18-14.02.59:224][457]LogBlueprintUserMessages: [Player_C_0] X=-0.811 Y=0.585 Z=0.000
+[2018.10.18-14.02.59:232][458]LogBlueprintUserMessages: [Player_C_0] X=-0.811 Y=0.585 Z=0.000
+[2018.10.18-14.02.59:240][459]LogBlueprintUserMessages: [Player_C_0] X=-0.813 Y=0.583 Z=0.000
+[2018.10.18-14.02.59:249][460]LogBlueprintUserMessages: [Player_C_0] X=-0.813 Y=0.583 Z=0.000
+[2018.10.18-14.02.59:257][461]LogBlueprintUserMessages: [Player_C_0] X=-0.813 Y=0.583 Z=0.000
+[2018.10.18-14.02.59:265][462]LogBlueprintUserMessages: [Player_C_0] X=-0.814 Y=0.581 Z=0.000
+[2018.10.18-14.02.59:274][463]LogBlueprintUserMessages: [Player_C_0] X=-0.814 Y=0.581 Z=0.000
+[2018.10.18-14.02.59:282][464]LogBlueprintUserMessages: [Player_C_0] X=-0.816 Y=0.579 Z=0.000
+[2018.10.18-14.02.59:291][465]LogBlueprintUserMessages: [Player_C_0] X=-0.817 Y=0.577 Z=0.000
+[2018.10.18-14.02.59:299][466]LogBlueprintUserMessages: [Player_C_0] X=-0.819 Y=0.574 Z=0.000
+[2018.10.18-14.02.59:307][467]LogBlueprintUserMessages: [Player_C_0] X=-0.822 Y=0.570 Z=0.000
+[2018.10.18-14.02.59:316][468]LogBlueprintUserMessages: [Player_C_0] X=-0.823 Y=0.568 Z=0.000
+[2018.10.18-14.02.59:324][469]LogBlueprintUserMessages: [Player_C_0] X=-0.825 Y=0.566 Z=0.000
+[2018.10.18-14.02.59:376][470]LogBlueprintUserMessages: [Player_C_0] X=-0.828 Y=0.561 Z=0.000
+[2018.10.18-14.02.59:382][471]LogBlueprintUserMessages: [Player_C_0] X=-0.829 Y=0.559 Z=0.000
+[2018.10.18-14.02.59:389][472]LogBlueprintUserMessages: [Player_C_0] X=-0.832 Y=0.554 Z=0.000
+[2018.10.18-14.02.59:397][473]LogBlueprintUserMessages: [Player_C_0] X=-0.841 Y=0.542 Z=0.000
+[2018.10.18-14.02.59:406][474]LogBlueprintUserMessages: [Player_C_0] X=-0.842 Y=0.539 Z=0.000
+[2018.10.18-14.02.59:414][475]LogBlueprintUserMessages: [Player_C_0] X=-0.843 Y=0.537 Z=0.000
+[2018.10.18-14.02.59:423][476]LogBlueprintUserMessages: [Player_C_0] X=-0.845 Y=0.535 Z=0.000
+[2018.10.18-14.02.59:431][477]LogBlueprintUserMessages: [Player_C_0] X=-0.847 Y=0.532 Z=0.000
+[2018.10.18-14.02.59:439][478]LogBlueprintUserMessages: [Player_C_0] X=-0.849 Y=0.528 Z=0.000
+[2018.10.18-14.02.59:448][479]LogBlueprintUserMessages: [Player_C_0] X=-0.852 Y=0.523 Z=0.000
+[2018.10.18-14.02.59:456][480]LogBlueprintUserMessages: [Player_C_0] X=-0.856 Y=0.517 Z=0.000
+[2018.10.18-14.02.59:464][481]LogBlueprintUserMessages: [Player_C_0] X=-0.859 Y=0.512 Z=0.000
+[2018.10.18-14.02.59:515][482]LogBlueprintUserMessages: [Player_C_0] X=-0.863 Y=0.505 Z=0.000
+[2018.10.18-14.02.59:520][483]LogBlueprintUserMessages: [Player_C_0] X=-0.868 Y=0.496 Z=0.000
+[2018.10.18-14.02.59:529][484]LogBlueprintUserMessages: [Player_C_0] X=-0.892 Y=0.451 Z=0.000
+[2018.10.18-14.02.59:537][485]LogBlueprintUserMessages: [Player_C_0] X=-0.907 Y=0.422 Z=0.000
+[2018.10.18-14.02.59:546][486]LogBlueprintUserMessages: [Player_C_0] X=-0.910 Y=0.415 Z=0.000
+[2018.10.18-14.02.59:555][487]LogBlueprintUserMessages: [Player_C_0] X=-0.913 Y=0.408 Z=0.000
+[2018.10.18-14.02.59:562][488]LogBlueprintUserMessages: [Player_C_0] X=-0.916 Y=0.402 Z=0.000
+[2018.10.18-14.02.59:570][489]LogBlueprintUserMessages: [Player_C_0] X=-0.918 Y=0.397 Z=0.000
+[2018.10.18-14.02.59:579][490]LogBlueprintUserMessages: [Player_C_0] X=-0.921 Y=0.390 Z=0.000
+[2018.10.18-14.02.59:587][491]LogBlueprintUserMessages: [Player_C_0] X=-0.923 Y=0.385 Z=0.000
+[2018.10.18-14.02.59:596][492]LogBlueprintUserMessages: [Player_C_0] X=-0.925 Y=0.379 Z=0.000
+[2018.10.18-14.02.59:603][493]LogBlueprintUserMessages: [Player_C_0] X=-0.928 Y=0.374 Z=0.000
+[2018.10.18-14.02.59:611][494]LogBlueprintUserMessages: [Player_C_0] X=-0.930 Y=0.369 Z=0.000
+[2018.10.18-14.02.59:620][495]LogBlueprintUserMessages: [Player_C_0] X=-0.932 Y=0.363 Z=0.000
+[2018.10.18-14.02.59:629][496]LogBlueprintUserMessages: [Player_C_0] X=-0.934 Y=0.358 Z=0.000
+[2018.10.18-14.02.59:688][497]LogBlueprintUserMessages: [Player_C_0] X=-0.936 Y=0.353 Z=0.000
+[2018.10.18-14.02.59:694][498]LogBlueprintUserMessages: [Player_C_0] X=-0.937 Y=0.349 Z=0.000
+[2018.10.18-14.02.59:701][499]LogBlueprintUserMessages: [Player_C_0] X=-0.940 Y=0.342 Z=0.000
+[2018.10.18-14.02.59:710][500]LogBlueprintUserMessages: [Player_C_0] X=-0.965 Y=0.261 Z=0.000
+[2018.10.18-14.02.59:718][501]LogBlueprintUserMessages: [Player_C_0] X=-0.968 Y=0.252 Z=0.000
+[2018.10.18-14.02.59:725][502]LogBlueprintUserMessages: [Player_C_0] X=-0.970 Y=0.243 Z=0.000
+[2018.10.18-14.02.59:734][503]LogBlueprintUserMessages: [Player_C_0] X=-0.973 Y=0.231 Z=0.000
+[2018.10.18-14.02.59:742][504]LogBlueprintUserMessages: [Player_C_0] X=-0.976 Y=0.220 Z=0.000
+[2018.10.18-14.02.59:794][505]LogBlueprintUserMessages: [Player_C_0] X=-0.978 Y=0.207 Z=0.000
+[2018.10.18-14.02.59:837][506]LogBlueprintUserMessages: [Player_C_0] X=-0.981 Y=0.193 Z=0.000
+[2018.10.18-14.02.59:844][507]LogBlueprintUserMessages: [Player_C_0] X=-0.984 Y=0.179 Z=0.000
+[2018.10.18-14.02.59:852][508]LogBlueprintUserMessages: [Player_C_0] X=-0.953 Y=-0.304 Z=0.000
+[2018.10.18-14.02.59:860][509]LogBlueprintUserMessages: [Player_C_0] X=-0.948 Y=-0.318 Z=0.000
+[2018.10.18-14.02.59:869][510]LogBlueprintUserMessages: [Player_C_0] X=-0.942 Y=-0.334 Z=0.000
+[2018.10.18-14.02.59:878][511]LogBlueprintUserMessages: [Player_C_0] X=-0.936 Y=-0.352 Z=0.000
+[2018.10.18-14.02.59:885][512]LogBlueprintUserMessages: [Player_C_0] X=-0.929 Y=-0.369 Z=0.000
+[2018.10.18-14.02.59:894][513]LogBlueprintUserMessages: [Player_C_0] X=-0.923 Y=-0.385 Z=0.000
+[2018.10.18-14.02.59:902][514]LogBlueprintUserMessages: [Player_C_0] X=-0.916 Y=-0.402 Z=0.000
+[2018.10.18-14.02.59:910][515]LogBlueprintUserMessages: [Player_C_0] X=-0.909 Y=-0.416 Z=0.000
+[2018.10.18-14.02.59:960][516]LogBlueprintUserMessages: [Player_C_0] X=-0.903 Y=-0.429 Z=0.000
+[2018.10.18-14.02.59:999][517]LogBlueprintUserMessages: [Player_C_0] X=-0.899 Y=-0.438 Z=0.000
+[2018.10.18-14.03.00:008][518]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:016][519]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:024][520]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:033][521]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:040][522]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:049][523]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:057][524]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:065][525]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:074][526]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:082][527]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:090][528]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:099][529]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:107][530]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:115][531]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:124][532]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:132][533]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:140][534]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:148][535]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:157][536]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:165][537]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:173][538]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:182][539]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:190][540]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:199][541]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:207][542]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:215][543]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:224][544]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:232][545]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:240][546]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:249][547]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:257][548]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:265][549]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:274][550]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:282][551]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:290][552]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:299][553]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:307][554]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:315][555]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:324][556]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:332][557]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:340][558]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:348][559]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:357][560]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:365][561]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:374][562]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:420][563]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:425][564]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:434][565]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:442][566]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:450][567]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:459][568]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:467][569]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:475][570]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:484][571]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:492][572]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:500][573]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:509][574]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:531][575]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:563][576]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:571][577]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:579][578]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:588][579]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:596][580]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:604][581]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:613][582]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:621][583]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:629][584]LogBlueprintUserMessages: [Player_C_0] X=-0.886 Y=-0.463 Z=0.000
+[2018.10.18-14.03.00:638][585]LogBlueprintUserMessages: [Player_C_0] X=-0.885 Y=-0.465 Z=0.000
+[2018.10.18-14.03.00:646][586]LogBlueprintUserMessages: [Player_C_0] X=-0.884 Y=-0.468 Z=0.000
+[2018.10.18-14.03.00:654][587]LogBlueprintUserMessages: [Player_C_0] X=-0.882 Y=-0.472 Z=0.000
+[2018.10.18-14.03.00:663][588]LogBlueprintUserMessages: [Player_C_0] X=-0.880 Y=-0.476 Z=0.000
+[2018.10.18-14.03.00:671][589]LogBlueprintUserMessages: [Player_C_0] X=-0.877 Y=-0.481 Z=0.000
+[2018.10.18-14.03.00:679][590]LogBlueprintUserMessages: [Player_C_0] X=-0.874 Y=-0.486 Z=0.000
+[2018.10.18-14.03.00:732][591]LogBlueprintUserMessages: [Player_C_0] X=-0.871 Y=-0.491 Z=0.000
+[2018.10.18-14.03.00:739][592]LogBlueprintUserMessages: [Player_C_0] X=-0.868 Y=-0.496 Z=0.000
+[2018.10.18-14.03.00:747][593]LogBlueprintUserMessages: [Player_C_0] X=-0.864 Y=-0.503 Z=0.000
+[2018.10.18-14.03.00:755][594]LogBlueprintUserMessages: [Player_C_0] X=-0.831 Y=-0.556 Z=0.000
+[2018.10.18-14.03.00:764][595]LogBlueprintUserMessages: [Player_C_0] X=-0.827 Y=-0.563 Z=0.000
+[2018.10.18-14.03.00:772][596]LogBlueprintUserMessages: [Player_C_0] X=-0.822 Y=-0.570 Z=0.000
+[2018.10.18-14.03.00:780][597]LogBlueprintUserMessages: [Player_C_0] X=-0.816 Y=-0.578 Z=0.000
+[2018.10.18-14.03.00:789][598]LogBlueprintUserMessages: [Player_C_0] X=-0.811 Y=-0.585 Z=0.000
+[2018.10.18-14.03.00:883][599]LogBlueprintUserMessages: [Player_C_0] X=-0.807 Y=-0.591 Z=0.000
+[2018.10.18-14.03.00:889][600]LogBlueprintUserMessages: [Player_C_0] X=-0.803 Y=-0.597 Z=0.000
+[2018.10.18-14.03.00:897][601]LogBlueprintUserMessages: [Player_C_0] X=-0.800 Y=-0.600 Z=0.000
+[2018.10.18-14.03.00:906][602]LogBlueprintUserMessages: [Player_C_0] X=-0.782 Y=-0.623 Z=0.000
+[2018.10.18-14.03.00:913][603]LogBlueprintUserMessages: [Player_C_0] X=-0.782 Y=-0.623 Z=0.000
+[2018.10.18-14.03.00:922][604]LogBlueprintUserMessages: [Player_C_0] X=-0.781 Y=-0.625 Z=0.000
+[2018.10.18-14.03.00:930][605]LogBlueprintUserMessages: [Player_C_0] X=-0.781 Y=-0.625 Z=0.000
+[2018.10.18-14.03.00:939][606]LogBlueprintUserMessages: [Player_C_0] X=-0.781 Y=-0.625 Z=0.000
+[2018.10.18-14.03.00:947][607]LogBlueprintUserMessages: [Player_C_0] X=-0.779 Y=-0.627 Z=0.000
+[2018.10.18-14.03.00:956][608]LogBlueprintUserMessages: [Player_C_0] X=-0.778 Y=-0.629 Z=0.000
+[2018.10.18-14.03.01:048][609]LogBlueprintUserMessages: [Player_C_0] X=-0.776 Y=-0.631 Z=0.000
+[2018.10.18-14.03.01:053][610]LogBlueprintUserMessages: [Player_C_0] X=-0.775 Y=-0.632 Z=0.000
+[2018.10.18-14.03.01:062][611]LogBlueprintUserMessages: [Player_C_0] X=-0.769 Y=-0.639 Z=0.000
+[2018.10.18-14.03.01:071][612]LogBlueprintUserMessages: [Player_C_0] X=-0.635 Y=-0.772 Z=0.000
+[2018.10.18-14.03.01:079][613]LogBlueprintUserMessages: [Player_C_0] X=-0.623 Y=-0.783 Z=0.000
+[2018.10.18-14.03.01:087][614]LogBlueprintUserMessages: [Player_C_0] X=-0.608 Y=-0.794 Z=0.000
+[2018.10.18-14.03.01:095][615]LogBlueprintUserMessages: [Player_C_0] X=-0.593 Y=-0.805 Z=0.000
+[2018.10.18-14.03.01:103][616]LogBlueprintUserMessages: [Player_C_0] X=-0.577 Y=-0.817 Z=0.000
+[2018.10.18-14.03.01:112][617]LogBlueprintUserMessages: [Player_C_0] X=-0.558 Y=-0.830 Z=0.000
+[2018.10.18-14.03.01:120][618]LogBlueprintUserMessages: [Player_C_0] X=-0.540 Y=-0.842 Z=0.000
+[2018.10.18-14.03.01:128][619]LogBlueprintUserMessages: [Player_C_0] X=-0.523 Y=-0.853 Z=0.000
+[2018.10.18-14.03.01:137][620]LogBlueprintUserMessages: [Player_C_0] X=-0.505 Y=-0.863 Z=0.000
+[2018.10.18-14.03.01:145][621]LogBlueprintUserMessages: [Player_C_0] X=-0.489 Y=-0.872 Z=0.000
+[2018.10.18-14.03.01:153][622]LogBlueprintUserMessages: [Player_C_0] X=-0.475 Y=-0.880 Z=0.000
+[2018.10.18-14.03.01:163][623]LogBlueprintUserMessages: [Player_C_0] X=-0.462 Y=-0.887 Z=0.000
+[2018.10.18-14.03.01:170][624]LogBlueprintUserMessages: [Player_C_0] X=-0.450 Y=-0.893 Z=0.000
+[2018.10.18-14.03.01:179][625]LogBlueprintUserMessages: [Player_C_0] X=-0.442 Y=-0.897 Z=0.000
+[2018.10.18-14.03.01:187][626]LogBlueprintUserMessages: [Player_C_0] X=-0.437 Y=-0.900 Z=0.000
+[2018.10.18-14.03.01:195][627]LogBlueprintUserMessages: [Player_C_0] X=-0.431 Y=-0.902 Z=0.000
+[2018.10.18-14.03.01:203][628]LogBlueprintUserMessages: [Player_C_0] X=-0.426 Y=-0.905 Z=0.000
+[2018.10.18-14.03.01:212][629]LogBlueprintUserMessages: [Player_C_0] X=-0.421 Y=-0.907 Z=0.000
+[2018.10.18-14.03.01:219][630]LogBlueprintUserMessages: [Player_C_0] X=-0.418 Y=-0.908 Z=0.000
+[2018.10.18-14.03.01:228][631]LogBlueprintUserMessages: [Player_C_0] X=-0.416 Y=-0.909 Z=0.000
+[2018.10.18-14.03.01:236][632]LogBlueprintUserMessages: [Player_C_0] X=-0.412 Y=-0.911 Z=0.000
+[2018.10.18-14.03.01:245][633]LogBlueprintUserMessages: [Player_C_0] X=-0.410 Y=-0.912 Z=0.000
+[2018.10.18-14.03.01:253][634]LogBlueprintUserMessages: [Player_C_0] X=-0.408 Y=-0.913 Z=0.000
+[2018.10.18-14.03.01:261][635]LogBlueprintUserMessages: [Player_C_0] X=-0.404 Y=-0.915 Z=0.000
+[2018.10.18-14.03.01:270][636]LogBlueprintUserMessages: [Player_C_0] X=-0.399 Y=-0.917 Z=0.000
+[2018.10.18-14.03.01:278][637]LogBlueprintUserMessages: [Player_C_0] X=-0.396 Y=-0.918 Z=0.000
+[2018.10.18-14.03.01:286][638]LogBlueprintUserMessages: [Player_C_0] X=-0.391 Y=-0.921 Z=0.000
+[2018.10.18-14.03.01:295][639]LogBlueprintUserMessages: [Player_C_0] X=-0.388 Y=-0.922 Z=0.000
+[2018.10.18-14.03.01:303][640]LogBlueprintUserMessages: [Player_C_0] X=-0.383 Y=-0.924 Z=0.000
+[2018.10.18-14.03.01:312][641]LogBlueprintUserMessages: [Player_C_0] X=-0.380 Y=-0.925 Z=0.000
+[2018.10.18-14.03.01:319][642]LogBlueprintUserMessages: [Player_C_0] X=-0.377 Y=-0.926 Z=0.000
+[2018.10.18-14.03.01:328][643]LogBlueprintUserMessages: [Player_C_0] X=-0.374 Y=-0.928 Z=0.000
+[2018.10.18-14.03.01:336][644]LogBlueprintUserMessages: [Player_C_0] X=-0.371 Y=-0.929 Z=0.000
+[2018.10.18-14.03.01:345][645]LogBlueprintUserMessages: [Player_C_0] X=-0.368 Y=-0.930 Z=0.000
+[2018.10.18-14.03.01:353][646]LogBlueprintUserMessages: [Player_C_0] X=-0.365 Y=-0.931 Z=0.000
+[2018.10.18-14.03.01:361][647]LogBlueprintUserMessages: [Player_C_0] X=-0.363 Y=-0.932 Z=0.000
+[2018.10.18-14.03.01:369][648]LogBlueprintUserMessages: [Player_C_0] X=-0.363 Y=-0.932 Z=0.000
+[2018.10.18-14.03.01:378][649]LogBlueprintUserMessages: [Player_C_0] X=-0.363 Y=-0.932 Z=0.000
+[2018.10.18-14.03.01:386][650]LogBlueprintUserMessages: [Player_C_0] X=-0.363 Y=-0.932 Z=0.000
+[2018.10.18-14.03.01:394][651]LogBlueprintUserMessages: [Player_C_0] X=-0.363 Y=-0.932 Z=0.000
+[2018.10.18-14.03.01:403][652]LogBlueprintUserMessages: [Player_C_0] X=-0.360 Y=-0.933 Z=0.000
+[2018.10.18-14.03.01:411][653]LogBlueprintUserMessages: [Player_C_0] X=-0.360 Y=-0.933 Z=0.000
+[2018.10.18-14.03.01:420][654]LogBlueprintUserMessages: [Player_C_0] X=-0.360 Y=-0.933 Z=0.000
+[2018.10.18-14.03.01:471][655]LogBlueprintUserMessages: [Player_C_0] X=-0.360 Y=-0.933 Z=0.000
+[2018.10.18-14.03.01:477][656]LogBlueprintUserMessages: [Player_C_0] X=-0.360 Y=-0.933 Z=0.000
+[2018.10.18-14.03.01:485][657]LogBlueprintUserMessages: [Player_C_0] X=-0.355 Y=-0.935 Z=0.000
+[2018.10.18-14.03.01:494][658]LogBlueprintUserMessages: [Player_C_0] X=-0.344 Y=-0.939 Z=0.000
+[2018.10.18-14.03.01:502][659]LogBlueprintUserMessages: [Player_C_0] X=-0.340 Y=-0.940 Z=0.000
+[2018.10.18-14.03.01:510][660]LogBlueprintUserMessages: [Player_C_0] X=-0.337 Y=-0.941 Z=0.000
+[2018.10.18-14.03.01:519][661]LogBlueprintUserMessages: [Player_C_0] X=-0.334 Y=-0.943 Z=0.000
+[2018.10.18-14.03.01:527][662]LogBlueprintUserMessages: [Player_C_0] X=-0.331 Y=-0.944 Z=0.000
+[2018.10.18-14.03.01:535][663]LogBlueprintUserMessages: [Player_C_0] X=-0.328 Y=-0.945 Z=0.000
+[2018.10.18-14.03.01:544][664]LogBlueprintUserMessages: [Player_C_0] X=-0.324 Y=-0.946 Z=0.000
+[2018.10.18-14.03.01:552][665]LogBlueprintUserMessages: [Player_C_0] X=-0.320 Y=-0.948 Z=0.000
+[2018.10.18-14.03.01:609][666]LogBlueprintUserMessages: [Player_C_0] X=-0.316 Y=-0.949 Z=0.000
+[2018.10.18-14.03.01:614][667]LogBlueprintUserMessages: [Player_C_0] X=-0.312 Y=-0.950 Z=0.000
+[2018.10.18-14.03.01:622][668]LogBlueprintUserMessages: [Player_C_0] X=-0.309 Y=-0.951 Z=0.000
+[2018.10.18-14.03.01:631][669]LogBlueprintUserMessages: [Player_C_0] X=-0.293 Y=-0.956 Z=0.000
+[2018.10.18-14.03.01:639][670]LogBlueprintUserMessages: [Player_C_0] X=-0.291 Y=-0.957 Z=0.000
+[2018.10.18-14.03.01:647][671]LogBlueprintUserMessages: [Player_C_0] X=-0.291 Y=-0.957 Z=0.000
+[2018.10.18-14.03.01:656][672]LogBlueprintUserMessages: [Player_C_0] X=-0.288 Y=-0.957 Z=0.000
+[2018.10.18-14.03.01:664][673]LogBlueprintUserMessages: [Player_C_0] X=-0.286 Y=-0.958 Z=0.000
+[2018.10.18-14.03.01:672][674]LogBlueprintUserMessages: [Player_C_0] X=-0.286 Y=-0.958 Z=0.000
+[2018.10.18-14.03.01:681][675]LogBlueprintUserMessages: [Player_C_0] X=-0.286 Y=-0.958 Z=0.000
+[2018.10.18-14.03.01:690][676]LogBlueprintUserMessages: [Player_C_0] X=-0.283 Y=-0.959 Z=0.000
+[2018.10.18-14.03.01:698][677]LogBlueprintUserMessages: [Player_C_0] X=-0.283 Y=-0.959 Z=0.000
+[2018.10.18-14.03.01:706][678]LogBlueprintUserMessages: [Player_C_0] X=-0.281 Y=-0.960 Z=0.000
+[2018.10.18-14.03.01:714][679]LogBlueprintUserMessages: [Player_C_0] X=-0.281 Y=-0.960 Z=0.000
+[2018.10.18-14.03.01:722][680]LogBlueprintUserMessages: [Player_C_0] X=-0.278 Y=-0.960 Z=0.000
+[2018.10.18-14.03.01:731][681]LogBlueprintUserMessages: [Player_C_0] X=-0.278 Y=-0.960 Z=0.000
+[2018.10.18-14.03.01:778][682]LogBlueprintUserMessages: [Player_C_0] X=-0.276 Y=-0.961 Z=0.000
+[2018.10.18-14.03.01:786][683]LogBlueprintUserMessages: [Player_C_0] X=-0.276 Y=-0.961 Z=0.000
+[2018.10.18-14.03.01:794][684]LogBlueprintUserMessages: [Player_C_0] X=-0.276 Y=-0.961 Z=0.000
+[2018.10.18-14.03.01:802][685]LogBlueprintUserMessages: [Player_C_0] X=-0.273 Y=-0.962 Z=0.000
+[2018.10.18-14.03.01:811][686]LogBlueprintUserMessages: [Player_C_0] X=-0.271 Y=-0.963 Z=0.000
+[2018.10.18-14.03.01:819][687]LogBlueprintUserMessages: [Player_C_0] X=-0.269 Y=-0.963 Z=0.000
+[2018.10.18-14.03.01:828][688]LogBlueprintUserMessages: [Player_C_0] X=-0.269 Y=-0.963 Z=0.000
+[2018.10.18-14.03.01:836][689]LogBlueprintUserMessages: [Player_C_0] X=-0.267 Y=-0.964 Z=0.000
+[2018.10.18-14.03.01:893][690]LogBlueprintUserMessages: [Player_C_0] X=-0.265 Y=-0.964 Z=0.000
+[2018.10.18-14.03.01:932][691]LogBlueprintUserMessages: [Player_C_0] X=-0.262 Y=-0.965 Z=0.000
+[2018.10.18-14.03.01:940][692]LogBlueprintUserMessages: [Player_C_0] X=-0.261 Y=-0.965 Z=0.000
+[2018.10.18-14.03.01:949][693]LogBlueprintUserMessages: [Player_C_0] X=-0.235 Y=-0.972 Z=0.000
+[2018.10.18-14.03.01:957][694]LogBlueprintUserMessages: [Player_C_0] X=-0.235 Y=-0.972 Z=0.000
+[2018.10.18-14.03.01:965][695]LogBlueprintUserMessages: [Player_C_0] X=-0.235 Y=-0.972 Z=0.000
+[2018.10.18-14.03.01:973][696]LogBlueprintUserMessages: [Player_C_0] X=-0.235 Y=-0.972 Z=0.000
+[2018.10.18-14.03.01:983][697]LogBlueprintUserMessages: [Player_C_0] X=-0.233 Y=-0.972 Z=0.000
+[2018.10.18-14.03.01:990][698]LogBlueprintUserMessages: [Player_C_0] X=-0.233 Y=-0.972 Z=0.000
+[2018.10.18-14.03.01:999][699]LogBlueprintUserMessages: [Player_C_0] X=-0.233 Y=-0.972 Z=0.000
+[2018.10.18-14.03.02:006][700]LogBlueprintUserMessages: [Player_C_0] X=-0.231 Y=-0.973 Z=0.000
+[2018.10.18-14.03.02:069][701]LogBlueprintUserMessages: [Player_C_0] X=-0.231 Y=-0.973 Z=0.000
+[2018.10.18-14.03.02:098][702]LogBlueprintUserMessages: [Player_C_0] X=-0.228 Y=-0.974 Z=0.000
+[2018.10.18-14.03.02:105][703]LogBlueprintUserMessages: [Player_C_0] X=-0.222 Y=-0.975 Z=0.000
+[2018.10.18-14.03.02:114][704]LogBlueprintUserMessages: [Player_C_0] X=-0.222 Y=-0.975 Z=0.000
+[2018.10.18-14.03.02:123][705]LogBlueprintUserMessages: [Player_C_0] X=-0.222 Y=-0.975 Z=0.000
+[2018.10.18-14.03.02:131][706]LogBlueprintUserMessages: [Player_C_0] X=-0.222 Y=-0.975 Z=0.000
+[2018.10.18-14.03.02:139][707]LogBlueprintUserMessages: [Player_C_0] X=-0.225 Y=-0.974 Z=0.000
+[2018.10.18-14.03.02:147][708]LogBlueprintUserMessages: [Player_C_0] X=-0.225 Y=-0.974 Z=0.000
+[2018.10.18-14.03.02:155][709]LogBlueprintUserMessages: [Player_C_0] X=-0.230 Y=-0.973 Z=0.000
+[2018.10.18-14.03.02:164][710]LogBlueprintUserMessages: [Player_C_0] X=-0.231 Y=-0.973 Z=0.000
+[2018.10.18-14.03.02:172][711]LogBlueprintUserMessages: [Player_C_0] X=-0.234 Y=-0.972 Z=0.000
+[2018.10.18-14.03.02:181][712]LogBlueprintUserMessages: [Player_C_0] X=-0.238 Y=-0.971 Z=0.000
+[2018.10.18-14.03.02:189][713]LogBlueprintUserMessages: [Player_C_0] X=-0.243 Y=-0.970 Z=0.000
+[2018.10.18-14.03.02:198][714]LogBlueprintUserMessages: [Player_C_0] X=-0.248 Y=-0.969 Z=0.000
+[2018.10.18-14.03.02:206][715]LogBlueprintUserMessages: [Player_C_0] X=-0.254 Y=-0.967 Z=0.000
+[2018.10.18-14.03.02:214][716]LogBlueprintUserMessages: [Player_C_0] X=-0.260 Y=-0.966 Z=0.000
+[2018.10.18-14.03.02:222][717]LogBlueprintUserMessages: [Player_C_0] X=-0.266 Y=-0.964 Z=0.000
+[2018.10.18-14.03.02:231][718]LogBlueprintUserMessages: [Player_C_0] X=-0.274 Y=-0.962 Z=0.000
+[2018.10.18-14.03.02:239][719]LogBlueprintUserMessages: [Player_C_0] X=-0.284 Y=-0.959 Z=0.000
+[2018.10.18-14.03.02:248][720]LogBlueprintUserMessages: [Player_C_0] X=-0.294 Y=-0.956 Z=0.000
+[2018.10.18-14.03.02:256][721]LogBlueprintUserMessages: [Player_C_0] X=-0.308 Y=-0.951 Z=0.000
+[2018.10.18-14.03.02:264][722]LogBlueprintUserMessages: [Player_C_0] X=-0.325 Y=-0.946 Z=0.000
+[2018.10.18-14.03.02:272][723]LogBlueprintUserMessages: [Player_C_0] X=-0.344 Y=-0.939 Z=0.000
+[2018.10.18-14.03.02:281][724]LogBlueprintUserMessages: [Player_C_0] X=-0.362 Y=-0.932 Z=0.000
+[2018.10.18-14.03.02:289][725]LogBlueprintUserMessages: [Player_C_0] X=-0.380 Y=-0.925 Z=0.000
+[2018.10.18-14.03.02:297][726]LogBlueprintUserMessages: [Player_C_0] X=-0.400 Y=-0.917 Z=0.000
+[2018.10.18-14.03.02:305][727]LogBlueprintUserMessages: [Player_C_0] X=-0.419 Y=-0.908 Z=0.000
+[2018.10.18-14.03.02:314][728]LogBlueprintUserMessages: [Player_C_0] X=-0.439 Y=-0.898 Z=0.000
+[2018.10.18-14.03.02:322][729]LogBlueprintUserMessages: [Player_C_0] X=-0.461 Y=-0.887 Z=0.000
+[2018.10.18-14.03.02:330][730]LogBlueprintUserMessages: [Player_C_0] X=-0.485 Y=-0.874 Z=0.000
+[2018.10.18-14.03.02:339][731]LogBlueprintUserMessages: [Player_C_0] X=-0.511 Y=-0.859 Z=0.000
+[2018.10.18-14.03.02:347][732]LogBlueprintUserMessages: [Player_C_0] X=-0.537 Y=-0.843 Z=0.000
+[2018.10.18-14.03.02:355][733]LogBlueprintUserMessages: [Player_C_0] X=-0.560 Y=-0.828 Z=0.000
+[2018.10.18-14.03.02:364][734]LogBlueprintUserMessages: [Player_C_0] X=-0.581 Y=-0.814 Z=0.000
+[2018.10.18-14.03.02:372][735]LogBlueprintUserMessages: [Player_C_0] X=-0.599 Y=-0.801 Z=0.000
+[2018.10.18-14.03.02:381][736]LogBlueprintUserMessages: [Player_C_0] X=-0.615 Y=-0.789 Z=0.000
+[2018.10.18-14.03.02:389][737]LogBlueprintUserMessages: [Player_C_0] X=-0.628 Y=-0.778 Z=0.000
+[2018.10.18-14.03.02:397][738]LogBlueprintUserMessages: [Player_C_0] X=-0.641 Y=-0.768 Z=0.000
+[2018.10.18-14.03.02:399][738]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.18-14.03.02:399][738]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.18-14.03.02:435][738]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.18-14.03.02:435][738]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.18-14.03.02:455][738]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.18-14.03.02:536][740]LogPlayLevel: Display: Destroying online subsystem :Context_1
