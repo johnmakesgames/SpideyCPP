@@ -1,74 +1,67 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup>
-    <Filter Include="Source">
-      <UniqueIdentifier>{B1CBF3C6-95C2-4148-8B30-868C90BEEB80}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\SideyCPP.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <None Include="..\..\Source\SideyCPPEditor.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <Filter Include="Config">
-      <UniqueIdentifier>{F79041C2-0D65-4ADB-8A2F-44AD54204AAB}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Config\DefaultEditor.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEngine.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultGame.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultInput.ini">
-      <Filter>Config</Filter>
-    </None>
-    <Filter Include="Source\SideyCPP">
-      <UniqueIdentifier>{8CAAD834-853A-4B46-A16C-B6581CE4AB3A}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="..\..\Source\SideyCPP\Player_Base.cpp">
-      <Filter>Source\SideyCPP</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\SideyCPP\Player_Base.h">
-      <Filter>Source\SideyCPP</Filter>
-    </ClInclude>
-    <None Include="..\..\Source\SideyCPP\SideyCPP.Build.cs">
-      <Filter>Source\SideyCPP</Filter>
-    </None>
-    <ClCompile Include="..\..\Source\SideyCPP\SideyCPP.cpp">
-      <Filter>Source\SideyCPP</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\SideyCPP\SideyCPP.h">
-      <Filter>Source\SideyCPP</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\SideyCPP\SideyCPPGameModeBase.cpp">
-      <Filter>Source\SideyCPP</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\SideyCPP\SideyCPPGameModeBase.h">
-      <Filter>Source\SideyCPP</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\SideyCPP\WebPoint.cpp">
-      <Filter>Source\SideyCPP</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\SideyCPP\WebPoint.h">
-      <Filter>Source\SideyCPP</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\..\SideyCPP.uproject">
-      <Filter>Source</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\SideyCPP\RotatingSphere.h">
-      <Filter>Source\SideyCPP</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\SideyCPP\RotatingSphere.cpp">
-      <Filter>Source\SideyCPP</Filter>
-    </ClCompile>
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\SideyCPP.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{A6550A53-A5BA-40B9-A566-5DB0C2993F6C}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\SideyCPP.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\SideyCPPEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{DAE39742-84AA-43F7-822C-633245E81A99}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\SideyCPP">
+			<UniqueIdentifier>{091479A5-594C-4313-BE4D-C307BF65DF0A}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\SideyCPP\Player_Base.cpp">
+			<Filter>Source\SideyCPP</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SideyCPP\Player_Base.h">
+			<Filter>Source\SideyCPP</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\SideyCPP\RotatingSphere.cpp">
+			<Filter>Source\SideyCPP</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SideyCPP\RotatingSphere.h">
+			<Filter>Source\SideyCPP</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\SideyCPP\SideyCPP.Build.cs">
+			<Filter>Source\SideyCPP</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\SideyCPP\SideyCPP.cpp">
+			<Filter>Source\SideyCPP</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SideyCPP\SideyCPP.h">
+			<Filter>Source\SideyCPP</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\SideyCPP\SideyCPPGameModeBase.cpp">
+			<Filter>Source\SideyCPP</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SideyCPP\SideyCPPGameModeBase.h">
+			<Filter>Source\SideyCPP</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\SideyCPP\WebPoint.cpp">
+			<Filter>Source\SideyCPP</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SideyCPP\WebPoint.h">
+			<Filter>Source\SideyCPP</Filter>
+		</ClInclude >
+	</ItemGroup>
 </Project>

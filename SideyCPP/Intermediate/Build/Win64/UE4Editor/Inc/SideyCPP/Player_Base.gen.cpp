@@ -148,10 +148,6 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_returnedPosition_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_returnedPosition;
-#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_swingSpeed_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_swingSpeed;
@@ -219,13 +215,6 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 		{ "ModuleRelativePath", "Player_Base.h" },
 	};
 #endif
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayer_Base_Statics::NewProp_returnedPosition_MetaData[] = {
-		{ "Category", "Player Movement" },
-		{ "ModuleRelativePath", "Player_Base.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_APlayer_Base_Statics::NewProp_returnedPosition = { UE4CodeGen_Private::EPropertyClass::Struct, "returnedPosition", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(APlayer_Base, returnedPosition), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_APlayer_Base_Statics::NewProp_returnedPosition_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayer_Base_Statics::NewProp_returnedPosition_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayer_Base_Statics::NewProp_swingSpeed_MetaData[] = {
 		{ "Category", "Player Movement" },
@@ -320,7 +309,6 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlayer_Base_Statics::NewProp_movementSpeed = { UE4CodeGen_Private::EPropertyClass::Float, "movementSpeed", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(APlayer_Base, movementSpeed), METADATA_PARAMS(Z_Construct_UClass_APlayer_Base_Statics::NewProp_movementSpeed_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayer_Base_Statics::NewProp_movementSpeed_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APlayer_Base_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer_Base_Statics::NewProp_returnedPosition,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer_Base_Statics::NewProp_swingSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer_Base_Statics::NewProp_swingPoint,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer_Base_Statics::NewProp_swinging,
@@ -356,7 +344,7 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayer_Base, 6658670);
+	IMPLEMENT_CLASS(APlayer_Base, 3411882114);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APlayer_Base(Z_Construct_UClass_APlayer_Base, &APlayer_Base::StaticClass, TEXT("/Script/SideyCPP"), TEXT("APlayer_Base"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APlayer_Base);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

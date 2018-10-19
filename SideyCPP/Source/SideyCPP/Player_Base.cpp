@@ -201,12 +201,17 @@ void APlayer_Base::SetScannedObjects(TArray<AWebPoint*> scannedLocations)
 	}
 	swingPoint = currentClosest;
 	swinging = true;
-	swingAngle = 0;
+	angle = 0;
 	swingSpeed = 1.0f;
-	radiusOfSwing = FMath::Sqrt(FMath::Square(GetActorLocation().X - swingPoint.X) + FMath::Square(GetActorLocation().Y - swingPoint.Y) + FMath::Square(GetActorLocation().Z - swingPoint.Z));
+	/*radiusOfSwing = FMath::Sqrt(FMath::Square(GetActorLocation().X - swingPoint.X) + FMath::Square(GetActorLocation().Y - swingPoint.Y) + FMath::Square(GetActorLocation().Z - swingPoint.Z));
 	upVector.X = 0;
 	upVector.Y = 0;
-	upVector.Z = radiusOfSwing;
+	upVector.Z = radiusOfSwing;*/
+	myPos = GetActorLocation();
+	myPos -= swingPoint;
+	radius = FMath::Sqrt(FMath::Square(GetActorLocation().X - swingPoint.X) + FMath::Square(GetActorLocation().Y - swingPoint.Y) + FMath::Square(GetActorLocation().Z - swingPoint.Z));
+	myPos /= radius;
+	angle = FMath::Acos((myPos.X * 0) + (myPos.Y * 0) + (myPos.Z * 1) / radius);
 	
 }
 
@@ -232,20 +237,19 @@ void APlayer_Base::Swing()
 
 
 		///New Swinging
-		swingAngle = FMath::Acos(FVector::DotProduct(GetActorLocation(), upVector));
-		swingAngle = FMath::RadiansToDegrees(swingAngle);
-		swingAngle += 1;
-		FVector swungPos;
-		swungPos.X = (FMath::Sin(swingAngle)) * radiusOfSwing;
-		swungPos.Y = (FMath::Sin(swingAngle)) * radiusOfSwing;
-		swungPos.Z = ((-1 * FMath::Cos(swingAngle))) * radiusOfSwing;
-		swungPos += swingPoint;
-		GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Green, FString::Printf(TEXT("SwungPos %f %f %f"), swungPos.X, swungPos.Y, swungPos.Z));
-		SetActorLocation(swungPos);
+		angle += swingSpeed * delta;
+		newPos.Z = FMath::Cos(angle);
+		newPos.X = (-1 * GetActorForwardVector().X) * FMath::Sin(angle);
+		newPos.Y = (-1 * GetActorForwardVector().Y) * FMath::Sin(angle);
+		newPos *= radius;
+		newPos += swingPoint;
+		//Setting to weird values
+		SetActorLocation(newPos);
 
 		///Old Swinging
 		/*FVector swungPos;
-		swungPos.X = 1 * FMath::Sin(swingAngle);
+		swungPos.X = 1 * FMaUE4Editor.exe has triggered a breakpoint.
+th::Sin(swingAngle);
 		swungPos.Z = 1 - 1 * (1 - FMath::Cos(swingAngle));
 		swungPos.X *= radiusOfSwing;
 		

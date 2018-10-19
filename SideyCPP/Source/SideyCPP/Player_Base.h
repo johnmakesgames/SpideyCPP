@@ -46,11 +46,13 @@ public:
 	FVector swingPoint;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Movement")
 	float swingSpeed;
-	float swingAngle;
-	FVector upVector;
-	float radiusOfSwing;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Movement")
-	FVector returnedPosition;
+	FVector myPos;
+	float dotProduct;
+	float radius;
+	float magPoint;
+	float magMe;
+	float angle;
+	FVector newPos;
 
 private:
 	FVector * directionalSpeed;

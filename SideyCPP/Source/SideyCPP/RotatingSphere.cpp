@@ -27,7 +27,6 @@ void ARotatingSphere::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	myPos = GetActorLocation();
-	//GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, FString::Printf(TEXT("Rotating %f %f %f"), GetActorLocation().X, GetActorLocation().Y, GetActorLocation().Z));
 	Rotation(DeltaTime);
 }
 
