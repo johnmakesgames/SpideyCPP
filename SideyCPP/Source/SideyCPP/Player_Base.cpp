@@ -212,7 +212,6 @@ void APlayer_Base::SetScannedObjects(TArray<AWebPoint*> scannedLocations)
 	radius = FMath::Sqrt(FMath::Square(GetActorLocation().X - swingPoint.X) + FMath::Square(GetActorLocation().Y - swingPoint.Y) + FMath::Square(GetActorLocation().Z - swingPoint.Z));
 	myPos /= radius;
 	angle = FMath::Acos((myPos.X * 0) + (myPos.Y * 0) + (myPos.Z * 1) / radius);
-	
 }
 
 void APlayer_Base::Swing()
@@ -237,6 +236,8 @@ void APlayer_Base::Swing()
 
 
 		///New Swinging
+		FVector forward = GetActorForwardVector();
+		myPos = GetActorLocation();
 		angle += swingSpeed * delta;
 		newPos.Z = FMath::Cos(angle);
 		newPos.X = (-1 * GetActorForwardVector().X) * FMath::Sin(angle);
