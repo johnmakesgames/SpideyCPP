@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_SideyCPP();
 	SIDEYCPP_API UFunction* Z_Construct_UFunction_APlayer_Base_FindSwingPoint();
+	SIDEYCPP_API UFunction* Z_Construct_UFunction_APlayer_Base_HitWall();
 	SIDEYCPP_API UFunction* Z_Construct_UFunction_APlayer_Base_RotateAroundAxis();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	SIDEYCPP_API UFunction* Z_Construct_UFunction_APlayer_Base_SetScannedObjects();
@@ -41,6 +42,7 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 	{
 		UClass* Class = APlayer_Base::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "HitWall", &APlayer_Base::execHitWall },
 			{ "SetScannedObjects", &APlayer_Base::execSetScannedObjects },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
@@ -65,6 +67,29 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APlayer_Base_FindSwingPoint_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_APlayer_Base_HitWall_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APlayer_Base_HitWall_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Player Movement" },
+		{ "ModuleRelativePath", "Player_Base.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APlayer_Base_HitWall_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APlayer_Base, "HitWall", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APlayer_Base_HitWall_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_APlayer_Base_HitWall_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_APlayer_Base_HitWall()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APlayer_Base_HitWall_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -205,6 +230,7 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_APlayer_Base_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_APlayer_Base_FindSwingPoint, "FindSwingPoint" }, // 2132337309
+		{ &Z_Construct_UFunction_APlayer_Base_HitWall, "HitWall" }, // 1995155586
 		{ &Z_Construct_UFunction_APlayer_Base_RotateAroundAxis, "RotateAroundAxis" }, // 2162024564
 		{ &Z_Construct_UFunction_APlayer_Base_SetScannedObjects, "SetScannedObjects" }, // 864722930
 	};
@@ -344,7 +370,7 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayer_Base, 3411882114);
+	IMPLEMENT_CLASS(APlayer_Base, 3483994227);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APlayer_Base(Z_Construct_UClass_APlayer_Base, &APlayer_Base::StaticClass, TEXT("/Script/SideyCPP"), TEXT("APlayer_Base"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APlayer_Base);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -42,6 +42,10 @@ void APlayer_Base::Tick(float DeltaTime)
 	CharacterMovement->MaxWalkSpeed = movementSpeed;
 	Swing();
 	dancing = false;
+	if (swingBuffer > 0)
+	{
+		swingBuffer -= 1;
+	}
 }
 
 // Called to bind functionality to input
@@ -102,12 +106,11 @@ void APlayer_Base::MoveRight(float value)
 	}
 	
 	animMovementSpeedRight = (directionalSpeed->Y / 5) *-1;
-	
 }
 
 void APlayer_Base::Web(float value)
 {
-	if (value > 0)
+	if (value >= 0.9f)
 	{
 		if (grounded)
 		{
@@ -115,23 +118,25 @@ void APlayer_Base::Web(float value)
 			if (movementSpeed <= maxWalkingSpeed)
 			{
 				movementSpeed = maxRunningSpeed;
-				FString TheFloatStr = FString::SanitizeFloat(movementSpeed);
-				if (GEngine)
-					GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, *TheFloatStr);
 			}
 		}
-		else
+		if (swingBuffer <= 0)
 		{
 			if (!swinging)
 			{
-				if (GEngine)
-					GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, "Trying to swing");
 				FindSwingPoint();
 				tryingToSwing = true;
-				CharacterMovement->GravityScale = 0;
 			}
-			/*if (GEngine)
-				GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Web Pressed"));*/
+		}
+	}
+	else if (value >= 0.1f)
+	{
+		if (swinging)
+		{
+			swinging = false;
+			CharacterMovement->AddImpulse((GetActorForwardVector() * (20000 * swingSpeed)) * delta);
+			CharacterMovement->AddImpulse(FVector(0, 0, (20000 * delta)), true);
+			swingBuffer = swingDelay;
 		}
 	}
 	else
@@ -139,6 +144,9 @@ void APlayer_Base::Web(float value)
 		if (swinging)
 		{
 			swinging = false;
+			CharacterMovement->AddImpulse((GetActorForwardVector() * (20000 * swingSpeed)) * delta);
+			CharacterMovement->AddImpulse(FVector(0, 0, (20000 * delta)), true);
+			swingBuffer = swingDelay;
 		}
 		movementSpeed = maxWalkingSpeed;
 	}
@@ -157,9 +165,17 @@ void APlayer_Base::Pitch(float value)
 
 void APlayer_Base::JumpAction()
 {
-	if (swinging)
+	if (!grounded && !hasJumpedInAir)
 	{
-		CharacterMovement->AddImpulse(GetActorForwardVector() + FVector(0, 0, 10));
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Jumped in air")); 
+		CharacterMovement->AddImpulse(FVector(0, 0, (20000 * delta)), true);
+		if (swinging)
+		{
+			swinging = false;
+			CharacterMovement->AddImpulse((GetActorForwardVector() * (20000 * swingSpeed)) * delta);
+			swingBuffer = swingDelay;
+		}
+		hasJumpedInAir = true;
 	}
 	else
 	{
@@ -177,14 +193,6 @@ void APlayer_Base::SetScannedObjects(TArray<AWebPoint*> scannedLocations)
 	PotentialWebPoints = scannedLocations;
 	int scannedNum = PotentialWebPoints.Num();
 	FVector currentClosest;
-	/*for (int i = 0; i < scannedNum; i++)
-	{
-		if (FGenericPlatformMath::Abs(GetActorLocation().X - PotentialWebPoints[i]->GetActorLocation().X) > 300)
-		{
-			PotentialWebPoints.Remove(PotentialWebPoints[i]);
-			scannedNum--;
-		}
-	}*/
 	for (int i = 0; i < scannedNum; i++)
 	{	
 		if (i == 0)
@@ -201,12 +209,10 @@ void APlayer_Base::SetScannedObjects(TArray<AWebPoint*> scannedLocations)
 	}
 	swingPoint = currentClosest;
 	swinging = true;
+	CharacterMovement->GravityScale = 0;
+	hasJumpedInAir = false;
 	angle = 0;
 	swingSpeed = 1.0f;
-	/*radiusOfSwing = FMath::Sqrt(FMath::Square(GetActorLocation().X - swingPoint.X) + FMath::Square(GetActorLocation().Y - swingPoint.Y) + FMath::Square(GetActorLocation().Z - swingPoint.Z));
-	upVector.X = 0;
-	upVector.Y = 0;
-	upVector.Z = radiusOfSwing;*/
 	myPos = GetActorLocation();
 	myPos -= swingPoint;
 	radius = FMath::Sqrt(FMath::Square(GetActorLocation().X - swingPoint.X) + FMath::Square(GetActorLocation().Y - swingPoint.Y) + FMath::Square(GetActorLocation().Z - swingPoint.Z));
@@ -214,27 +220,16 @@ void APlayer_Base::SetScannedObjects(TArray<AWebPoint*> scannedLocations)
 	angle = FMath::Acos((myPos.X * 0) + (myPos.Y * 0) + (myPos.Z * 1) / radius);
 }
 
+void APlayer_Base::HitWall()
+{
+	swinging = false;
+	swingBuffer = swingDelay;
+}
+
 void APlayer_Base::Swing()
 {
 	if (swinging)
 	{
-		///BP Swinging
-		//FVector NormalPos = GetActorLocation();
-		//FVector NormalUpVec = upVector;
-		//NormalPos.Normalize();
-		//NormalUpVec.Normalize();
-		//swingAngle = FMath::Acos(FVector::DotProduct(GetActorLocation(), upVector));
-		//swingAngle = FMath::RadiansToDegrees(swingAngle);
-		//swingAngle += 1;
-		//FVector relativePlayerPosition = GetActorLocation() -= swingPoint;
-		//RotateAroundAxis(relativePlayerPosition, swingAngle);
-		//returnedPosition += swingPoint;
-		////returnedPosition = returnedPosition - GetActorLocation();
-		////returnedPosition.Normalize();
-		//GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, FString::Printf(TEXT("SwungPos %f %f %f"), returnedPosition.X, returnedPosition.Y, returnedPosition.Z));
-		//SetActorLocation(returnedPosition);
-
-
 		///New Swinging
 		FVector forward = GetActorForwardVector();
 		myPos = GetActorLocation();
@@ -244,32 +239,12 @@ void APlayer_Base::Swing()
 		newPos.Y = (-1 * GetActorForwardVector().Y) * FMath::Sin(angle);
 		newPos *= radius;
 		newPos += swingPoint;
-		//Setting to weird values
 		SetActorLocation(newPos);
+		CalculateSwingSpeed(newPos, myPos);
 
-		///Old Swinging
-		/*FVector swungPos;
-		swungPos.X = 1 * FMaUE4Editor.exe has triggered a breakpoint.
-th::Sin(swingAngle);
-		swungPos.Z = 1 - 1 * (1 - FMath::Cos(swingAngle));
-		swungPos.X *= radiusOfSwing;
-		
-		swungPos += swingPoint;
-		swungPos.Y = GetActorLocation().Y;
-		GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Green, FString::Printf(TEXT("SwungPos %f %f %f"), swungPos.X, swungPos.Y, swungPos.Z));
-		SetActorLocation(swungPos);*/
-		//GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, FString::Printf(TEXT("AngleOfSwing %f"), swingAngle));
-
-		//FVector swungPos;
-		//swingAngle += swingSpeed;
-		////https://stackoverflow.com/questions/14829621/formula-to-find-points-on-the-circumference-of-a-circle-given-the-center-of-the
-		//swungPos.Z = radiusOfSwing * FMath::Cos(swingAngle) + swingPoint.X;
-		//swungPos.X = radiusOfSwing * FMath::Sin(swingAngle) + swingPoint.Z;
-		//GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, FString::Printf(TEXT("SwungPos %f %f %f"), swungPos.X, swungPos.Y, swungPos.Z));
-		//GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, FString::Printf(TEXT("SwungPos %f %f %f"), GetActorLocation().X, GetActorLocation().Y, GetActorLocation().Z));
-		//swungPos = swungPos - GetActorLocation();
-		//swungPos.Normalize();
-		//SetActorLocation(GetActorLocation() + (swungPos * swingSpeed * delta));
+		FString TheFloatStr = FString::SanitizeFloat(swingSpeed);
+		if (GEngine)
+			GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, *TheFloatStr);
 	}
 	else
 	{
@@ -279,17 +254,23 @@ th::Sin(swingAngle);
 
 void APlayer_Base::CalculateSwingSpeed(FVector newLocation, FVector currentLocation)
 {
-	if (currentLocation.Z > newLocation.Z)
+	if (swingSpeed < maxSwingSpeed)
 	{
-		swingSpeed += 10;
-	}
-	else if (currentLocation.Z < newLocation.Z)
-	{
-		swingSpeed -= 5;
-	}
-	else
-	{
-		swingSpeed += 5;
+		if (currentLocation.Z > newLocation.Z)
+		{
+			swingSpeed += swingingGravityMod;
+		}
+		else if (currentLocation.Z < newLocation.Z)
+		{
+			if (swingSpeed >= 0.5f)
+			{
+				swingSpeed -= (swingingGravityMod / 2);
+			}
+		}
+		else
+		{
+			swingSpeed = swingSpeed;
+		}
 	}
 }
 

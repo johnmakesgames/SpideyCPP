@@ -17,6 +17,14 @@ struct FVector;
 
 #define SideyCPP_Source_SideyCPP_Player_Base_h_14_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execHitWall) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->HitWall(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execSetScannedObjects) \
 	{ \
 		P_GET_TARRAY(AWebPoint*,Z_Param_scannedLocations); \
@@ -28,6 +36,14 @@ struct FVector;
 
 
 #define SideyCPP_Source_SideyCPP_Player_Base_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHitWall) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->HitWall(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execSetScannedObjects) \
 	{ \

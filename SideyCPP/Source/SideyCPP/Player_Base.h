@@ -46,6 +46,8 @@ public:
 	FVector swingPoint;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Movement")
 	float swingSpeed;
+	float maxSwingSpeed = 3;
+	float swingingGravityMod = 0.01f;
 	FVector myPos;
 	float dotProduct;
 	float radius;
@@ -53,6 +55,9 @@ public:
 	float magMe;
 	float angle;
 	FVector newPos;
+	bool hasJumpedInAir;
+	float swingDelay = 10;
+	float swingBuffer = 0;
 
 private:
 	FVector * directionalSpeed;
@@ -92,4 +97,6 @@ public:
 		void RotateAroundAxis(FVector adjustedPosition, float swingAngle);
 	UFUNCTION(BlueprintCallable, Category = "Player Movement")
 		void SetScannedObjects(TArray<AWebPoint*> scannedLocations);
+	UFUNCTION(BlueprintCallable, Category = "Player Movement")
+		void HitWall();
 };
