@@ -43,7 +43,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Movement")
 	bool swinging;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Movement")
-	FVector swingPoint;
+	FVector offsetSwingPoint;
+	FVector originalSwingPoint;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Movement")
 	float swingSpeed;
 	float maxSwingSpeed = 3;
@@ -82,6 +83,7 @@ protected:
 	virtual void Swing();
 	virtual void CalculateSwingSpeed(FVector newLocation, FVector currentLocation);
 	virtual void StopSwinging(bool jumping);
+	void CheckClosest(FVector playerPos, FVector webPos, FVector* currentClosest);
 
 
 public:	

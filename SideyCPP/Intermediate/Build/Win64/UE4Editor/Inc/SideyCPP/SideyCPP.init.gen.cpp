@@ -19,7 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeSideyCPP_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/SideyCPP",
 				PKG_CompiledIn | 0x00000000,
-				0x81038E71,
+				0x26E3324E,
 				0x22B1AFE7,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)

@@ -6,4 +6,4 @@
     [3/3] UE4Editor-SideyCPP.dll
        Creating library C:\Users\w017177h\Documents\GitHub\SpideyCPP\SideyCPP\Intermediate\Build\Win64\UE4Editor\Development\SideyCPP\UE4Editor-SideyCPP.suppressed.lib and object C:\Users\w017177h\Documents\GitHub\SpideyCPP\SideyCPP\Intermediate\Build\Win64\UE4Editor\Development\SideyCPP\UE4Editor-SideyCPP.suppressed.exp
   Deploying SideyCPPEditor Win64 Development...
-  Total build time: 3.52 seconds (Parallel executor: 2.03 seconds)
+  Total build time: 4.09 seconds (Parallel executor: 2.43 seconds)

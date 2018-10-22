@@ -176,29 +176,67 @@ void APlayer_Base::SetScannedObjects(TArray<AWebPoint*> scannedLocations)
 	PotentialWebPoints = scannedLocations;
 	int scannedNum = PotentialWebPoints.Num();
 	FVector currentClosest;
+
 	for (int i = 0; i < scannedNum; i++)
 	{	
 		if (i == 0)
 		{
 			currentClosest = PotentialWebPoints[i]->GetActorLocation();
 		}
-		else if (true)//change this
+		else
 		{
-			if (FGenericPlatformMath::Abs(GetActorLocation().Y - currentClosest.Y) > FGenericPlatformMath::Abs(GetActorLocation().Y - PotentialWebPoints[i]->GetActorLocation().Y))
+			if (GetActorForwardVector().X > 0)
 			{
-				currentClosest = PotentialWebPoints[i]->GetActorLocation();
+				if (PotentialWebPoints[i]->GetActorLocation().X > GetActorLocation().X)
+				{
+					if (GetActorForwardVector().Y > 0)
+					{
+						if (PotentialWebPoints[i]->GetActorLocation().Y > GetActorLocation().Y)
+						{
+							CheckClosest(GetActorLocation(), PotentialWebPoints[i]->GetActorLocation(), &currentClosest);
+						}
+					}
+					else
+					{
+						if (PotentialWebPoints[i]->GetActorLocation().Y < GetActorLocation().Y)
+						{
+							CheckClosest(GetActorLocation(), PotentialWebPoints[i]->GetActorLocation(), &currentClosest);
+						}
+					}
+				}
+			}
+			else
+			{
+				if (PotentialWebPoints[i]->GetActorLocation().X < GetActorLocation().X)
+				{
+					if (GetActorForwardVector().Y > 0)
+					{
+						if (PotentialWebPoints[i]->GetActorLocation().Y > GetActorLocation().Y)
+						{
+							CheckClosest(GetActorLocation(), PotentialWebPoints[i]->GetActorLocation(), &currentClosest);
+						}
+					}
+					else
+					{
+						if (PotentialWebPoints[i]->GetActorLocation().Y > GetActorLocation().Y)
+						{
+							CheckClosest(GetActorLocation(), PotentialWebPoints[i]->GetActorLocation(), &currentClosest);
+						}
+					}
+				}
 			}
 		}
 	}
-	swingPoint = currentClosest;
+	originalSwingPoint = currentClosest;
+	offsetSwingPoint = originalSwingPoint + ((GetActorLocation() - originalSwingPoint).GetSafeNormal() * 5);
 	swinging = true;
 	CharacterMovement->GravityScale = 0;
 	hasJumpedInAir = false;
 	angle = 0;
 	swingSpeed = 1.0f;
 	myPos = GetActorLocation();
-	myPos -= swingPoint;
-	radius = FMath::Sqrt(FMath::Square(GetActorLocation().X - swingPoint.X) + FMath::Square(GetActorLocation().Y - swingPoint.Y) + FMath::Square(GetActorLocation().Z - swingPoint.Z));
+	myPos -= offsetSwingPoint;
+	radius = FMath::Sqrt(FMath::Square(GetActorLocation().X - offsetSwingPoint.X) + FMath::Square(GetActorLocation().Y - offsetSwingPoint.Y) + FMath::Square(GetActorLocation().Z - offsetSwingPoint.Z));
 	myPos /= radius;
 	angle = FMath::Acos((myPos.X * 0) + (myPos.Y * 0) + (myPos.Z * 1) / radius);
 }
@@ -221,7 +259,7 @@ void APlayer_Base::Swing()
 		newPos.X = (-1 * GetActorForwardVector().X) * FMath::Sin(angle);
 		newPos.Y = (-1 * GetActorForwardVector().Y) * FMath::Sin(angle);
 		newPos *= radius;
-		newPos += swingPoint;
+		newPos += offsetSwingPoint;
 		SetActorLocation(newPos);
 		CalculateSwingSpeed(newPos, myPos);
 
@@ -261,12 +299,23 @@ void APlayer_Base::CalculateSwingSpeed(FVector newLocation, FVector currentLocat
 void APlayer_Base::StopSwinging(bool jumping)
 {
 	swinging = false;
-	CharacterMovement->AddImpulse(((GetActorForwardVector() + (GetActorForwardVector() * directionalSpeed->Y)) * (20000 * swingSpeed)) * delta);
+	CharacterMovement->AddImpulse(((GetActorForwardVector() + (GetActorForwardVector() * FMath::Abs(directionalSpeed->Y)) * (20000 * swingSpeed)) * delta));
 	swingBuffer = swingDelay;
 	if (jumping)
 	{
 		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Jumped in air"));
 		CharacterMovement->AddImpulse(FVector(0, 0, (20000 * delta)), true);
+	}
+}
+
+void APlayer_Base::CheckClosest(FVector playerPos, FVector webPos, FVector* currentClosest)
+{
+	if (FMath::Abs(playerPos.X - webPos.X) < FMath::Abs(playerPos.X - currentClosest->X))
+	{
+		if (FMath::Abs(playerPos.Y - webPos.Y) < FMath::Abs(playerPos.Y - currentClosest->Y))
+		{
+			*currentClosest = webPos;
+		}
 	}
 }
 
