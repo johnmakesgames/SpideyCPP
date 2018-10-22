@@ -110,7 +110,7 @@ void APlayer_Base::MoveRight(float value)
 
 void APlayer_Base::Web(float value)
 {
-	if (value >= 0.9f)
+	if (value >= 0.2f)
 	{
 		if (grounded)
 		{
@@ -120,7 +120,7 @@ void APlayer_Base::Web(float value)
 				movementSpeed = maxRunningSpeed;
 			}
 		}
-		if (swingBuffer <= 0)
+		else if (swingBuffer <= 0)
 		{
 			if (!swinging)
 			{
@@ -129,24 +129,11 @@ void APlayer_Base::Web(float value)
 			}
 		}
 	}
-	else if (value >= 0.1f)
-	{
-		if (swinging)
-		{
-			swinging = false;
-			CharacterMovement->AddImpulse((GetActorForwardVector() * (20000 * swingSpeed)) * delta);
-			CharacterMovement->AddImpulse(FVector(0, 0, (20000 * delta)), true);
-			swingBuffer = swingDelay;
-		}
-	}
 	else
 	{
 		if (swinging)
 		{
-			swinging = false;
-			CharacterMovement->AddImpulse((GetActorForwardVector() * (20000 * swingSpeed)) * delta);
-			CharacterMovement->AddImpulse(FVector(0, 0, (20000 * delta)), true);
-			swingBuffer = swingDelay;
+			StopSwinging(false);
 		}
 		movementSpeed = maxWalkingSpeed;
 	}
@@ -167,13 +154,9 @@ void APlayer_Base::JumpAction()
 {
 	if (!grounded && !hasJumpedInAir)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Jumped in air")); 
-		CharacterMovement->AddImpulse(FVector(0, 0, (20000 * delta)), true);
 		if (swinging)
 		{
-			swinging = false;
-			CharacterMovement->AddImpulse((GetActorForwardVector() * (20000 * swingSpeed)) * delta);
-			swingBuffer = swingDelay;
+			StopSwinging(true);
 		}
 		hasJumpedInAir = true;
 	}
@@ -254,23 +237,36 @@ void APlayer_Base::Swing()
 
 void APlayer_Base::CalculateSwingSpeed(FVector newLocation, FVector currentLocation)
 {
-	if (swingSpeed < maxSwingSpeed)
+
+	if (currentLocation.Z > newLocation.Z)
 	{
-		if (currentLocation.Z > newLocation.Z)
+		if (swingSpeed < maxSwingSpeed)
 		{
 			swingSpeed += swingingGravityMod;
 		}
-		else if (currentLocation.Z < newLocation.Z)
+	}
+	else if (currentLocation.Z < newLocation.Z)
+	{
+		if (swingSpeed >= 0.5f)
 		{
-			if (swingSpeed >= 0.5f)
-			{
-				swingSpeed -= (swingingGravityMod / 2);
-			}
+			swingSpeed -= ((swingingGravityMod/3)*2);
 		}
-		else
-		{
-			swingSpeed = swingSpeed;
-		}
+	}
+	else
+	{
+		swingSpeed = swingSpeed;
+	}
+}
+
+void APlayer_Base::StopSwinging(bool jumping)
+{
+	swinging = false;
+	CharacterMovement->AddImpulse(((GetActorForwardVector() + (GetActorForwardVector() * directionalSpeed->Y)) * (20000 * swingSpeed)) * delta);
+	swingBuffer = swingDelay;
+	if (jumping)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Jumped in air"));
+		CharacterMovement->AddImpulse(FVector(0, 0, (20000 * delta)), true);
 	}
 }
 

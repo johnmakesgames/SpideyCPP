@@ -81,6 +81,7 @@ protected:
 	virtual void Dance();
 	virtual void Swing();
 	virtual void CalculateSwingSpeed(FVector newLocation, FVector currentLocation);
+	virtual void StopSwinging(bool jumping);
 
 
 public:	

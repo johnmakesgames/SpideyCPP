@@ -1,0 +1,859 @@
+﻿Log file open, 10/22/18 18:49:10
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: SideyCPP
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.724886
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.182s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Xeon(R) W-2123 CPU @ 3.60GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Epic/UE4/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.005s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.10.22-17.49.11:363][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.22-17.49.11:364][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.22-17.49.11:393][  0]LogHAL: Display: Platform has ~ 32 GB [34065870848 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.22-17.49.11:394][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.22-17.49.11:394][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.22-17.49.11:396][  0]LogInit: Computer: A007-27
+[2018.10.22-17.49.11:396][  0]LogInit: User: w017177h
+[2018.10.22-17.49.11:396][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.22-17.49.11:396][  0]LogInit: High frequency timer resolution =3.515623 MHz
+[2018.10.22-17.49.11:396][  0]LogMemory: Memory total: Physical=31.7GB (32GB approx)
+[2018.10.22-17.49.11:396][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.22-17.49.11:396][  0]LogMemory: Process Physical Memory: 101.25 MB used, 101.25 MB peak
+[2018.10.22-17.49.11:396][  0]LogMemory: Process Virtual Memory: 89.40 MB used, 89.40 MB peak
+[2018.10.22-17.49.11:396][  0]LogMemory: Physical Memory: 8126.93 MB used,  24360.82 MB free, 32487.75 MB total
+[2018.10.22-17.49.11:396][  0]LogMemory: Virtual Memory: 4638.52 MB used,  24360.82 MB free, 134217728.00 MB total
+[2018.10.22-17.49.11:787][  0]LogInit: Using OS detected language (en-US).
+[2018.10.22-17.49.11:787][  0]LogInit: Using OS detected locale (en-GB).
+[2018.10.22-17.49.11:789][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.10.22-17.49.12:309][  0]LogStreaming: Display: Took  0.520s to InitEngineTextLocalization.
+[2018.10.22-17.49.12:310][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.22-17.49.12:471][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.22-17.49.12:471][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.22-17.49.15:395][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.22-17.49.15:396][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.22-17.49.15:558][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.10.22-17.49.15:558][  0]LogD3D11RHI:       8088/0/16243 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.10.22-17.49.15:567][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.22-17.49.15:568][  0]LogD3D11RHI:       0/0/16243 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.22-17.49.15:568][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.22-17.49.15:579][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.22-17.49.15:579][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.22-17.49.15:580][  0]LogWindows: EnumDisplayDevices:
+[2018.10.22-17.49.15:580][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.10.22-17.49.15:580][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.10.22-17.49.15:581][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.10.22-17.49.15:582][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.10.22-17.49.15:582][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.10.22-17.49.15:583][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.10.22-17.49.15:583][  0]LogD3D11RHI:   Driver Version: 399.24 (internal:24.21.13.9924, unified:399.24)
+[2018.10.22-17.49.15:583][  0]LogD3D11RHI:      Driver Date: 9-5-2018
+[2018.10.22-17.49.15:583][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2018.10.22-17.49.15:637][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.22-17.49.15:668][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.10.22-17.49.15:673][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Intermediate/Shaders/WorkingDirectory/1588/).
+[2018.10.22-17.49.15:673][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/w017177h/AppData/Local/Temp/UnrealShaderWorkingDir/7E62F4814047494AF9349791B2472469/'.
+[2018.10.22-17.49.15:973][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.22-17.49.15:999][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.22-17.49.16:049][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.22-17.49.16:108][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.22-17.49.16:153][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.22-17.49.16:185][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.22-17.49.16:217][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.22-17.49.16:256][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.22-17.49.16:283][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.22-17.49.16:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-17.49.16:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-17.49.16:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-17.49.16:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-17.49.16:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-17.49.16:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-17.49.16:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-17.49.16:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-17.49.16:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-17.49.16:411][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-17.49.16:411][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-17.49.16:411][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-17.49.16:411][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-17.49.16:411][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-17.49.16:411][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-17.49.16:411][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-17.49.16:411][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-17.49.16:411][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-17.49.16:438][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.22-17.49.16:663][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.22-17.49.16:664][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.22-17.49.16:698][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.22-17.49.16:698][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.22-17.49.16:726][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.22-17.49.16:750][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.22-17.49.16:775][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.22-17.49.16:823][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.22-17.49.16:856][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.22-17.49.16:856][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.22-17.49.17:354][  0]LogXGEController: Cleaning working directory: C:/Users/w017177h/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.10.22-17.49.17:355][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.22-17.49.17:355][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.22-17.49.17:355][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.22-17.49.19:639][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.22-17.49.19:639][  0]LogDerivedDataCache: Display: Starting with empty Boot cache
+[2018.10.22-17.49.19:640][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.22-17.49.19:640][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.22-17.49.19:640][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.22-17.49.19:640][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.22-17.49.19:666][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.22-17.49.19:680][  0]LogDerivedDataCache: Using Local data cache path C:/Users/w017177h/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.22-17.49.19:680][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.22-17.49.19:680][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.22-17.49.19:756][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.22-17.49.19:761][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.22-17.49.19:800][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.22-17.49.20:131][  0]LogAssetRegistry: FAssetRegistry took 0.0328 seconds to start up
+[2018.10.22-17.49.20:575][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.22-17.49.21:019][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.22-17.49.21:061][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.22-17.49.21:061][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.22-17.49.21:062][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.22-17.49.21:062][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.22-17.49.21:126][  0]LogNetVersion: SideyCPP 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 583984258)
+[2018.10.22-17.49.22:910][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.172393 seconds
+[2018.10.22-17.49.22:918][  0]LogUObjectArray: 38447 objects as part of root set at end of initial load.
+[2018.10.22-17.49.22:918][  0]LogUObjectAllocator: 6692624 out of 0 bytes used by permanent object pool.
+[2018.10.22-17.49.22:918][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.22-17.49.27:323][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.22-17.49.27:366][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.22-17.49.28:183][  0]SourceControl: Source control is disabled
+[2018.10.22-17.49.28:184][  0]SourceControl: Source control is disabled
+[2018.10.22-17.49.28:220][  0]SourceControl: Source control is disabled
+[2018.10.22-17.49.28:242][  0]SourceControl: Source control is disabled
+[2018.10.22-17.49.29:111][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.22-17.49.29:380][  0]LogOcInput: OculusInput pre-init called
+[2018.10.22-17.49.29:615][  0]LogEngine: Initializing Engine...
+[2018.10.22-17.49.29:617][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.22-17.49.29:621][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.22-17.49.29:621][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.22-17.49.29:622][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.001 s
+[2018.10.22-17.49.29:622][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.22-17.49.30:273][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.22-17.49.30:353][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.22-17.49.30:397][  0]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.22-17.49.30:445][  0]LogInit: FAudioDevice initialized.
+[2018.10.22-17.49.30:445][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.22-17.49.30:491][  0]LogDerivedDataCache: Saved boot cache 0.05s 87MB C:/Users/w017177h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.22-17.49.30:503][  0]LogInit: Texture streaming: Enabled
+[2018.10.22-17.49.30:580][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.22-17.49.30:610][  0]LogInit: Transaction tracking system initialized
+[2018.10.22-17.49.30:779][  0]BlueprintLog: New page: Editor Load
+[2018.10.22-17.49.31:347][  0]LocalizationService: Localization service is disabled
+[2018.10.22-17.49.32:243][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.22-17.49.32:243][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.22-17.49.32:246][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.22-17.49.32:246][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.22-17.49.32:247][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.22-17.49.32:247][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.22-17.49.32:247][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.22-17.49.32:493][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Content/' took 0.03s
+[2018.10.22-17.49.32:953][  0]SourceControl: Source control is disabled
+[2018.10.22-17.49.32:953][  0]Cmd: MAP LOAD FILE="../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.22-17.49.32:955][  0]LightingResults: New page: Lighting Build
+[2018.10.22-17.49.32:965][  0]MapCheck: New page: Map Check
+[2018.10.22-17.49.32:965][  0]LightingResults: New page: Lighting Build
+[2018.10.22-17.49.33:215][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2018.10.22-17.49.33:216][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading ../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Content/StarterContent/Maps/Minimal_Default.umap.
+[2018.10.22-17.49.33:216][  0]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2018.10.22-17.49.33:230][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2018.10.22-17.49.33:230][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading ../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Content/StarterContent/Maps/Minimal_Default.umap.
+[2018.10.22-17.49.33:230][  0]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2018.10.22-17.49.33:233][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2018.10.22-17.49.33:233][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2018.10.22-17.49.33:234][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2018.10.22-17.49.33:234][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2018.10.22-17.49.33:246][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2018.10.22-17.49.33:246][  0]LoadErrors: Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2018.10.22-17.49.33:247][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2018.10.22-17.49.33:247][  0]LoadErrors: Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2018.10.22-17.49.33:381][  0]LogStaticMesh: Building static mesh Floor_400x400...
+[2018.10.22-17.49.33:388][  0]LogStaticMesh: Built static mesh [0.01s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2018.10.22-17.49.33:427][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.22-17.49.33:459][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.22-17.49.33:492][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.22-17.49.33:597][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 105.199ms to complete.
+[2018.10.22-17.49.33:597][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.644
+[2018.10.22-17.49.33:790][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-17.49.33:804][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-17.49.33:814][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-17.49.33:822][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-17.49.33:871][  0]LogCollectionManager: Loaded 0 collections in 0.005371 seconds
+[2018.10.22-17.49.33:957][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Saved/Collections/' took 0.01s
+[2018.10.22-17.49.33:958][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Content/Developers/w017177h/Collections/' took 0.01s
+[2018.10.22-17.49.33:958][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Content/Collections/' took 0.01s
+[2018.10.22-17.49.33:958][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.10.22-17.49.33:973][  0]LogContentBrowser: Native class hierarchy populated in 0.0133 seconds. Added 2576 classes and 605 folders.
+[2018.10.22-17.49.33:988][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.10.22-17.49.34:397][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.10.22-17.49.34:420][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.10.22-17.49.34:472][  0]LogSlate: Took 0.008188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.22-17.49.34:480][  0]LogSlate: Took 0.005016 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.22-17.49.34:498][  0]LogSlate: Took 0.008729 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.22-17.49.34:722][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.10.22-17.49.34:924][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.22-17.49.34:983][  0]LogSlate: Window 'Tutorials' being destroyed
+[2018.10.22-17.49.35:057][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.10.22-17.49.35:057][  0]LogLoad: (Engine Initialization) Total time: 27.46 seconds
+[2018.10.22-17.49.35:058][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.22-17.49.35:092][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.22-17.49.35:100][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.22-17.49.35:158][  0]LogSlate: Took 0.006245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.22-17.49.35:253][  1]LogAssetRegistry: Asset discovery search completed in 15.1489 seconds
+[2018.10.22-17.49.35:256][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.10.22-17.49.35:256][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000174 seconds (updated 0 objects)
+[2018.10.22-17.49.43:467][898]LogSlate: Window 'Message Log' being destroyed
+[2018.10.22-17.49.43:470][898]LogSlate: Window 'Message Log' being destroyed
+[2018.10.22-17.49.43:779][933]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere2)
+[2018.10.22-17.49.43:913][934]LogSlate: Took 0.000426 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.22-17.49.43:917][934]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.22-17.49.44:088][934]LogSavePackage: Moving '../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Saved/Minimal_DefaultE72D0DFD48C1E5A6FC2AF586E53BA58B.tmp' to '../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.10.22-17.49.44:777][  1]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-17.49.44:875][  9]Candidate modules for hot reload:
+[2018.10.22-17.49.44:875][  9]  SideyCPP
+[2018.10.22-17.49.44:876][  9]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SideyCPP,1850 Win64 Development -TargetType=Editor -Project="../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/SideyCPP.uproject" -canskiplink "C:/Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/SideyCPP.uproject" ]
+[2018.10.22-17.49.44:880][  9]Warning: Starting HotReload took  0.0s.
+[2018.10.22-17.49.51:117][675]CompilerResultsLog: New page: Compilation - 22 Oct 2018 19:49:51
+[2018.10.22-17.49.51:118][675]CompilerResultsLog: Performing full C++ include scan (hot reloading a new target)
+[2018.10.22-17.49.51:118][675]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.10.22-17.49.51:118][675]CompilerResultsLog: Creating makefile for hot reloading SideyCPPEditor (.uproject file is newer)
+[2018.10.22-17.49.51:118][675]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.22-17.49.51:118][675]CompilerResultsLog: Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.10.22-17.49.51:118][675]CompilerResultsLog: Target is up to date
+[2018.10.22-17.49.51:118][675]CompilerResultsLog: Total build time: 5.97 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.10.22-17.49.51:118][675]LogMainFrame: MainFrame: Module compiling took 6.250 seconds
+[2018.10.22-17.49.51:157][675]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2577 classes and 607 folders.
+[2018.10.22-17.49.51:158][675]Display: HotReload took  6.3s.
+[2018.10.22-17.50.01:225][593]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.22-17.50.01:243][593]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.22-17.50.01:243][593]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.22-17.50.01:259][593]PIE: New page: PIE session: Minimal_Default (22 Oct 2018 19:50:01)
+[2018.10.22-17.50.01:259][593]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.10.22-17.50.01:265][593]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005766s)
+[2018.10.22-17.50.01:266][593]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.22-17.50.01:267][593]LogPlayLevel: PIE: World Init took: (0.001607s)
+[2018.10.22-17.50.01:267][593]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008035s)
+[2018.10.22-17.50.01:310][593]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.22-17.50.01:326][593]LogInit: FAudioDevice initialized.
+[2018.10.22-17.50.01:939][593]LogTexture: Display: Building textures: spiderman_body_d (AutoDXT, 1024X1024)
+[2018.10.22-17.50.01:940][593]LogMaterial: Display: Missing cached shader map for material spiderman_body, compiling. 
+[2018.10.22-17.50.02:018][593]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.10.22-17.50.02:018][593]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.10.22-17.50.02:019][593]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.10.22-17.50.02:019][593]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.10.22-17.50.02:019][593]LogSkeletalMesh: Building Skeletal Mesh Toby...
+[2018.10.22-17.50.02:033][593]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/Models/Spiderman/Toby.Toby
+[2018.10.22-17.50.02:034][593]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Models/Spiderman/Animations/Walking_Anim.Walking_Anim
+[2018.10.22-17.50.02:035][593]LogAnimationCompression: Recompressing (AnimSequence /Game/Models/Spiderman/Animations/Walking_Anim.Walking_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.22-17.50.02:038][593]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Models/Spiderman/Animations/Right_Strafe_Walking_Anim.Right_Strafe_Walking_Anim
+[2018.10.22-17.50.02:038][593]LogAnimationCompression: Recompressing (AnimSequence /Game/Models/Spiderman/Animations/Right_Strafe_Walking_Anim.Right_Strafe_Walking_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.22-17.50.02:041][593]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Models/Spiderman/Animations/Running_Anim_Backwards.Running_Anim_Backwards
+[2018.10.22-17.50.02:041][593]LogAnimationCompression: Recompressing (AnimSequence /Game/Models/Spiderman/Animations/Running_Anim_Backwards.Running_Anim_Backwards) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.22-17.50.02:043][593]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Models/Spiderman/Animations/Dance_Anim.Dance_Anim
+[2018.10.22-17.50.02:044][593]LogAnimationCompression: Recompressing (AnimSequence /Game/Models/Spiderman/Animations/Dance_Anim.Dance_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.22-17.50.02:049][593]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Models/Spiderman/Animations/Falling_Idle_Anim.Falling_Idle_Anim
+[2018.10.22-17.50.02:049][593]LogAnimationCompression: Recompressing (AnimSequence /Game/Models/Spiderman/Animations/Falling_Idle_Anim.Falling_Idle_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.22-17.50.02:051][593]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Models/Spiderman/Animations/Jump_Start_Anim.Jump_Start_Anim
+[2018.10.22-17.50.02:051][593]LogAnimationCompression: Recompressing (AnimSequence /Game/Models/Spiderman/Animations/Jump_Start_Anim.Jump_Start_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.22-17.50.02:082][593]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Models/Spiderman/Animations/Left_Strafe_Walking_Anim.Left_Strafe_Walking_Anim
+[2018.10.22-17.50.02:083][593]LogAnimationCompression: Recompressing (AnimSequence /Game/Models/Spiderman/Animations/Left_Strafe_Walking_Anim.Left_Strafe_Walking_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.22-17.50.02:086][593]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Models/Spiderman/Animations/Right_Strafe_Anim.Right_Strafe_Anim
+[2018.10.22-17.50.02:086][593]LogAnimationCompression: Recompressing (AnimSequence /Game/Models/Spiderman/Animations/Right_Strafe_Anim.Right_Strafe_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.22-17.50.02:087][593]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Models/Spiderman/Animations/Left_Strafe_Anim.Left_Strafe_Anim
+[2018.10.22-17.50.02:088][593]LogAnimationCompression: Recompressing (AnimSequence /Game/Models/Spiderman/Animations/Left_Strafe_Anim.Left_Strafe_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.22-17.50.02:089][593]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Models/Spiderman/Animations/Idle_Anim.Idle_Anim
+[2018.10.22-17.50.02:090][593]LogAnimationCompression: Recompressing (AnimSequence /Game/Models/Spiderman/Animations/Idle_Anim.Idle_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.10.22-17.50.02:096][593]LogLoad: Game class is 'MySideyCPPGameModeBase_C'
+[2018.10.22-17.50.02:100][593]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.10.22-18.50.02
+[2018.10.22-17.50.02:101][593]LogWorld: Bringing up level for play took: 0.002051
+[2018.10.22-17.50.02:125][593]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 10 classes and 0 folders.
+[2018.10.22-17.50.02:136][593]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.262
+[2018.10.22-17.50.02:136][593]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.22-17.50.04:421][817]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.22-17.50.04:421][817]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-17.50.04:471][817]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.22-17.50.04:471][817]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.22-17.50.04:502][817]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-17.50.04:534][818]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2018.10.22-17.50.05:197][891]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.10.22-17.50.05:456][913]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.22-17.50.05:687][936]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.10.22-17.50.06:338][  3]MapCheck: New page: Map Check
+[2018.10.22-17.50.06:355][  3]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.22-17.50.06:362][  3]LightingResults: New page: Lighting Build - 22 Oct 2018 19:50:06
+[2018.10.22-17.50.06:560][  3]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.10.22-17.50.06:744][  3]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.10.22-17.50.06:764][  3]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.10.22-17.50.07:298][  3]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.10.22-17.50.07:298][  3]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1588
+[2018.10.22-17.50.18:912][  3]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.10.22-17.50.18:913][  3]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.10.22-17.50.18:913][  3]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.10.22-17.50.18:913][  3]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.10.22-17.50.18:913][  3]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.10.22-17.50.18:913][  3]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.10.22-17.50.19:132][  3]LogEditorBuildUtils: Build time 0:12
+[2018.10.22-17.50.19:146][  3]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Copper, compiling. 
+[2018.10.22-17.50.19:162][  3]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.22-17.50.19:162][  3]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Copper, compiling. 
+[2018.10.22-17.50.19:193][  3]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.22-17.50.19:205][  4]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
+[2018.10.22-17.50.19:211][  4]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.22-17.50.19:211][  4]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
+[2018.10.22-17.50.19:229][  4]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.22-17.50.19:263][  5]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2018.10.22-17.50.19:269][  5]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2018.10.22-17.50.19:347][  6]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2018.10.22-17.50.19:358][  6]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2018.10.22-17.50.21:269][  7]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.10.22-17.50.25:550][269]Job is a success!
+[2018.10.22-17.50.25:582][270]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.22-17.50.25:654][270]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.059s
+[2018.10.22-17.50.25:654][270]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.10.22-17.50.25:654][270]LogVolumetricLightmapImport:      BrickData 1280x15x5 = 3.8Mb (trimmed 0.2Mb due to 0.010000 MinBrickError)
+[2018.10.22-17.50.25:654][270]LogVolumetricLightmapImport:      Bricks at Level
+[2018.10.22-17.50.25:654][270]LogVolumetricLightmapImport:          0: 0.2% covering 100.0% of volume
+[2018.10.22-17.50.25:655][270]LogVolumetricLightmapImport:          1: 4.0% covering 34.4% of volume
+[2018.10.22-17.50.25:655][270]LogVolumetricLightmapImport:          2: 95.9% covering 13.0% of volume
+[2018.10.22-17.50.25:775][270]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 256X128)
+[2018.10.22-17.50.25:775][270]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2018.10.22-17.50.25:776][270]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2018.10.22-17.50.25:776][270]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2018.10.22-17.50.25:776][270]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2018.10.22-17.50.25:776][270]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2018.10.22-17.50.25:776][270]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 64X32)
+[2018.10.22-17.50.25:776][270]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2018.10.22-17.50.25:776][270]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2018.10.22-17.50.25:776][270]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 32X32)
+[2018.10.22-17.50.25:776][270]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2018.10.22-17.50.25:776][270]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 256X128)
+[2018.10.22-17.50.25:804][270]Lightmass on A007-27: 3.05 sec total, 134 ms importing, 16 ms setup, 638 ms photons, 2.23 sec processing, 0 ms extra exporting [6/6 mappings]. Threads: 15.4 sec total, 897 ms processing.
+[2018.10.22-17.50.25:870][270]LogStaticLightingSystem: Illumination: 19.4 sec (51 ms encoding lightmaps, 11 ms encoding shadowmaps)
+[2018.10.22-17.50.25:871][270]LogStaticLightingSystem: Lightmap texture memory:  0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 6 textures
+[2018.10.22-17.50.25:871][270]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 3 textures
+[2018.10.22-17.50.25:930][270]DumpUnbuiltLightIteractions
+[2018.10.22-17.50.25:930][270]Lights with unbuilt interactions: 0
+[2018.10.22-17.50.25:930][270]
+[2018.10.22-17.50.25:930][270]Primitives with unbuilt interactions: 0
+[2018.10.22-17.50.25:937][270]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.22-17.50.26:006][271]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.10.22-17.50.26:007][271]MapCheck: New page: Minimal_Default - 22 Oct 2018 19:50:26
+[2018.10.22-17.50.26:136][271]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 129.97ms to complete.
+[2018.10.22-17.50.28:387][524]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-17.50.28:445][531]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.22-17.50.28:464][531]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.22-17.50.28:464][531]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.22-17.50.28:464][531]PIE: New page: PIE session: Minimal_Default (22 Oct 2018 19:50:28)
+[2018.10.22-17.50.28:465][531]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.10.22-17.50.28:468][531]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003491s)
+[2018.10.22-17.50.28:469][531]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.22-17.50.28:469][531]LogPlayLevel: PIE: World Init took: (0.000793s)
+[2018.10.22-17.50.28:469][531]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004703s)
+[2018.10.22-17.50.28:503][531]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.22-17.50.28:518][531]LogInit: FAudioDevice initialized.
+[2018.10.22-17.50.28:553][531]LogLoad: Game class is 'MySideyCPPGameModeBase_C'
+[2018.10.22-17.50.28:556][531]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.10.22-18.50.28
+[2018.10.22-17.50.28:557][531]LogWorld: Bringing up level for play took: 0.001825
+[2018.10.22-17.50.28:577][531]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.704
+[2018.10.22-17.50.28:577][531]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.22-17.50.35:325][279]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.22-17.50.35:326][279]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-17.50.35:365][279]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.22-17.50.35:365][279]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.22-17.50.35:434][279]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-17.50.35:472][280]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2018.10.22-17.50.38:710][628]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-17.50.42:575][ 35]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.10.22-17.50.42:682][ 36]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.22-17.50.42:818][ 36]LogSavePackage: Moving '../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Saved/Minimal_DefaultEC28F34F4F0FEEBEB93402921FB2EA43.tmp' to '../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.10.22-17.50.42:921][ 36]LogSavePackage: Moving '../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Saved/Minimal_Default_BuiltDataBAF0C3BD48B8BCE81BD311AFE93423ED.tmp' to '../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2018.10.22-17.50.43:587][107]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-17.50.43:685][113]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.22-17.50.43:706][113]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.22-17.50.43:707][113]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.22-17.50.43:707][113]PIE: New page: PIE session: Minimal_Default (22 Oct 2018 19:50:43)
+[2018.10.22-17.50.43:707][113]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.10.22-17.50.43:711][113]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003522s)
+[2018.10.22-17.50.43:711][113]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.22-17.50.43:712][113]LogPlayLevel: PIE: World Init took: (0.000906s)
+[2018.10.22-17.50.43:712][113]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004880s)
+[2018.10.22-17.50.43:748][113]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.22-17.50.43:763][113]LogInit: FAudioDevice initialized.
+[2018.10.22-17.50.43:803][113]LogLoad: Game class is 'MySideyCPPGameModeBase_C'
+[2018.10.22-17.50.43:806][113]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.10.22-18.50.43
+[2018.10.22-17.50.43:807][113]LogWorld: Bringing up level for play took: 0.001952
+[2018.10.22-17.50.43:827][113]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.047
+[2018.10.22-17.50.43:828][113]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.22-17.50.49:175][704]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:182][705]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:190][706]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:198][707]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:207][708]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:215][709]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:223][710]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:232][711]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:240][712]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:248][713]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:257][714]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:265][715]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:274][716]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:282][717]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:292][718]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:300][719]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:308][720]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:317][721]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:325][722]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:334][723]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:342][724]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:351][725]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:359][726]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:367][727]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:376][728]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:384][729]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:393][730]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:401][731]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:409][732]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:419][733]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:427][734]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:438][735]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:446][736]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:454][737]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:462][738]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:471][739]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:479][740]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:487][741]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:496][742]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:504][743]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:512][744]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:520][745]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:528][746]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:540][747]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:550][748]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:559][749]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:568][750]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:577][751]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:585][752]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:593][753]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:602][754]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:610][755]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:618][756]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:627][757]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:635][758]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:644][759]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:652][760]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:660][761]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:671][762]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:681][763]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:689][764]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:697][765]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:706][766]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:714][767]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:722][768]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:731][769]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:742][770]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:752][771]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:761][772]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:774][773]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:782][774]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:790][775]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:799][776]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:807][777]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:816][778]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:824][779]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:836][780]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:846][781]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:855][782]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:863][783]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:872][784]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:880][785]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:888][786]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:898][787]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:907][788]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:917][789]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:925][790]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:934][791]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:942][792]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:951][793]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:959][794]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:967][795]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.49:993][796]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.50:051][797]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.50:064][798]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.50:075][799]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.50:086][800]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.50:096][801]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.50:104][802]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.50:113][803]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.50:123][804]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.50:133][805]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.50:142][806]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.50:150][807]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.50:158][808]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.50:167][809]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.50:176][810]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.50:188][811]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.50:196][812]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.50:204][813]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.50:213][814]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.50:221][815]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.50:231][816]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.50:240][817]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.50:248][818]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.50:256][819]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.50:264][820]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.50:275][821]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.50:283][822]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.50:291][823]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.50:302][824]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.50:314][825]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.50:322][826]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.50:330][827]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.50:339][828]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.50:347][829]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.55:122][365]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.55:130][366]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.50.55:141][367]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.06:526][635]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.22-17.51.06:526][635]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-17.51.06:572][635]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.22-17.51.06:573][635]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.22-17.51.06:615][635]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-17.51.06:633][636]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2018.10.22-17.51.26:538][754]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-17.51.26:983][780]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere2)
+[2018.10.22-17.51.28:772][960]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-17.51.28:849][969]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.22-17.51.28:866][969]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.22-17.51.28:867][969]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.22-17.51.28:867][969]PIE: New page: PIE session: Minimal_Default (22 Oct 2018 19:51:28)
+[2018.10.22-17.51.28:867][969]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.10.22-17.51.28:870][969]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003271s)
+[2018.10.22-17.51.28:871][969]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.22-17.51.28:871][969]LogPlayLevel: PIE: World Init took: (0.000960s)
+[2018.10.22-17.51.28:872][969]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004654s)
+[2018.10.22-17.51.28:906][969]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.22-17.51.28:920][969]LogInit: FAudioDevice initialized.
+[2018.10.22-17.51.28:960][969]LogLoad: Game class is 'MySideyCPPGameModeBase_C'
+[2018.10.22-17.51.28:963][969]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.10.22-18.51.28
+[2018.10.22-17.51.28:964][969]LogWorld: Bringing up level for play took: 0.002156
+[2018.10.22-17.51.28:984][969]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.111
+[2018.10.22-17.51.28:984][969]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.22-17.51.49:834][281]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.49:842][282]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.49:850][283]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.49:859][284]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.49:867][285]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.49:876][286]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.49:885][287]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.49:893][288]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.49:902][289]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.49:910][290]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.49:919][291]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.49:927][292]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.49:936][293]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.49:945][294]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.49:954][295]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.49:962][296]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.49:971][297]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.49:980][298]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.49:988][299]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:555][812]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:564][813]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:572][814]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:581][815]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:589][816]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:598][817]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:606][818]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:614][819]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:622][820]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:631][821]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:640][822]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:648][823]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:656][824]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:665][825]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:673][826]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:681][827]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:690][828]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:697][829]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:705][830]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:714][831]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:722][832]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:730][833]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:739][834]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:747][835]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:755][836]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:764][837]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:772][838]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:781][839]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:789][840]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:798][841]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:806][842]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:815][843]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:823][844]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:831][845]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:839][846]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:848][847]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:856][848]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:865][849]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:873][850]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:881][851]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:890][852]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:900][853]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:908][854]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:916][855]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:925][856]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:933][857]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:941][858]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:950][859]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:958][860]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:966][861]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:975][862]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:983][863]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.54:991][864]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:000][865]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:057][866]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:067][867]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:074][868]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:083][869]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:093][870]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:101][871]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:112][872]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:121][873]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:129][874]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:140][875]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:148][876]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:156][877]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:164][878]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:173][879]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:181][880]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:189][881]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:198][882]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:206][883]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:215][884]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:223][885]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:231][886]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:240][887]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:249][888]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:257][889]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:265][890]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:273][891]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:281][892]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:289][893]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:299][894]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:307][895]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:316][896]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:324][897]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:332][898]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:341][899]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:349][900]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:357][901]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:366][902]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:374][903]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:383][904]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:391][905]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:400][906]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:408][907]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:416][908]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:424][909]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:433][910]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:441][911]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:451][912]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:459][913]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:467][914]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:475][915]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:484][916]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:492][917]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:500][918]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:512][919]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:520][920]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:529][921]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:536][922]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:545][923]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:553][924]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:561][925]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:570][926]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:578][927]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:587][928]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.51.55:595][929]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.52.00:593][474]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.52.00:601][475]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.52.00:610][476]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.52.00:618][477]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.52.00:626][478]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.52.00:635][479]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.52.00:643][480]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.52.00:651][481]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.52.00:660][482]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.52.00:668][483]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.52.00:677][484]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.52.00:685][485]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.52.00:692][486]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.52.00:703][487]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.52.00:712][488]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.52.00:720][489]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.52.00:728][490]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.52.00:737][491]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.52.00:745][492]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.52.00:753][493]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.52.00:762][494]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.52.00:770][495]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.52.00:779][496]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.52.00:787][497]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.52.00:795][498]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.52.00:804][499]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.52.26:252][345]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.22-17.52.26:253][345]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-17.52.26:293][345]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.22-17.52.26:294][345]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.22-17.52.26:336][345]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-17.52.26:355][346]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2018.10.22-17.52.26:807][399]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.22-17.52.26:962][399]LogSavePackage: Moving '../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Saved/Minimal_DefaultF2738F164F98792B589FA28156E32ED5.tmp' to '../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.10.22-17.52.27:068][399]LogSavePackage: Moving '../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Saved/Minimal_Default_BuiltData0B241E5C462B296E24294D92D8D658A0.tmp' to '../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'

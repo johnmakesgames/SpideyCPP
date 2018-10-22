@@ -1,0 +1,831 @@
+﻿Log file open, 10/22/18 18:56:51
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: SideyCPP
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.394136
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.178s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Xeon(R) W-2123 CPU @ 3.60GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Epic/UE4/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.005s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.10.22-17.56.52:206][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.22-17.56.52:207][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.22-17.56.52:228][  0]LogHAL: Display: Platform has ~ 32 GB [34065870848 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.22-17.56.52:228][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.22-17.56.52:228][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.22-17.56.52:228][  0]LogInit: Computer: A007-27
+[2018.10.22-17.56.52:228][  0]LogInit: User: w017177h
+[2018.10.22-17.56.52:228][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.22-17.56.52:228][  0]LogInit: High frequency timer resolution =3.515623 MHz
+[2018.10.22-17.56.52:229][  0]LogMemory: Memory total: Physical=31.7GB (32GB approx)
+[2018.10.22-17.56.52:229][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.22-17.56.52:229][  0]LogMemory: Process Physical Memory: 100.89 MB used, 100.89 MB peak
+[2018.10.22-17.56.52:229][  0]LogMemory: Process Virtual Memory: 91.00 MB used, 91.00 MB peak
+[2018.10.22-17.56.52:229][  0]LogMemory: Physical Memory: 8278.86 MB used,  24208.89 MB free, 32487.75 MB total
+[2018.10.22-17.56.52:229][  0]LogMemory: Virtual Memory: 4640.09 MB used,  24208.89 MB free, 134217728.00 MB total
+[2018.10.22-17.56.52:354][  0]LogInit: Using OS detected language (en-US).
+[2018.10.22-17.56.52:354][  0]LogInit: Using OS detected locale (en-GB).
+[2018.10.22-17.56.52:355][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.10.22-17.56.52:727][  0]LogStreaming: Display: Took  0.373s to InitEngineTextLocalization.
+[2018.10.22-17.56.52:727][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.22-17.56.52:783][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.22-17.56.52:783][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.22-17.56.53:068][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.22-17.56.53:068][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.22-17.56.53:152][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.10.22-17.56.53:152][  0]LogD3D11RHI:       8088/0/16243 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.10.22-17.56.53:157][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.22-17.56.53:158][  0]LogD3D11RHI:       0/0/16243 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.22-17.56.53:158][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.22-17.56.53:165][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.22-17.56.53:165][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.22-17.56.53:165][  0]LogWindows: EnumDisplayDevices:
+[2018.10.22-17.56.53:165][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.10.22-17.56.53:166][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.10.22-17.56.53:166][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.10.22-17.56.53:166][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.10.22-17.56.53:166][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.10.22-17.56.53:166][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.10.22-17.56.53:166][  0]LogD3D11RHI:   Driver Version: 399.24 (internal:24.21.13.9924, unified:399.24)
+[2018.10.22-17.56.53:166][  0]LogD3D11RHI:      Driver Date: 9-5-2018
+[2018.10.22-17.56.53:166][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2018.10.22-17.56.53:210][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.22-17.56.53:229][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.10.22-17.56.53:232][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Intermediate/Shaders/WorkingDirectory/15576/).
+[2018.10.22-17.56.53:232][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/w017177h/AppData/Local/Temp/UnrealShaderWorkingDir/4E6921DE4343DD1B73BCE596384B70D7/'.
+[2018.10.22-17.56.53:489][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.22-17.56.53:504][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.22-17.56.53:522][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.22-17.56.53:538][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.22-17.56.53:554][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.22-17.56.53:572][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.22-17.56.53:588][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.22-17.56.53:604][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.22-17.56.53:618][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.22-17.56.53:706][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-17.56.53:706][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-17.56.53:707][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-17.56.53:707][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-17.56.53:707][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-17.56.53:707][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-17.56.53:707][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-17.56.53:707][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-17.56.53:707][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-17.56.53:707][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-17.56.53:707][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-17.56.53:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-17.56.53:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-17.56.53:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-17.56.53:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-17.56.53:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-17.56.53:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-17.56.53:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-17.56.53:716][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.22-17.56.53:820][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.22-17.56.53:820][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.22-17.56.53:852][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.22-17.56.53:852][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.22-17.56.53:886][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.22-17.56.53:900][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.22-17.56.53:918][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.22-17.56.53:933][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.22-17.56.53:947][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.22-17.56.53:947][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.22-17.56.54:137][  0]LogXGEController: Cleaning working directory: C:/Users/w017177h/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.10.22-17.56.54:137][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.22-17.56.54:138][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.22-17.56.54:138][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.22-17.56.54:956][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.22-17.56.55:032][  0]LogDerivedDataCache: Loaded boot cache 0.07s 87MB C:/Users/w017177h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.22-17.56.55:032][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/w017177h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.22-17.56.55:032][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.22-17.56.55:032][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.22-17.56.55:032][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.22-17.56.55:032][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.22-17.56.55:044][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.22-17.56.55:060][  0]LogDerivedDataCache: Using Local data cache path C:/Users/w017177h/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.22-17.56.55:060][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.22-17.56.55:060][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.22-17.56.55:078][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.22-17.56.55:082][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.22-17.56.55:083][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.22-17.56.55:185][  0]LogAssetRegistry: FAssetRegistry took 0.0526 seconds to start up
+[2018.10.22-17.56.55:554][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.22-17.56.55:719][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.22-17.56.55:728][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.22-17.56.55:728][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.22-17.56.55:728][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.22-17.56.55:728][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.22-17.56.55:744][  0]LogNetVersion: SideyCPP 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 583984258)
+[2018.10.22-17.56.56:375][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.129660 seconds
+[2018.10.22-17.56.56:382][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.22-17.56.56:382][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.10.22-17.56.56:382][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.22-17.56.57:349][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.22-17.56.57:367][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.22-17.56.57:572][  0]SourceControl: Source control is disabled
+[2018.10.22-17.56.57:572][  0]SourceControl: Source control is disabled
+[2018.10.22-17.56.57:575][  0]SourceControl: Source control is disabled
+[2018.10.22-17.56.57:578][  0]SourceControl: Source control is disabled
+[2018.10.22-17.56.57:882][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.22-17.56.57:985][  0]LogOcInput: OculusInput pre-init called
+[2018.10.22-17.56.58:051][  0]LogEngine: Initializing Engine...
+[2018.10.22-17.56.58:052][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.22-17.56.58:053][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.22-17.56.58:053][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.22-17.56.58:054][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.22-17.56.58:054][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.22-17.56.58:271][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.22-17.56.58:289][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.22-17.56.58:373][  0]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.22-17.56.58:401][  0]LogInit: FAudioDevice initialized.
+[2018.10.22-17.56.58:401][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.22-17.56.58:461][  0]LogDerivedDataCache: Saved boot cache 0.06s 71MB C:/Users/w017177h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.22-17.56.58:478][  0]LogInit: Texture streaming: Enabled
+[2018.10.22-17.56.58:519][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.22-17.56.58:519][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={8409ED47-4386-623E-85EC-2280FE9F047E}
+[2018.10.22-17.56.58:519][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={7D1B3AD8-4E90-C753-B04E-7788FCDB1BD3}
+[2018.10.22-17.56.58:534][  0]LogInit: Transaction tracking system initialized
+[2018.10.22-17.56.58:581][  0]BlueprintLog: New page: Editor Load
+[2018.10.22-17.56.58:727][  0]LocalizationService: Localization service is disabled
+[2018.10.22-17.56.59:027][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.22-17.56.59:028][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.22-17.56.59:028][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.22-17.56.59:028][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.22-17.56.59:028][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.22-17.56.59:028][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.22-17.56.59:029][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.22-17.56.59:145][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Content/' took 0.02s
+[2018.10.22-17.56.59:238][  0]SourceControl: Source control is disabled
+[2018.10.22-17.56.59:238][  0]Cmd: MAP LOAD FILE="../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.22-17.56.59:239][  0]LightingResults: New page: Lighting Build
+[2018.10.22-17.56.59:243][  0]MapCheck: New page: Map Check
+[2018.10.22-17.56.59:243][  0]LightingResults: New page: Lighting Build
+[2018.10.22-17.56.59:532][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.22-17.56.59:543][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.22-17.56.59:579][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.22-17.56.59:686][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 106.969ms to complete.
+[2018.10.22-17.56.59:686][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.449
+[2018.10.22-17.56.59:844][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-17.56.59:851][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-17.56.59:857][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-17.56.59:864][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-17.56.59:873][  0]LogCollectionManager: Loaded 0 collections in 0.002300 seconds
+[2018.10.22-17.56.59:940][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Saved/Collections/' took 0.01s
+[2018.10.22-17.56.59:940][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Content/Developers/w017177h/Collections/' took 0.02s
+[2018.10.22-17.56.59:940][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Content/Collections/' took 0.02s
+[2018.10.22-17.56.59:941][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.10.22-17.56.59:958][  0]LogContentBrowser: Native class hierarchy populated in 0.0162 seconds. Added 2576 classes and 605 folders.
+[2018.10.22-17.56.59:971][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.10.22-17.57.00:036][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.10.22-17.57.00:045][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.10.22-17.57.00:060][  0]LogSlate: Took 0.000275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.22-17.57.00:063][  0]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.22-17.57.00:069][  0]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.22-17.57.00:146][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.10.22-17.57.00:279][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.22-17.57.00:293][  0]LogSlate: Window 'Tutorials' being destroyed
+[2018.10.22-17.57.00:331][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.10.22-17.57.00:331][  0]LogLoad: (Engine Initialization) Total time: 10.48 seconds
+[2018.10.22-17.57.00:331][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.22-17.57.00:363][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.22-17.57.00:388][  0]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.22-17.57.00:459][  1]LogAssetRegistry: Asset discovery search completed in 5.3209 seconds
+[2018.10.22-17.57.00:463][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.10.22-17.57.00:463][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000213 seconds (updated 0 objects)
+[2018.10.22-17.57.17:282][788]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-17.57.17:727][811]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.10.22-17.57.20:333][ 84]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-17.57.20:411][ 93]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.22-17.57.20:429][ 93]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.22-17.57.20:429][ 93]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.22-17.57.20:443][ 93]PIE: New page: PIE session: Minimal_Default (22 Oct 2018 19:57:20)
+[2018.10.22-17.57.20:444][ 93]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.10.22-17.57.20:448][ 93]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004158s)
+[2018.10.22-17.57.20:449][ 93]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.22-17.57.20:449][ 93]LogPlayLevel: PIE: World Init took: (0.001068s)
+[2018.10.22-17.57.20:449][ 93]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005655s)
+[2018.10.22-17.57.20:485][ 93]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.22-17.57.20:516][ 93]LogInit: FAudioDevice initialized.
+[2018.10.22-17.57.20:755][ 93]LogLoad: Game class is 'MySideyCPPGameModeBase_C'
+[2018.10.22-17.57.20:757][ 93]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.10.22-18.57.20
+[2018.10.22-17.57.20:758][ 93]LogWorld: Bringing up level for play took: 0.001076
+[2018.10.22-17.57.20:778][ 93]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 10 classes and 0 folders.
+[2018.10.22-17.57.20:782][ 93]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.909
+[2018.10.22-17.57.20:783][ 93]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.22-17.57.27:950][895]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.27:959][896]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.27:967][897]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.27:975][898]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.27:983][899]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.27:992][900]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:000][901]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:008][902]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:017][903]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:025][904]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:033][905]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:042][906]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:050][907]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:057][908]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:066][909]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:075][910]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:082][911]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:091][912]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:100][913]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:108][914]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:116][915]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:125][916]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:133][917]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:142][918]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:151][919]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:159][920]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:168][921]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:176][922]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:185][923]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:193][924]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:201][925]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:210][926]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:218][927]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:226][928]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:235][929]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:243][930]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:252][931]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:262][932]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:270][933]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:279][934]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:287][935]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:296][936]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:304][937]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:312][938]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:321][939]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:329][940]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:337][941]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:346][942]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:354][943]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:362][944]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:371][945]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:379][946]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:387][947]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:396][948]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:404][949]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:412][950]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:421][951]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:429][952]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:436][953]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:445][954]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:454][955]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:464][956]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:473][957]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:481][958]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:489][959]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:498][960]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:506][961]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:514][962]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:523][963]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:531][964]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:540][965]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:548][966]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:556][967]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:565][968]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:573][969]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:581][970]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:590][971]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:598][972]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:606][973]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:615][974]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:623][975]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:631][976]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:640][977]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:648][978]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:656][979]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:665][980]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:673][981]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:682][982]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:690][983]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:698][984]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:707][985]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:715][986]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:723][987]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:732][988]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:740][989]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:748][990]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:757][991]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:765][992]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:773][993]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:782][994]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:790][995]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:799][996]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:806][997]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:814][998]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:823][999]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:831][  0]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:839][  1]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:848][  2]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:856][  3]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:864][  4]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:874][  5]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:881][  6]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:889][  7]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:898][  8]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:906][  9]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:915][ 10]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:923][ 11]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:931][ 12]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:940][ 13]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.28:986][ 14]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:013][ 15]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:025][ 16]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:035][ 17]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:043][ 18]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:051][ 19]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:060][ 20]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:068][ 21]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:076][ 22]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:085][ 23]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:093][ 24]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:101][ 25]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:110][ 26]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:118][ 27]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:126][ 28]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:135][ 29]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:143][ 30]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:151][ 31]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:160][ 32]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:168][ 33]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:176][ 34]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:184][ 35]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:192][ 36]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:200][ 37]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:209][ 38]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:217][ 39]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:225][ 40]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:234][ 41]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:242][ 42]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:251][ 43]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:259][ 44]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:267][ 45]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:276][ 46]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:284][ 47]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:292][ 48]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:302][ 49]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:310][ 50]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:318][ 51]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:327][ 52]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:335][ 53]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:343][ 54]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:352][ 55]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:360][ 56]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:368][ 57]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:377][ 58]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:386][ 59]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:393][ 60]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:402][ 61]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:410][ 62]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:419][ 63]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:427][ 64]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:438][ 65]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:447][ 66]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:454][ 67]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:463][ 68]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:471][ 69]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:484][ 70]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:492][ 71]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:501][ 72]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:509][ 73]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:517][ 74]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:526][ 75]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:534][ 76]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:542][ 77]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:551][ 78]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:558][ 79]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:566][ 80]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:575][ 81]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:583][ 82]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:592][ 83]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:600][ 84]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:608][ 85]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:617][ 86]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:625][ 87]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:633][ 88]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:642][ 89]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:650][ 90]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:659][ 91]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:667][ 92]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:675][ 93]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:683][ 94]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:692][ 95]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:700][ 96]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:709][ 97]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:717][ 98]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:725][ 99]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:738][100]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:749][101]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:759][102]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:766][103]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.29:775][104]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.30:754][211]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.22-17.57.30:754][211]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-17.57.30:796][211]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.22-17.57.30:796][211]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.22-17.57.30:838][211]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-17.57.30:857][212]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2018.10.22-17.57.31:042][234]Cmd: SELECT NONE
+[2018.10.22-17.57.31:914][327]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-17.57.31:981][335]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.22-17.57.32:000][335]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.22-17.57.32:000][335]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.22-17.57.32:000][335]PIE: New page: PIE session: Minimal_Default (22 Oct 2018 19:57:32)
+[2018.10.22-17.57.32:001][335]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.10.22-17.57.32:004][335]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003174s)
+[2018.10.22-17.57.32:005][335]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.22-17.57.32:005][335]LogPlayLevel: PIE: World Init took: (0.000759s)
+[2018.10.22-17.57.32:005][335]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004281s)
+[2018.10.22-17.57.32:038][335]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.22-17.57.32:052][335]LogInit: FAudioDevice initialized.
+[2018.10.22-17.57.32:093][335]LogLoad: Game class is 'MySideyCPPGameModeBase_C'
+[2018.10.22-17.57.32:096][335]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.10.22-18.57.32
+[2018.10.22-17.57.32:097][335]LogWorld: Bringing up level for play took: 0.001884
+[2018.10.22-17.57.32:117][335]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.243
+[2018.10.22-17.57.32:117][335]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.22-17.57.38:338][ 26]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:347][ 27]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:356][ 28]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:363][ 29]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:373][ 30]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:382][ 31]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:390][ 32]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:398][ 33]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:407][ 34]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:415][ 35]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:423][ 36]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:432][ 37]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:440][ 38]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:448][ 39]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:457][ 40]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:465][ 41]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:473][ 42]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:482][ 43]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:490][ 44]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:498][ 45]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:507][ 46]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:515][ 47]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:523][ 48]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:535][ 49]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:612][ 50]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:622][ 51]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:632][ 52]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:643][ 53]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:651][ 54]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:660][ 55]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:667][ 56]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:676][ 57]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:684][ 58]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:693][ 59]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:701][ 60]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:709][ 61]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:718][ 62]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:726][ 63]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:734][ 64]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:743][ 65]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:751][ 66]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:760][ 67]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:768][ 68]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:780][ 69]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:788][ 70]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:797][ 71]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:805][ 72]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:814][ 73]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:822][ 74]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:830][ 75]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:839][ 76]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:847][ 77]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:855][ 78]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:864][ 79]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:872][ 80]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:880][ 81]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:889][ 82]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:897][ 83]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:905][ 84]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:914][ 85]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:922][ 86]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:931][ 87]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:939][ 88]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:947][ 89]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:956][ 90]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:964][ 91]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:972][ 92]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:981][ 93]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:989][ 94]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.38:998][ 95]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:005][ 96]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:013][ 97]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:022][ 98]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:030][ 99]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:038][100]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:047][101]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:055][102]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:064][103]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:072][104]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:080][105]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:088][106]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:097][107]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:105][108]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:113][109]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:122][110]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:130][111]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:139][112]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:150][113]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:158][114]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:166][115]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:175][116]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:183][117]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:192][118]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:201][119]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:210][120]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:219][121]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:227][122]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:235][123]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:243][124]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:252][125]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:260][126]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:268][127]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:277][128]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:285][129]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:294][130]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:302][131]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:310][132]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:318][133]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:327][134]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:335][135]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:343][136]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:352][137]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:363][138]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:371][139]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:378][140]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:387][141]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:395][142]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:404][143]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:412][144]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:421][145]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:432][146]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:440][147]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:448][148]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:457][149]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:465][150]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:473][151]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:482][152]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:490][153]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:499][154]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:507][155]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:515][156]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:524][157]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:535][158]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:543][159]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:553][160]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:562][161]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:570][162]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:579][163]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:587][164]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:595][165]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:606][166]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:652][167]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:672][168]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:680][169]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:688][170]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:697][171]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:705][172]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:713][173]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:722][174]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:730][175]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:739][176]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:747][177]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:754][178]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:763][179]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:771][180]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:779][181]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:788][182]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:796][183]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:804][184]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:813][185]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:821][186]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:829][187]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:838][188]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:846][189]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:855][190]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:865][191]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:873][192]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:882][193]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:890][194]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:899][195]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:907][196]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:915][197]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:924][198]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:932][199]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:940][200]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:949][201]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:957][202]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:966][203]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:974][204]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:982][205]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:991][206]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.39:999][207]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:008][208]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:018][209]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:027][210]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:038][211]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:047][212]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:055][213]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:064][214]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:072][215]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:080][216]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:088][217]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:097][218]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:105][219]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:113][220]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:121][221]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:129][222]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:138][223]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:146][224]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:154][225]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:163][226]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:171][227]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:179][228]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:187][229]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:196][230]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:207][231]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:216][232]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:224][233]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:232][234]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:241][235]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:250][236]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:258][237]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:266][238]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:275][239]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:287][240]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:295][241]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:303][242]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:312][243]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:320][244]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:328][245]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:337][246]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:345][247]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:353][248]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:361][249]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:369][250]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:378][251]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:386][252]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:394][253]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:403][254]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:411][255]LogBlueprintUserMessages: [Player_C_0] I hit a wall
+[2018.10.22-17.57.40:412][255]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.22-17.57.40:413][255]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-17.57.40:457][255]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.22-17.57.40:458][255]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.22-17.57.40:501][255]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-17.57.40:519][256]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2018.10.22-17.57.40:936][298]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.22-17.57.40:940][298]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.22-17.57.41:081][298]LogSavePackage: Moving '../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Saved/Minimal_Default55B5519840CA2DE309E8808BDCCA8883.tmp' to '../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.10.22-17.57.41:227][298]LogSavePackage: Moving '../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Saved/Minimal_Default_BuiltData7C0BE34C4A9B314913A85CBE6C3EF220.tmp' to '../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
