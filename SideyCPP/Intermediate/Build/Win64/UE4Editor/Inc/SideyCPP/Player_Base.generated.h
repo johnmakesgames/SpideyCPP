@@ -19,9 +19,10 @@ struct FVector;
  \
 	DECLARE_FUNCTION(execHitWall) \
 	{ \
+		P_GET_UBOOL(Z_Param_isFloor); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->HitWall(); \
+		P_THIS->HitWall(Z_Param_isFloor); \
 		P_NATIVE_END; \
 	} \
  \
@@ -39,9 +40,10 @@ struct FVector;
  \
 	DECLARE_FUNCTION(execHitWall) \
 	{ \
+		P_GET_UBOOL(Z_Param_isFloor); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->HitWall(); \
+		P_THIS->HitWall(Z_Param_isFloor); \
 		P_NATIVE_END; \
 	} \
  \
@@ -56,6 +58,10 @@ struct FVector;
 
 
 #define SideyCPP_Source_SideyCPP_Player_Base_h_14_EVENT_PARMS \
+	struct Player_Base_eventAddRumble_Parms \
+	{ \
+		int32 type; \
+	}; \
 	struct Player_Base_eventRotateAroundAxis_Parms \
 	{ \
 		FVector adjustedPosition; \

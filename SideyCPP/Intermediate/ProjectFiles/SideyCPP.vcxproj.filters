@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\SideyCPP.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{CB77C348-66E0-4BC5-B438-6C790CFF94B7}</UniqueIdentifier>
+			<UniqueIdentifier>{0354E6EE-29F0-41BF-9E9A-ACEB94880AC1}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\SideyCPP.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{CF6D3AE5-7601-442A-9BDC-C176BAFE1D2F}</UniqueIdentifier>
+			<UniqueIdentifier>{6D60012A-8B2D-4494-A191-3BE46828B11A}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -28,7 +28,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\SideyCPP">
-			<UniqueIdentifier>{7BE1BA70-E593-4521-990C-EE9F0848F061}</UniqueIdentifier>
+			<UniqueIdentifier>{22430719-9B2A-413D-9AA8-5C0976DCF502}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\SideyCPP\Player_Base.cpp">
 			<Filter>Source\SideyCPP</Filter>

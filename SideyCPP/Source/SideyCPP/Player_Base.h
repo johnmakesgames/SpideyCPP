@@ -83,7 +83,7 @@ protected:
 	virtual void Swing();
 	virtual void CalculateSwingSpeed(FVector newLocation, FVector currentLocation);
 	virtual void StopSwinging(bool jumping);
-	void CheckClosest(FVector playerPos, FVector webPos, FVector* currentClosest);
+	virtual void CheckClosest(FVector playerPos, FVector webPos, FVector* currentClosest);
 
 
 public:	
@@ -97,9 +97,11 @@ public:
 	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category = "Player Movement")
 		void FindSwingPoint();
 	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category = "Player Movement")
+		void AddRumble(int type);
+	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category = "Player Movement")
 		void RotateAroundAxis(FVector adjustedPosition, float swingAngle);
 	UFUNCTION(BlueprintCallable, Category = "Player Movement")
 		void SetScannedObjects(TArray<AWebPoint*> scannedLocations);
 	UFUNCTION(BlueprintCallable, Category = "Player Movement")
-		void HitWall();
+		void HitWall(bool isFloor);
 };
