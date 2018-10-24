@@ -1,0 +1,808 @@
+﻿Log file open, 10/24/18 23:51:47
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: SideyCPP
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.400640
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.246s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.010s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.10.24-22.51.48:387][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.24-22.51.48:388][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.24-22.51.48:400][  0]LogHAL: Display: Platform has ~ 16 GB [17126547456 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.24-22.51.48:400][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.24-22.51.48:400][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.24-22.51.48:400][  0]LogInit: Computer: EDWARD
+[2018.10.24-22.51.48:400][  0]LogInit: User: John
+[2018.10.24-22.51.48:400][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.24-22.51.48:401][  0]LogInit: High frequency timer resolution =3.914065 MHz
+[2018.10.24-22.51.48:401][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.10.24-22.51.48:401][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.24-22.51.48:401][  0]LogMemory: Process Physical Memory: 101.03 MB used, 101.03 MB peak
+[2018.10.24-22.51.48:401][  0]LogMemory: Process Virtual Memory: 90.07 MB used, 90.07 MB peak
+[2018.10.24-22.51.48:401][  0]LogMemory: Physical Memory: 7181.52 MB used,  9151.63 MB free, 16333.15 MB total
+[2018.10.24-22.51.48:401][  0]LogMemory: Virtual Memory: 4638.52 MB used,  9151.63 MB free, 134217728.00 MB total
+[2018.10.24-22.51.48:526][  0]LogInit: Using OS detected language (en-US).
+[2018.10.24-22.51.48:526][  0]LogInit: Using OS detected locale (en-US).
+[2018.10.24-22.51.48:527][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.10.24-22.51.48:844][  0]LogStreaming: Display: Took  0.317s to InitEngineTextLocalization.
+[2018.10.24-22.51.48:844][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.24-22.51.48:877][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.24-22.51.48:878][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.24-22.51.49:132][  0]LogHMD: Failed to initialize OpenVR with code 102
+[2018.10.24-22.51.49:133][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.24-22.51.49:200][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2018.10.24-22.51.49:200][  0]LogD3D11RHI:       6061/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.10.24-22.51.49:206][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.24-22.51.49:206][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.24-22.51.49:206][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.24-22.51.49:213][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.24-22.51.49:213][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.24-22.51.49:213][  0]LogWindows: EnumDisplayDevices:
+[2018.10.24-22.51.49:213][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2018.10.24-22.51.49:214][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.10.24-22.51.49:215][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.10.24-22.51.49:215][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.10.24-22.51.49:216][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.10.24-22.51.49:216][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2018.10.24-22.51.49:216][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2018.10.24-22.51.49:216][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2018.10.24-22.51.49:216][  0]LogRHI: Texture pool is 4242 MB (70% of 6061 MB)
+[2018.10.24-22.51.49:248][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.24-22.51.49:265][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.10.24-22.51.49:314][  0]LogShaderCompilers: Guid format shader working directory is 4 characters bigger than the processId version (../../../../../../Git/SpideyCPP/SideyCPP/Intermediate/Shaders/WorkingDirectory/11852/).
+[2018.10.24-22.51.49:314][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/John/AppData/Local/Temp/UnrealShaderWorkingDir/F73C2F5D41E4A22C493F50B978353EDE/'.
+[2018.10.24-22.51.49:618][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.24-22.51.49:639][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.24-22.51.49:660][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.24-22.51.49:680][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.24-22.51.49:701][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.24-22.51.49:721][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.24-22.51.49:742][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.24-22.51.49:763][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.24-22.51.49:777][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.24-22.51.49:878][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-22.51.49:878][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-22.51.49:878][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-22.51.49:878][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-22.51.49:878][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-22.51.49:878][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-22.51.49:879][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-22.51.49:879][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-22.51.49:879][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-22.51.49:879][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-22.51.49:879][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-22.51.49:879][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-22.51.49:879][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-22.51.49:879][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-22.51.49:879][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-22.51.49:879][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-22.51.49:879][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-22.51.49:879][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-22.51.49:885][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.24-22.51.49:961][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.24-22.51.49:961][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.24-22.51.49:988][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.24-22.51.49:988][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.24-22.51.50:004][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.24-22.51.50:020][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.24-22.51.50:037][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.24-22.51.50:055][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.24-22.51.50:069][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.24-22.51.50:069][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.24-22.51.50:291][  0]LogXGEController: Cleaning working directory: C:/Users/John/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.10.24-22.51.50:292][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.24-22.51.50:292][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.24-22.51.50:292][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.24-22.51.51:159][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.24-22.51.51:206][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/John/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.24-22.51.51:207][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/John/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.24-22.51.51:207][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Git/SpideyCPP/SideyCPP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.24-22.51.51:207][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.24-22.51.51:207][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Git/SpideyCPP/SideyCPP/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.24-22.51.51:207][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.24-22.51.51:221][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.24-22.51.51:235][  0]LogDerivedDataCache: Using Local data cache path C:/Users/John/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.24-22.51.51:235][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.24-22.51.51:235][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.24-22.51.51:252][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.24-22.51.51:254][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.24-22.51.51:255][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.24-22.51.51:332][  0]LogAssetRegistry: FAssetRegistry took 0.0282 seconds to start up
+[2018.10.24-22.51.51:681][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.24-22.51.51:865][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.24-22.51.51:886][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.24-22.51.51:886][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.24-22.51.51:886][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.24-22.51.51:886][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.24-22.51.51:904][  0]LogNetVersion: SideyCPP 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 583984258)
+[2018.10.24-22.51.52:456][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.125840 seconds
+[2018.10.24-22.51.52:462][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.24-22.51.52:462][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.10.24-22.51.52:462][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.24-22.51.53:655][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.24-22.51.53:674][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.24-22.51.54:022][  0]SourceControl: Source control is disabled
+[2018.10.24-22.51.54:022][  0]SourceControl: Source control is disabled
+[2018.10.24-22.51.54:036][  0]SourceControl: Source control is disabled
+[2018.10.24-22.51.54:042][  0]SourceControl: Source control is disabled
+[2018.10.24-22.51.54:524][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.24-22.51.54:703][  0]LogOcInput: OculusInput pre-init called
+[2018.10.24-22.51.54:794][  0]LogEngine: Initializing Engine...
+[2018.10.24-22.51.54:796][  0]LogHMD: Failed to initialize OpenVR with code 102
+[2018.10.24-22.51.54:797][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.24-22.51.54:797][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.24-22.51.54:797][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.24-22.51.54:798][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.24-22.51.54:989][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.24-22.51.55:013][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.24-22.51.55:047][  0]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.24-22.51.55:124][  0]LogInit: FAudioDevice initialized.
+[2018.10.24-22.51.55:124][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.24-22.51.55:254][  0]LogDerivedDataCache: Saved boot cache 0.13s 71MB C:/Users/John/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.24-22.51.55:265][  0]LogInit: Texture streaming: Enabled
+[2018.10.24-22.51.55:308][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.24-22.51.55:309][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={DF05B1CF-4CCC-D3EC-275A-88AEF183DEBB}
+[2018.10.24-22.51.55:329][  0]LogInit: Transaction tracking system initialized
+[2018.10.24-22.51.55:400][  0]BlueprintLog: New page: Editor Load
+[2018.10.24-22.51.55:642][  0]LocalizationService: Localization service is disabled
+[2018.10.24-22.51.56:051][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.24-22.51.56:051][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.24-22.51.56:051][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.24-22.51.56:052][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.24-22.51.56:052][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.24-22.51.56:052][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.24-22.51.56:052][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.24-22.51.56:374][  0]LogFileCache: Scanning file cache for directory 'D:/Git/SpideyCPP/SideyCPP/Content/' took 0.02s
+[2018.10.24-22.51.56:374][  0]SourceControl: Source control is disabled
+[2018.10.24-22.51.56:375][  0]Cmd: MAP LOAD FILE="../../../../../../Git/SpideyCPP/SideyCPP/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.24-22.51.56:375][  0]LightingResults: New page: Lighting Build
+[2018.10.24-22.51.56:380][  0]MapCheck: New page: Map Check
+[2018.10.24-22.51.56:380][  0]LightingResults: New page: Lighting Build
+[2018.10.24-22.51.56:816][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.24-22.51.57:035][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.24-22.51.57:063][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.24-22.51.57:291][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 226.846ms to complete.
+[2018.10.24-22.51.57:291][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.916
+[2018.10.24-22.51.57:401][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.24-22.51.57:406][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.24-22.51.57:413][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.24-22.51.57:419][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.24-22.51.57:434][  0]LogCollectionManager: Loaded 0 collections in 0.003499 seconds
+[2018.10.24-22.51.57:486][  0]LogFileCache: Scanning file cache for directory 'D:/Git/SpideyCPP/SideyCPP/Saved/Collections/' took 0.01s
+[2018.10.24-22.51.57:486][  0]LogFileCache: Scanning file cache for directory 'D:/Git/SpideyCPP/SideyCPP/Content/Developers/John/Collections/' took 0.01s
+[2018.10.24-22.51.57:486][  0]LogFileCache: Scanning file cache for directory 'D:/Git/SpideyCPP/SideyCPP/Content/Collections/' took 0.01s
+[2018.10.24-22.51.57:486][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.10.24-22.51.57:495][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2576 classes and 605 folders.
+[2018.10.24-22.51.57:504][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.10.24-22.51.57:567][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.10.24-22.51.57:579][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.10.24-22.51.57:593][  0]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.24-22.51.57:595][  0]LogSlate: Took 0.000264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.24-22.51.57:600][  0]LogSlate: Took 0.000285 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.24-22.51.57:676][  0]LogRenderer: Reallocating scene render targets to support 1168x600 Format 10 NumSamples 1 (Frame:1).
+[2018.10.24-22.51.57:787][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.10.24-22.51.57:787][  0]LogLoad: (Engine Initialization) Total time: 11.96 seconds
+[2018.10.24-22.51.57:787][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.24-22.51.57:821][  0]LogAssetRegistry: Asset discovery search completed in 6.5140 seconds
+[2018.10.24-22.51.57:824][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.10.24-22.51.57:824][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000156 seconds (updated 0 objects)
+[2018.10.24-22.51.57:826][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.24-22.51.57:854][  0]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.24-22.52.24:066][240]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-22.52.24:148][250]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.24-22.52.24:160][250]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.24-22.52.24:160][250]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.24-22.52.24:175][250]PIE: New page: PIE session: Minimal_Default (Oct 25, 2018, 12:52:24 AM)
+[2018.10.24-22.52.24:175][250]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.10.24-22.52.24:208][250]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032859s)
+[2018.10.24-22.52.24:209][250]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.24-22.52.24:209][250]LogPlayLevel: PIE: World Init took: (0.000848s)
+[2018.10.24-22.52.24:209][250]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.034246s)
+[2018.10.24-22.52.24:258][250]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.24-22.52.24:315][250]LogInit: FAudioDevice initialized.
+[2018.10.24-22.52.24:509][250]LogLoad: Game class is 'MySideyCPPGameModeBase_C'
+[2018.10.24-22.52.24:524][250]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.10.24-23.52.24
+[2018.10.24-22.52.24:526][250]LogWorld: Bringing up level for play took: 0.014684
+[2018.10.24-22.52.24:547][250]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 10 classes and 0 folders.
+[2018.10.24-22.52.24:551][250]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.953
+[2018.10.24-22.52.24:551][250]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.24-22.52.24:553][250]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:584][251]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:597][252]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:605][253]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:614][254]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:622][255]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:630][256]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:638][257]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:647][258]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:655][259]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:663][260]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:672][261]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:680][262]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:689][263]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:697][264]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:705][265]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:714][266]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:722][267]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:731][268]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:739][269]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:747][270]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:755][271]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:764][272]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:772][273]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:781][274]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:789][275]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:796][276]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:805][277]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:813][278]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:821][279]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:830][280]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:838][281]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:846][282]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:855][283]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:863][284]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:871][285]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:880][286]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:888][287]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:896][288]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:905][289]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:913][290]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:921][291]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:930][292]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:938][293]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:947][294]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:955][295]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:963][296]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:972][297]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:980][298]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:988][299]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.24:997][300]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:005][301]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:013][302]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:022][303]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:030][304]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:038][305]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:047][306]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:055][307]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:064][308]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:072][309]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:080][310]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:089][311]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:097][312]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:105][313]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:114][314]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:122][315]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:130][316]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:139][317]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:147][318]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:155][319]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:164][320]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:172][321]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:180][322]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:188][323]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:197][324]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:205][325]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:213][326]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:221][327]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:230][328]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:238][329]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:247][330]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:255][331]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:263][332]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:272][333]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:280][334]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:289][335]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:297][336]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:305][337]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:313][338]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:322][339]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:330][340]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:338][341]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:347][342]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:356][343]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:364][344]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:373][345]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:381][346]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:389][347]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:397][348]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:406][349]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:414][350]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:422][351]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:431][352]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:439][353]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:447][354]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:456][355]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:464][356]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:472][357]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:481][358]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:489][359]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:498][360]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:506][361]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:514][362]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:522][363]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:531][364]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:539][365]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:548][366]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:556][367]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:563][368]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:572][369]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:580][370]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:589][371]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:597][372]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:605][373]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:613][374]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:622][375]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:630][376]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:638][377]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:647][378]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:655][379]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:664][380]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:672][381]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:680][382]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:689][383]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:697][384]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:705][385]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:714][386]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:722][387]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:730][388]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:739][389]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:747][390]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:755][391]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:764][392]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:772][393]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:781][394]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:789][395]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:797][396]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:806][397]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:814][398]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:822][399]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:831][400]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:838][401]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:847][402]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:855][403]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:863][404]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:872][405]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:880][406]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:888][407]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:897][408]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:905][409]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:914][410]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:922][411]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:930][412]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:939][413]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:947][414]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:955][415]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:964][416]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:972][417]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:981][418]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:989][419]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.25:997][420]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:005][421]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:014][422]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:022][423]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:031][424]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:039][425]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:047][426]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:056][427]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:064][428]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:073][429]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:081][430]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:089][431]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:097][432]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:106][433]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:114][434]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:122][435]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:131][436]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:139][437]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:148][438]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:156][439]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:164][440]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:173][441]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:181][442]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:189][443]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:197][444]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:205][445]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:214][446]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:222][447]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:230][448]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:238][449]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:247][450]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:255][451]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:264][452]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:272][453]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:280][454]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:289][455]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:297][456]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:305][457]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:314][458]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:322][459]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:331][460]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:339][461]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:347][462]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:355][463]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:364][464]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:372][465]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:381][466]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:389][467]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:397][468]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:406][469]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:414][470]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:422][471]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:431][472]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:439][473]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:447][474]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:456][475]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:464][476]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:472][477]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:481][478]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:489][479]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:498][480]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:506][481]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:514][482]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:523][483]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:531][484]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:539][485]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:548][486]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:556][487]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:565][488]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:572][489]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:580][490]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:589][491]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:597][492]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:605][493]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:614][494]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:622][495]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:630][496]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:639][497]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:647][498]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:655][499]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:664][500]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:672][501]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:680][502]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:689][503]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:697][504]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:705][505]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:714][506]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:722][507]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:730][508]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:739][509]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:747][510]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:755][511]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:764][512]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:772][513]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:781][514]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:789][515]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:797][516]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:806][517]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:814][518]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:823][519]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:831][520]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:839][521]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:847][522]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:856][523]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:864][524]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:872][525]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:881][526]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:889][527]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:898][528]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:906][529]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:914][530]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:923][531]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:931][532]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:939][533]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:948][534]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:955][535]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:963][536]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:972][537]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:980][538]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:988][539]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.26:997][540]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.27:005][541]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.27:014][542]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.27:022][543]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.27:030][544]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.27:039][545]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.27:047][546]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.27:055][547]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.27:064][548]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.27:072][549]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.27:080][550]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.27:089][551]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.27:097][552]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.27:106][553]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.27:114][554]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.27:122][555]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.27:131][556]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.27:139][557]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.27:147][558]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.27:156][559]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.27:164][560]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.27:172][561]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.27:181][562]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.27:189][563]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.27:198][564]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.27:206][565]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:072][669]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:081][670]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:164][680]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:173][681]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:181][682]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:189][683]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:256][691]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:264][692]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:272][693]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:281][694]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:289][695]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:297][696]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:306][697]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:314][698]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:322][699]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:331][700]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:339][701]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:347][702]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:356][703]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:364][704]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:373][705]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:381][706]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:389][707]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:398][708]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:406][709]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:414][710]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:423][711]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:431][712]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:440][713]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:448][714]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:455][715]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:464][716]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:472][717]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:480][718]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:489][719]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:497][720]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:505][721]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:514][722]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:522][723]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:531][724]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:539][725]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:547][726]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:556][727]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:564][728]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:573][729]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:582][730]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:591][731]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:598][732]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:606][733]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:614][734]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:622][735]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:630][736]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:639][737]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:647][738]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:655][739]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:664][740]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:672][741]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:680][742]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:689][743]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:697][744]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:705][745]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:714][746]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:722][747]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:730][748]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:739][749]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:747][750]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:755][751]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:764][752]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:772][753]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:781][754]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:789][755]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:797][756]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:806][757]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:814][758]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:822][759]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:831][760]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:839][761]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:847][762]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:856][763]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:864][764]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:873][765]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:881][766]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:889][767]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:898][768]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:906][769]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:914][770]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:923][771]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:931][772]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:939][773]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:948][774]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:956][775]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:965][776]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:973][777]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:981][778]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:990][779]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.28:998][780]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:005][781]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:014][782]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:022][783]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:031][784]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:039][785]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:047][786]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:056][787]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:064][788]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:072][789]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:081][790]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:089][791]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:097][792]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:106][793]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:114][794]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:122][795]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:131][796]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:139][797]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:147][798]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:156][799]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:164][800]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:173][801]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:181][802]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:189][803]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:197][804]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:206][805]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:214][806]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:223][807]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:231][808]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:239][809]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:248][810]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:256][811]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:264][812]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:273][813]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:281][814]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:289][815]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:298][816]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:306][817]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:315][818]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:323][819]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:331][820]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:340][821]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:348][822]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:357][823]LogBlueprintUserMessages: [Player_C_0] I hit something
+[2018.10.24-22.52.29:365][824]LogBlueprintUserMessages: [Player_C_0] I hit something

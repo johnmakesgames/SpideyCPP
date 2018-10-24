@@ -238,6 +238,10 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 		static void NewProp_swinging_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_swinging;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_webStartPoint_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_webStartPoint;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_tryingToSwing_MetaData[];
 #endif
 		static void NewProp_tryingToSwing_SetBit(void* Obj);
@@ -320,6 +324,13 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_APlayer_Base_Statics::NewProp_swinging = { UE4CodeGen_Private::EPropertyClass::Bool, "swinging", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(APlayer_Base), &Z_Construct_UClass_APlayer_Base_Statics::NewProp_swinging_SetBit, METADATA_PARAMS(Z_Construct_UClass_APlayer_Base_Statics::NewProp_swinging_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayer_Base_Statics::NewProp_swinging_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayer_Base_Statics::NewProp_webStartPoint_MetaData[] = {
+		{ "Category", "Player Movement" },
+		{ "ModuleRelativePath", "Player_Base.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_APlayer_Base_Statics::NewProp_webStartPoint = { UE4CodeGen_Private::EPropertyClass::Struct, "webStartPoint", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(APlayer_Base, webStartPoint), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_APlayer_Base_Statics::NewProp_webStartPoint_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayer_Base_Statics::NewProp_webStartPoint_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayer_Base_Statics::NewProp_tryingToSwing_MetaData[] = {
 		{ "Category", "Player Movement" },
 		{ "ModuleRelativePath", "Player_Base.h" },
@@ -391,6 +402,7 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer_Base_Statics::NewProp_swingSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer_Base_Statics::NewProp_offsetSwingPoint,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer_Base_Statics::NewProp_swinging,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer_Base_Statics::NewProp_webStartPoint,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer_Base_Statics::NewProp_tryingToSwing,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer_Base_Statics::NewProp_dancing,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer_Base_Statics::NewProp_pitchChange,
@@ -423,7 +435,7 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayer_Base, 2069547817);
+	IMPLEMENT_CLASS(APlayer_Base, 2004890233);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APlayer_Base(Z_Construct_UClass_APlayer_Base, &APlayer_Base::StaticClass, TEXT("/Script/SideyCPP"), TEXT("APlayer_Base"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APlayer_Base);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

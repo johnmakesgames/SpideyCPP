@@ -1,6 +1,8 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "Player_Base.h"
+#include "Engine.h"
+#include "Engine/World.h"
 #include "Components/StaticMeshComponent.h"
 #include "Engine/GameEngine.h"
 #include "GameFramework/CharacterMovementComponent.h"
@@ -176,10 +178,11 @@ void APlayer_Base::SetScannedObjects(TArray<AWebPoint*> scannedLocations)
 	PotentialWebPoints = scannedLocations;
 	int scannedNum = PotentialWebPoints.Num();
 	FVector currentClosest;
-	FVector playerPos = GetActorLocation();
+	FVector playerPos;
 	for (int i = 0; i < scannedNum; i++)
 	{	
 		FVector webPos = PotentialWebPoints[i]->GetActorLocation();
+		playerPos = GetActorLocation();
 
 		if (i == 0)
 		{
@@ -230,7 +233,8 @@ void APlayer_Base::SetScannedObjects(TArray<AWebPoint*> scannedLocations)
 		}
 	}
 	originalSwingPoint = currentClosest;
-	offsetSwingPoint = originalSwingPoint + ((playerPos - originalSwingPoint).GetSafeNormal() * 5);
+	offsetSwingPoint = originalSwingPoint + ((playerPos - originalSwingPoint).GetSafeNormal() * 2000);
+	offsetSwingPoint.Z = originalSwingPoint.Z;
 	swinging = true;
 	CharacterMovement->GravityScale = 0;
 	hasJumpedInAir = false;
@@ -245,11 +249,14 @@ void APlayer_Base::SetScannedObjects(TArray<AWebPoint*> scannedLocations)
 
 void APlayer_Base::HitWall(bool isFloor)
 {
-	swinging = false;
-	swingBuffer = swingDelay;
-	if (!isFloor)
+	if (swinging)
 	{
-		AddRumble(1);
+		if (!isFloor)
+		{
+			AddRumble(1);
+		}
+		swinging = false;
+		swingBuffer = swingDelay;
 	}
 }
 
@@ -260,6 +267,7 @@ void APlayer_Base::Swing()
 		///New Swinging
 		FVector forward = GetActorForwardVector();
 		myPos = GetActorLocation();
+		myPos += GetActorRightVector() * directionalSpeed->Y;
 		angle += swingSpeed * delta;
 		newPos.Z = FMath::Cos(angle);
 		newPos.X = (-1 * GetActorForwardVector().X) * FMath::Sin(angle);
@@ -268,10 +276,10 @@ void APlayer_Base::Swing()
 		newPos += offsetSwingPoint;
 		SetActorLocation(newPos);
 		CalculateSwingSpeed(newPos, myPos);
-
+		GetWorld()->LineBatcher->DrawLine(webStartPoint, originalSwingPoint, FLinearColor(1,1,1,1), SDPG_World, 2, 1);
 		FString TheFloatStr = FString::SanitizeFloat(swingSpeed);
-		if (GEngine)
-			GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, *TheFloatStr);
+		//if (GEngine)
+			//GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, *TheFloatStr);
 	}
 	else
 	{
@@ -305,12 +313,13 @@ void APlayer_Base::CalculateSwingSpeed(FVector newLocation, FVector currentLocat
 void APlayer_Base::StopSwinging(bool jumping)
 {
 	swinging = false;
-	CharacterMovement->AddImpulse(((GetActorForwardVector() * (30000 * swingSpeed)) * delta));
+	CharacterMovement->AddImpulse((GetActorForwardVector() * (30000 * swingSpeed)));
 	swingBuffer = swingDelay;
 	AddRumble(0);
 	if (jumping)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Jumped in air"));
+		swingBuffer *= 2;
+		//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Jumped in air"));
 		CharacterMovement->AddImpulse(FVector(0, 0, (20000 * delta)), true);
 	}
 }

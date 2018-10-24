@@ -36,6 +36,8 @@ public:
 		bool dancing = false;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Movement")
 		bool tryingToSwing = false;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Movement")
+		FVector webStartPoint;
 
 	//Variables for web swinging;
 	TArray<AWebPoint*> PotentialWebPoints;
