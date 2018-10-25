@@ -50,6 +50,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Movement")
 	float swingSpeed;
 	float maxSwingSpeed = 4;
+	float stackedVelocity = 0;
 	float swingingGravityMod = 0.01f;
 	FVector myPos;
 	float dotProduct;
@@ -61,6 +62,8 @@ public:
 	bool hasJumpedInAir;
 	float swingDelay = 25;
 	float swingBuffer = 0;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Movement")
+	bool diving = false;
 
 private:
 	FVector * directionalSpeed;
@@ -80,6 +83,7 @@ protected:
 	virtual void Web(float value);
 	virtual void Yaw(float value);
 	virtual void Pitch(float value);
+	virtual void Dive(float value);
 	virtual void JumpAction();
 	virtual void Dance();
 	virtual void Swing();

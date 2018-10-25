@@ -38,6 +38,11 @@ void APlayer_Base::Tick(float DeltaTime)
 		AddMovementInput(GetActorForwardVector(), directionalSpeed->X * DeltaTime);
 		AddMovementInput(GetActorRightVector(), directionalSpeed->Y * DeltaTime);
 	}
+	if (diving)
+	{
+		CharacterMovement->AddImpulse(FVector(0, 0, -1));
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Diving"));
+	}
 
 	yawChange = currentRotX * DeltaTime;
 	pitchChange = FRotator{ currentRotY*DeltaTime, 0, 0 };
@@ -48,6 +53,7 @@ void APlayer_Base::Tick(float DeltaTime)
 	{
 		swingBuffer -= 1;
 	}
+	maxSwingSpeed += stackedVelocity/2;
 }
 
 // Called to bind functionality to input
@@ -59,6 +65,7 @@ void APlayer_Base::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	PlayerInputComponent->BindAxis("Right Trigger", this, &APlayer_Base::Web);
 	PlayerInputComponent->BindAxis("Yaw", this, &APlayer_Base::Yaw);
 	PlayerInputComponent->BindAxis("Pitch", this, &APlayer_Base::Pitch);
+	PlayerInputComponent->BindAxis("Dive", this, &APlayer_Base::Dive);
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &APlayer_Base::JumpAction);
 	PlayerInputComponent->BindAction("Dance", IE_Pressed, this, &APlayer_Base::Dance);
 }
@@ -68,7 +75,6 @@ void APlayer_Base::MoveForward(float value)
 	if (value != 0)
 	{
 		directionalSpeed->X = value * movementSpeed;
-
 	}
 	else
 	{
@@ -249,11 +255,12 @@ void APlayer_Base::SetScannedObjects(TArray<AWebPoint*> scannedLocations)
 
 void APlayer_Base::HitWall(bool isFloor)
 {
+	stackedVelocity = 0;
 	if (swinging)
 	{
 		if (!isFloor)
 		{
-			//AddRumble(1);
+			AddRumble(1);
 		}
 		swinging = false;
 		swingBuffer = swingDelay;
@@ -319,6 +326,7 @@ void APlayer_Base::StopSwinging(bool jumping)
 	CharacterMovement->AddImpulse((GetActorForwardVector() * (30000 * swingSpeed)));
 	swingBuffer = swingDelay;
 	AddRumble(0);
+	stackedVelocity++;
 	if (jumping)
 	{
 		swingBuffer *= 2;
@@ -335,5 +343,17 @@ void APlayer_Base::CheckClosest(FVector playerPos, FVector webPos, FVector* curr
 		{
 			*currentClosest = webPos;
 		}
+	}
+}
+
+void APlayer_Base::Dive(float value)
+{
+	if (value > 0)
+	{
+		diving = true;
+	}
+	else
+	{
+		diving = false;
 	}
 }
