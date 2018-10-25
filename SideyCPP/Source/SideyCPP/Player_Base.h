@@ -49,7 +49,7 @@ public:
 	FVector originalSwingPoint;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Movement")
 	float swingSpeed;
-	float maxSwingSpeed = 3;
+	float maxSwingSpeed = 4;
 	float swingingGravityMod = 0.01f;
 	FVector myPos;
 	float dotProduct;
@@ -59,7 +59,7 @@ public:
 	float angle;
 	FVector newPos;
 	bool hasJumpedInAir;
-	float swingDelay = 10;
+	float swingDelay = 25;
 	float swingBuffer = 0;
 
 private:
@@ -86,7 +86,6 @@ protected:
 	virtual void CalculateSwingSpeed(FVector newLocation, FVector currentLocation);
 	virtual void StopSwinging(bool jumping);
 	virtual void CheckClosest(FVector playerPos, FVector webPos, FVector* currentClosest);
-
 
 public:	
 	// Called every frame
