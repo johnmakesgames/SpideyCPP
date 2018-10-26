@@ -3,7 +3,7 @@
   Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Parsing headers for SideyCPPEditor
     Running UnrealHeaderTool "C:\Users\w017177h\Documents\GitHub\SpideyCPP\SideyCPP\SideyCPP.uproject" "C:\Users\w017177h\Documents\GitHub\SpideyCPP\SideyCPP\Intermediate\Build\Win64\SideyCPPEditor\Development\SideyCPPEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for SideyCPPEditor in 48.1590783 seconds
+  Reflection code generated for SideyCPPEditor in 21.3885721 seconds
   Building 13 actions with 4 processes...
     [1/13] SharedPCH.Engine.cpp
     [2/13] SideyCPP.cpp
@@ -12,13 +12,13 @@
     [5/13] WebPoint.cpp
     [6/13] SideyCPP.init.gen.cpp
     [7/13] RotatingSphere.gen.cpp
-    [8/13] SideyCPPGameModeBase.gen.cpp
-    [9/13] WebPoint.gen.cpp
-    [10/13] Player_Base.gen.cpp
+    [8/13] Player_Base.gen.cpp
+    [9/13] SideyCPPGameModeBase.gen.cpp
+    [10/13] WebPoint.gen.cpp
     [11/13] Player_Base.cpp
     [12/13] UE4Editor-SideyCPP.lib
        Creating library C:\Users\w017177h\Documents\GitHub\SpideyCPP\SideyCPP\Intermediate\Build\Win64\UE4Editor\Development\SideyCPP\UE4Editor-SideyCPP.lib and object C:\Users\w017177h\Documents\GitHub\SpideyCPP\SideyCPP\Intermediate\Build\Win64\UE4Editor\Development\SideyCPP\UE4Editor-SideyCPP.exp
     [13/13] UE4Editor-SideyCPP.dll
        Creating library C:\Users\w017177h\Documents\GitHub\SpideyCPP\SideyCPP\Intermediate\Build\Win64\UE4Editor\Development\SideyCPP\UE4Editor-SideyCPP.suppressed.lib and object C:\Users\w017177h\Documents\GitHub\SpideyCPP\SideyCPP\Intermediate\Build\Win64\UE4Editor\Development\SideyCPP\UE4Editor-SideyCPP.suppressed.exp
   Deploying SideyCPPEditor Win64 Development...
-  Total build time: 219.60 seconds (Parallel executor: 106.72 seconds)
+  Total build time: 151.78 seconds (Parallel executor: 61.72 seconds)
