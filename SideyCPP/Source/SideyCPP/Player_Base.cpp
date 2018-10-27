@@ -165,12 +165,20 @@ void APlayer_Base::JumpAction()
 		if (swinging)
 		{
 			StopSwinging(true);
+			hasJumpedInAir = true;
 		}
-		hasJumpedInAir = true;
+		else
+		{
+			if (boostsRemaining > 0)
+			{
+				CharacterMovement->AddImpulse(FVector(GetActorForwardVector().X * 100000, GetActorForwardVector().Y * 100000, 0));
+				boostsRemaining -= 1;
+			}
+		}
 	}
 	else
 	{
-		Jump();
+		CharacterMovement->AddImpulse(FVector(0,0,50000));
 	}
 }
 
@@ -245,12 +253,18 @@ void APlayer_Base::SetScannedObjects(TArray<AWebPoint*> scannedLocations)
 	CharacterMovement->GravityScale = 0;
 	hasJumpedInAir = false;
 	angle = 0;
-	swingSpeed = 1.0f;
+	swingSpeed = swingSpeed/2;
+	boostsRemaining = 2;
+	if (swingSpeed < 1)
+	{
+		swingSpeed = 1;
+	}
 	myPos = GetActorLocation();
 	myPos -= offsetSwingPoint;
 	radius = FMath::Sqrt(FMath::Square(GetActorLocation().X - offsetSwingPoint.X) + FMath::Square(GetActorLocation().Y - offsetSwingPoint.Y) + FMath::Square(GetActorLocation().Z - offsetSwingPoint.Z));
 	myPos /= radius;
 	angle = FMath::Acos((myPos.X * 0) + (myPos.Y * 0) + (myPos.Z * 1) / radius);
+	CharacterMovement->Velocity = FVector(0, 0, (CharacterMovement->Velocity.Z/2));
 }
 
 void APlayer_Base::HitWall(bool isFloor)
@@ -262,8 +276,12 @@ void APlayer_Base::HitWall(bool isFloor)
 		{
 			AddRumble(1);
 		}
+		else
+		{
+			CharacterMovement->AddImpulse(FVector(0, 0, 1000));
+		}
 		swinging = false;
-		swingBuffer = swingDelay;
+		swingBuffer = swingDelay*2;
 	}
 }
 
@@ -323,7 +341,7 @@ void APlayer_Base::CalculateSwingSpeed(FVector newLocation, FVector currentLocat
 void APlayer_Base::StopSwinging(bool jumping)
 {
 	swinging = false;
-	CharacterMovement->AddImpulse((GetActorForwardVector() * (30000 * swingSpeed)));
+	CharacterMovement->AddImpulse((GetActorForwardVector() * (15000 * (swingSpeed*3))));
 	swingBuffer = swingDelay;
 	AddRumble(0);
 	stackedVelocity++;
@@ -337,9 +355,9 @@ void APlayer_Base::StopSwinging(bool jumping)
 
 void APlayer_Base::CheckClosest(FVector playerPos, FVector webPos, FVector* currentClosest)
 {
-	if (FMath::Abs(playerPos.X - webPos.X) < FMath::Abs(playerPos.X - currentClosest->X))
+	if (FMath::Abs(playerPos.X - webPos.X) > FMath::Abs(playerPos.X - currentClosest->X))
 	{
-		if (FMath::Abs(playerPos.Y - webPos.Y) < FMath::Abs(playerPos.Y - currentClosest->Y))
+		if (FMath::Abs(playerPos.Y - webPos.Y) > FMath::Abs(playerPos.Y - currentClosest->Y))
 		{
 			*currentClosest = webPos;
 		}
@@ -356,4 +374,9 @@ void APlayer_Base::Dive(float value)
 	{
 		diving = false;
 	}
+}
+
+void APlayer_Base::IncreaseScore(float increase)
+{
+	score += increase;
 }

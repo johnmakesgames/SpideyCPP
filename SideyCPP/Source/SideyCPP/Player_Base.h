@@ -49,7 +49,7 @@ public:
 	FVector originalSwingPoint;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Movement")
 	float swingSpeed;
-	float maxSwingSpeed = 4;
+	float maxSwingSpeed = 5;
 	float stackedVelocity = 0;
 	float swingingGravityMod = 0.01f;
 	FVector myPos;
@@ -64,6 +64,8 @@ public:
 	float swingBuffer = 0;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Movement")
 	bool diving = false;
+	int score;
+	int boostsRemaining;
 
 private:
 	FVector * directionalSpeed;
@@ -109,4 +111,6 @@ public:
 		void SetScannedObjects(TArray<AWebPoint*> scannedLocations);
 	UFUNCTION(BlueprintCallable, Category = "Player Movement")
 		void HitWall(bool isFloor);
+	void IncreaseScore(float increase);
+	int GetScore() { return score; }
 };
