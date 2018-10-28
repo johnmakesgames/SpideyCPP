@@ -178,7 +178,7 @@ void APlayer_Base::JumpAction()
 	}
 	else
 	{
-		CharacterMovement->AddImpulse(FVector(0,0,50000));
+		CharacterMovement->AddImpulse(FVector(0, 0, 80000));
 	}
 }
 
