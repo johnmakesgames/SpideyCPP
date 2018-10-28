@@ -253,7 +253,7 @@ void APlayer_Base::SetScannedObjects(TArray<AWebPoint*> scannedLocations)
 	CharacterMovement->GravityScale = 0;
 	hasJumpedInAir = false;
 	angle = 0;
-	swingSpeed = swingSpeed/2;
+	swingSpeed = (swingSpeed * 0.75f);
 	boostsRemaining = 2;
 	if (swingSpeed < 1)
 	{
@@ -355,11 +355,14 @@ void APlayer_Base::StopSwinging(bool jumping)
 
 void APlayer_Base::CheckClosest(FVector playerPos, FVector webPos, FVector* currentClosest)
 {
-	if (FMath::Abs(playerPos.X - webPos.X) > FMath::Abs(playerPos.X - currentClosest->X))
+	if (webPos.Z > currentClosest->Z)
 	{
-		if (FMath::Abs(playerPos.Y - webPos.Y) > FMath::Abs(playerPos.Y - currentClosest->Y))
+		if (FMath::Abs(playerPos.X - webPos.X) < FMath::Abs(playerPos.X - currentClosest->X))
 		{
-			*currentClosest = webPos;
+			if (FMath::Abs(playerPos.Y - webPos.Y) < FMath::Abs(playerPos.Y - currentClosest->Y))
+			{
+				*currentClosest = webPos;
+			}
 		}
 	}
 }
