@@ -66,6 +66,8 @@ public:
 	bool diving = false;
 	int score;
 	int boostsRemaining;
+	float jumpHeldTime = 0;
+	bool holdingJump;
 
 private:
 	FVector * directionalSpeed;
@@ -87,6 +89,9 @@ protected:
 	virtual void Pitch(float value);
 	virtual void Dive(float value);
 	virtual void JumpAction();
+	virtual void JumpHold();
+	virtual void JumpCharge();
+	virtual void JumpRelease();
 	virtual void Dance();
 	virtual void Swing();
 	virtual void CalculateSwingSpeed(FVector newLocation, FVector currentLocation);
@@ -112,5 +117,6 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Player Movement")
 		void HitWall(bool isFloor);
 	void IncreaseScore(float increase);
+	UFUNCTION(BlueprintCallable, Category = "UI")
 	int GetScore() { return score; }
 };

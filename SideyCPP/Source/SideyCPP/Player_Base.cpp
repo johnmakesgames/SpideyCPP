@@ -41,12 +41,12 @@ void APlayer_Base::Tick(float DeltaTime)
 	if (diving)
 	{
 		CharacterMovement->AddImpulse(FVector(0, 0, -1));
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Diving"));
 	}
 
 	yawChange = currentRotX * DeltaTime;
 	pitchChange = FRotator{ currentRotY*DeltaTime, 0, 0 };
 	CharacterMovement->MaxWalkSpeed = movementSpeed;
+	JumpCharge();
 	Swing();
 	dancing = false;
 	if (swingBuffer > 0)
@@ -67,6 +67,7 @@ void APlayer_Base::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	PlayerInputComponent->BindAxis("Pitch", this, &APlayer_Base::Pitch);
 	PlayerInputComponent->BindAxis("Dive", this, &APlayer_Base::Dive);
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &APlayer_Base::JumpAction);
+	PlayerInputComponent->BindAction("Jump", IE_Released, this, &APlayer_Base::JumpRelease);
 	PlayerInputComponent->BindAction("Dance", IE_Pressed, this, &APlayer_Base::Dance);
 }
 
@@ -171,6 +172,7 @@ void APlayer_Base::JumpAction()
 		{
 			if (boostsRemaining > 0)
 			{
+				GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Lmao Fuck your if statement"));
 				CharacterMovement->AddImpulse(FVector(GetActorForwardVector().X * 100000, GetActorForwardVector().Y * 100000, 0));
 				boostsRemaining -= 1;
 			}
@@ -178,8 +180,42 @@ void APlayer_Base::JumpAction()
 	}
 	else
 	{
-		CharacterMovement->AddImpulse(FVector(0, 0, 80000));
+		if (grounded)
+		{
+			JumpHold();
+		}
 	}
+}
+
+void APlayer_Base::JumpHold()
+{
+	holdingJump = true;
+}
+
+void APlayer_Base::JumpCharge()
+{
+	if (holdingJump)
+	{
+		if (jumpHeldTime < 4)
+		{
+			jumpHeldTime += delta * 2;
+		}
+		if (jumpHeldTime > 1)
+		{
+			AddRumble(0);
+		}
+	}
+}
+
+void APlayer_Base::JumpRelease()
+{
+	if (jumpHeldTime < 1)
+	{
+		jumpHeldTime = 1;
+	}
+	CharacterMovement->AddImpulse(FVector(0,0,(80000 * jumpHeldTime)));
+	holdingJump = false;
+	jumpHeldTime = 0;
 }
 
 void APlayer_Base::Dance()
@@ -254,7 +290,6 @@ void APlayer_Base::SetScannedObjects(TArray<AWebPoint*> scannedLocations)
 	hasJumpedInAir = false;
 	angle = 0;
 	swingSpeed = (swingSpeed * 0.75f);
-	boostsRemaining = 2;
 	if (swingSpeed < 1)
 	{
 		swingSpeed = 1;
@@ -325,7 +360,7 @@ void APlayer_Base::CalculateSwingSpeed(FVector newLocation, FVector currentLocat
 	{
 		if (swingSpeed > 1.0f)
 		{
-			swingSpeed -= ((swingingGravityMod/3)*2);
+			swingSpeed -= (swingingGravityMod/10);
 		}
 		else
 		{
@@ -340,16 +375,20 @@ void APlayer_Base::CalculateSwingSpeed(FVector newLocation, FVector currentLocat
 
 void APlayer_Base::StopSwinging(bool jumping)
 {
-	swinging = false;
-	CharacterMovement->AddImpulse((GetActorForwardVector() * (15000 * (swingSpeed*3))));
-	swingBuffer = swingDelay;
-	AddRumble(0);
-	stackedVelocity++;
-	if (jumping)
+	if (swinging)
 	{
-		swingBuffer *= 2;
-		//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Jumped in air"));
-		CharacterMovement->AddImpulse(FVector(0, 0, 2000), true);
+		swinging = false;
+		CharacterMovement->AddImpulse((GetActorForwardVector() * (15000 * (swingSpeed * 3))));
+		swingBuffer = swingDelay;
+		AddRumble(0);
+		stackedVelocity++;
+		boostsRemaining = 1;
+		if (jumping)
+		{
+			swingBuffer *= 2;
+			//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Jumped in air"));
+			CharacterMovement->AddImpulse(FVector(0, 0, 2000), true);
+		}
 	}
 }
 

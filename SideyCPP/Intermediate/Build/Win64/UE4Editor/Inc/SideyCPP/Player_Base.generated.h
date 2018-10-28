@@ -17,6 +17,14 @@ struct FVector;
 
 #define SideyCPP_Source_SideyCPP_Player_Base_h_14_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetScore) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=P_THIS->GetScore(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execHitWall) \
 	{ \
 		P_GET_UBOOL(Z_Param_isFloor); \
@@ -37,6 +45,14 @@ struct FVector;
 
 
 #define SideyCPP_Source_SideyCPP_Player_Base_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetScore) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=P_THIS->GetScore(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execHitWall) \
 	{ \
