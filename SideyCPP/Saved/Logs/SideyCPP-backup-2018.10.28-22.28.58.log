@@ -1,0 +1,536 @@
+﻿Log file open, 10/28/18 22:05:49
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: SideyCPP
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.460155
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin ApexDestruction
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.314s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU:        Intel(R) Xeon(R) CPU E5-1620 0 @ 3.60GHz, GPU: NVIDIA GeForce GTX 660 Ti
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Epic/UE4/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.016s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.10.28-22.05.50:680][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.28-22.05.50:680][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.28-22.05.50:702][  0]LogHAL: Display: Platform has ~ 16 GB [17100050432 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.28-22.05.50:702][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.28-22.05.50:702][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.28-22.05.50:703][  0]LogInit: Computer: C108-34A
+[2018.10.28-22.05.50:703][  0]LogInit: User: w017177h
+[2018.10.28-22.05.50:703][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.28-22.05.50:703][  0]LogInit: High frequency timer resolution =3.507174 MHz
+[2018.10.28-22.05.50:704][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.10.28-22.05.50:704][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.28-22.05.50:704][  0]LogMemory: Process Physical Memory: 102.20 MB used, 102.20 MB peak
+[2018.10.28-22.05.50:704][  0]LogMemory: Process Virtual Memory: 93.22 MB used, 93.22 MB peak
+[2018.10.28-22.05.50:704][  0]LogMemory: Physical Memory: 6717.88 MB used,  9590.00 MB free, 16307.88 MB total
+[2018.10.28-22.05.50:704][  0]LogMemory: Virtual Memory: 4642.15 MB used,  9590.00 MB free, 134217728.00 MB total
+[2018.10.28-22.05.50:880][  0]LogInit: Using OS detected language (en-US).
+[2018.10.28-22.05.50:880][  0]LogInit: Using OS detected locale (en-GB).
+[2018.10.28-22.05.50:885][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.10.28-22.05.51:355][  0]LogStreaming: Display: Took  0.476s to InitEngineTextLocalization.
+[2018.10.28-22.05.51:355][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.28-22.05.51:432][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.28-22.05.51:433][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.28-22.05.51:841][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.28-22.05.51:841][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.28-22.05.51:955][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660 Ti' (Feature Level 11_0)
+[2018.10.28-22.05.51:955][  0]LogD3D11RHI:       1998/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.10.28-22.05.51:963][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.28-22.05.51:963][  0]LogD3D11RHI:       0/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.28-22.05.51:963][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.28-22.05.51:975][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.28-22.05.51:975][  0]LogD3D11RHI:     GPU DeviceId: 0x1183 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.28-22.05.51:975][  0]LogWindows: EnumDisplayDevices:
+[2018.10.28-22.05.51:975][  0]LogWindows:    0. 'NVIDIA GeForce GTX 660 Ti' (P:1 D:1)
+[2018.10.28-22.05.51:976][  0]LogWindows:    1. 'NVIDIA GeForce GTX 660 Ti' (P:0 D:1)
+[2018.10.28-22.05.51:976][  0]LogWindows:    2. 'NVIDIA GeForce GTX 660 Ti' (P:0 D:0)
+[2018.10.28-22.05.51:977][  0]LogWindows:    3. 'NVIDIA GeForce GTX 660 Ti' (P:0 D:0)
+[2018.10.28-22.05.51:977][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.10.28-22.05.51:977][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660 Ti
+[2018.10.28-22.05.51:977][  0]LogD3D11RHI:   Driver Version: 399.24 (internal:24.21.13.9924, unified:399.24)
+[2018.10.28-22.05.51:977][  0]LogD3D11RHI:      Driver Date: 9-5-2018
+[2018.10.28-22.05.51:977][  0]LogRHI: Texture pool is 1398 MB (70% of 1998 MB)
+[2018.10.28-22.05.52:044][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.28-22.05.52:063][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.10.28-22.05.52:067][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Intermediate/Shaders/WorkingDirectory/14884/).
+[2018.10.28-22.05.52:067][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/w017177h/AppData/Local/Temp/UnrealShaderWorkingDir/B6086CF94FBF9EE87965BB88EEE5134D/'.
+[2018.10.28-22.05.52:507][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.28-22.05.52:528][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.28-22.05.52:548][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.28-22.05.52:569][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.28-22.05.52:595][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.28-22.05.52:617][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.28-22.05.52:639][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.28-22.05.52:660][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.28-22.05.52:672][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.28-22.05.52:776][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-22.05.52:777][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-22.05.52:777][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-22.05.52:777][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-22.05.52:777][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-22.05.52:777][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-22.05.52:777][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-22.05.52:777][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-22.05.52:777][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-22.05.52:777][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-22.05.52:777][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-22.05.52:777][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-22.05.52:778][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-22.05.52:778][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-22.05.52:778][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-22.05.52:778][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-22.05.52:778][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-22.05.52:778][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-22.05.52:785][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.28-22.05.52:873][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.28-22.05.52:873][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.28-22.05.52:909][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.28-22.05.52:909][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.28-22.05.52:929][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.28-22.05.52:965][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.28-22.05.52:996][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.28-22.05.53:017][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.28-22.05.53:045][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.28-22.05.53:045][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.28-22.05.53:278][  0]LogXGEController: Cleaning working directory: C:/Users/w017177h/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.10.28-22.05.53:279][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.28-22.05.53:279][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.28-22.05.53:279][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.28-22.05.54:614][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.28-22.05.54:718][  0]LogDerivedDataCache: Loaded boot cache 0.10s 71MB C:/Users/w017177h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.28-22.05.54:719][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/w017177h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.28-22.05.54:719][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.28-22.05.54:719][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.28-22.05.54:719][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.28-22.05.54:719][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.28-22.05.54:735][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.28-22.05.54:750][  0]LogDerivedDataCache: Using Local data cache path C:/Users/w017177h/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.28-22.05.54:750][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.28-22.05.54:750][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.28-22.05.54:774][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.28-22.05.54:775][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.28-22.05.54:777][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.28-22.05.54:877][  0]LogAssetRegistry: FAssetRegistry took 0.0342 seconds to start up
+[2018.10.28-22.05.55:461][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.28-22.05.55:688][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.28-22.05.55:701][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.28-22.05.55:701][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.28-22.05.55:701][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.28-22.05.55:701][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.28-22.05.55:727][  0]LogNetVersion: SideyCPP 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 583984258)
+[2018.10.28-22.05.56:685][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.263315 seconds
+[2018.10.28-22.05.56:697][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.28-22.05.56:697][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.10.28-22.05.56:697][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.28-22.05.58:128][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.28-22.05.58:148][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.28-22.05.58:464][  0]SourceControl: Source control is disabled
+[2018.10.28-22.05.58:465][  0]SourceControl: Source control is disabled
+[2018.10.28-22.05.58:469][  0]SourceControl: Source control is disabled
+[2018.10.28-22.05.58:474][  0]SourceControl: Source control is disabled
+[2018.10.28-22.05.58:876][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.28-22.05.59:009][  0]LogOcInput: OculusInput pre-init called
+[2018.10.28-22.05.59:102][  0]LogEngine: Initializing Engine...
+[2018.10.28-22.05.59:103][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.28-22.05.59:104][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.28-22.05.59:104][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.28-22.05.59:105][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.28-22.05.59:105][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.28-22.05.59:373][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.28-22.05.59:407][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.28-22.05.59:423][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.28-22.05.59:453][  0]LogInit: FAudioDevice initialized.
+[2018.10.28-22.05.59:454][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.28-22.05.59:761][  0]LogDerivedDataCache: Saved boot cache 0.31s 71MB C:/Users/w017177h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.28-22.05.59:809][  0]LogInit: Texture streaming: Enabled
+[2018.10.28-22.05.59:910][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.28-22.05.59:910][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={9568217B-4282-A7B1-83ED-6E98FF81596F}
+[2018.10.28-22.05.59:940][  0]LogInit: Transaction tracking system initialized
+[2018.10.28-22.06.00:033][  0]BlueprintLog: New page: Editor Load
+[2018.10.28-22.06.00:249][  0]LocalizationService: Localization service is disabled
+[2018.10.28-22.06.00:769][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.28-22.06.00:769][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.28-22.06.00:769][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.28-22.06.00:769][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.28-22.06.00:769][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.28-22.06.00:770][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.28-22.06.00:770][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.28-22.06.00:996][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Content/' took 0.03s
+[2018.10.28-22.06.01:106][  0]SourceControl: Source control is disabled
+[2018.10.28-22.06.01:107][  0]Cmd: MAP LOAD FILE="../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.28-22.06.01:108][  0]LightingResults: New page: Lighting Build
+[2018.10.28-22.06.01:114][  0]MapCheck: New page: Map Check
+[2018.10.28-22.06.01:114][  0]LightingResults: New page: Lighting Build
+[2018.10.28-22.06.05:608][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.28-22.06.16:504][  0]LogEditorServer: Finished looking for orphan Actors (0.007 secs)
+[2018.10.28-22.06.17:083][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.28-22.06.17:407][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 323.056ms to complete.
+[2018.10.28-22.06.17:407][  0]LogFileHelpers: Loading map 'Minimal_Default' took 16.299
+[2018.10.28-22.06.17:590][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.28-22.06.17:603][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.28-22.06.17:617][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.28-22.06.17:628][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.28-22.06.17:643][  0]LogCollectionManager: Loaded 0 collections in 0.004636 seconds
+[2018.10.28-22.06.17:700][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Saved/Collections/' took 0.01s
+[2018.10.28-22.06.17:700][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Content/Developers/w017177h/Collections/' took 0.01s
+[2018.10.28-22.06.17:700][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Content/Collections/' took 0.01s
+[2018.10.28-22.06.17:700][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.10.28-22.06.17:712][  0]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 2586 classes and 610 folders.
+[2018.10.28-22.06.17:724][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.10.28-22.06.17:874][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.10.28-22.06.17:888][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.10.28-22.06.18:096][  0]LogSlate: Took 0.000332 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.28-22.06.18:100][  0]LogSlate: Took 0.000276 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.28-22.06.18:108][  0]LogSlate: Took 0.000266 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.28-22.06.18:273][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.10.28-22.06.19:111][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.10.28-22.06.19:111][  0]LogLoad: (Engine Initialization) Total time: 32.72 seconds
+[2018.10.28-22.06.19:111][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.28-22.06.19:124][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.28-22.06.19:150][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.28-22.06.19:187][  0]LogSlate: Took 0.000356 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.28-22.06.19:211][  1]LogAssetRegistry: Asset discovery search completed in 24.3593 seconds
+[2018.10.28-22.06.19:214][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.10.28-22.06.19:214][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000187 seconds (updated 0 objects)
+[2018.10.28-22.16.14:676][232]LogEditorViewport: Clicking on Actor (LMB): WhiteBuilding_New_C (WhiteBuilding_New3)
+[2018.10.28-22.16.16:116][255]Cmd: DUPLICATE
+[2018.10.28-22.16.16:116][255]Cmd: ACTOR DUPLICATE
+[2018.10.28-22.16.22:014][300]Cmd: DUPLICATE
+[2018.10.28-22.16.22:014][300]Cmd: ACTOR DUPLICATE
+[2018.10.28-22.16.29:504][380]LogEditorViewport: Clicking on Actor (CTRL LMB): WhiteBuilding_New_C (WhiteBuilding_New8)
+[2018.10.28-22.16.40:876][529]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.10.28-22.16.43:752][559]LogEditorViewport: Clicking on Actor (LMB): WhiteBuilding_New_C (WhiteBuilding7)
+[2018.10.28-22.16.45:552][603]LogEditorViewport: Clicking on Actor (LMB): ShortRed_C (ShortRed3)
+[2018.10.28-22.16.46:191][614]Cmd: DUPLICATE
+[2018.10.28-22.16.46:192][614]Cmd: ACTOR DUPLICATE
+[2018.10.28-22.16.51:018][664]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.10.28-22.16.52:213][689]LogEditorViewport: Clicking on Actor (LMB): ShortRed_C (ShortRed6)
+[2018.10.28-22.17.14:685][300]LogEditorViewport: Clicking on Actor (LMB): WhiteBuilding_New_C (WhiteBuilding_New7)
+[2018.10.28-22.17.15:288][302]Cmd: DUPLICATE
+[2018.10.28-22.17.15:288][302]Cmd: ACTOR DUPLICATE
+[2018.10.28-22.17.50:598][ 88]LogEditorViewport: Clicking on Actor (LMB): WhiteBuilding_New_C (WhiteBuilding_New2)
+[2018.10.28-22.17.52:705][135]Cmd: DUPLICATE
+[2018.10.28-22.17.52:705][135]Cmd: ACTOR DUPLICATE
+[2018.10.28-22.18.00:156][245]LogEditorViewport: Clicking on Actor (LMB): WhiteBuilding_New_C (WhiteBuilding_New11)
+[2018.10.28-22.18.14:822][664]LogSlate: Took 0.000674 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.28-22.18.14:831][664]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-22.18.40:219][664]LogSavePackage: Moving '../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Saved/Minimal_Default5DF894CC4BA4316B8AA94DA2392181C6.tmp' to '../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.10.28-22.18.42:394][674]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.28-22.18.42:428][674]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.28-22.18.42:428][674]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.28-22.18.42:445][674]PIE: New page: PIE session: Minimal_Default (28 Oct 2018 22:18:42)
+[2018.10.28-22.18.42:445][674]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.10.28-22.18.43:556][674]LogPlayLevel: PIE: StaticDuplicateObject took: (1.111352s)
+[2018.10.28-22.18.43:557][674]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.28-22.18.43:558][674]LogPlayLevel: PIE: World Init took: (0.001442s)
+[2018.10.28-22.18.43:560][674]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (1.115070s)
+[2018.10.28-22.18.43:606][674]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.28-22.18.43:625][674]LogInit: FAudioDevice initialized.
+[2018.10.28-22.18.43:944][674]LogLinker: Warning: Can't find file '/Game/Models/Spiderman/spiderman_body_d_-_Superior'
+[2018.10.28-22.18.43:945][674]LogLinker: Warning: Can't find file for asset '/Game/Models/Spiderman/spiderman_body_d_-_Superior' while loading ../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Content/Models/Spiderman/spiderman_body_4.uasset.
+[2018.10.28-22.18.43:946][674]LoadErrors: Error: /Game/Models/Spiderman/spiderman_body_4 : Can't find file for asset. /Game/Models/Spiderman/spiderman_body_d_-_Superior
+[2018.10.28-22.18.43:947][674]LogLinker: Warning: Can't find file '/Game/Models/Spiderman/spiderman_body_d_-_Superior'
+[2018.10.28-22.18.43:948][674]LogLinker: Warning: Can't find file for asset '/Game/Models/Spiderman/spiderman_body_d_-_Superior' while loading ../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Content/Models/Spiderman/spiderman_body_4.uasset.
+[2018.10.28-22.18.44:067][674]LogLinker: Warning: Can't find file '/Game/Models/Spiderman/spiderman_body_d_-_Superior'
+[2018.10.28-22.18.44:067][674]LoadErrors: Failed to load /Game/Models/Spiderman/spiderman_body_d_-_Superior.spiderman_body_d_-_Superior Referenced by MaterialExpressionTextureSample_0
+[2018.10.28-22.18.44:068][674]LogLinker: Warning: Can't find file for asset '/Game/Models/Spiderman/spiderman_body_d_-_Superior' while loading NULL.
+[2018.10.28-22.18.44:117][674]LogMaterial: Display: Missing cached shader map for material spiderman_body_4, compiling. 
+[2018.10.28-22.18.44:118][674]LogMaterial: Warning: C:\Users\w017177h\Documents\GitHub\SpideyCPP\SideyCPP\Content\Models\Spiderman\spiderman_body_4.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.10.28-22.18.44:118][674]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.10.28-22.18.44:212][674]LogLoad: Game class is 'MySideyCPPGameModeBase_C'
+[2018.10.28-22.18.44:759][674]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.10.28-22.18.44
+[2018.10.28-22.18.44:841][674]LogWorld: Bringing up level for play took: 0.625079
+[2018.10.28-22.18.44:867][674]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 10 classes and 0 folders.
+[2018.10.28-22.18.44:894][674]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 2.049
+[2018.10.28-22.18.44:896][674]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.28-22.25.37:155][992]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.28-22.25.37:156][992]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.28-22.25.38:263][992]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.28-22.25.38:267][992]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.28-22.25.38:382][992]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.28-22.25.38:474][993]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2018.10.28-22.25.39:254][  7]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-22.25.55:731][139]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 E:/Toby/textures/spiderman_body_d - Superior.jpg)
+[2018.10.28-22.25.55:873][139]LogTexture: Display: Building textures: spiderman_body_d_-_Superior (AutoDXT, 1024X1024)
+[2018.10.28-22.25.58:264][228]LogAssetEditorManager: Opening Asset editor for Material /Game/Models/Spiderman/spiderman_body_4.spiderman_body_4
+[2018.10.28-22.25.58:269][228]LogMaterial: Display: Missing cached shader map for material spiderman_body_4, compiling. 
+[2018.10.28-22.25.58:270][228]LogMaterial: Warning: /Engine/Transient.spiderman_body_4 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.10.28-22.25.58:270][228]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.10.28-22.25.58:611][228]LogMaterial: Display: Missing cached shader map for material spiderman_body_4, compiling. 
+[2018.10.28-22.25.58:612][228]LogMaterial: Warning: /Engine/Transient.spiderman_body_4 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.10.28-22.25.58:612][228]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.10.28-22.25.58:617][228]LogMaterial: Display: Missing cached shader map for material spiderman_body_4, compiling. 
+[2018.10.28-22.25.58:618][228]LogMaterial: Warning: /Engine/Transient.spiderman_body_4 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.10.28-22.25.58:618][228]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.10.28-22.25.58:652][228]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.10.28-22.25.58:709][228]MaterialEditorStats: Error: [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2018.10.28-22.25.58:768][228]LogSlate: Took 0.019598 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.10.28-22.26.02:891][375]LogMaterial: Display: Missing cached shader map for material spiderman_body_4, compiling. 
+[2018.10.28-22.26.02:965][375]LogShaderCompilers: Display: Shaders left to compile 59
+[2018.10.28-22.26.02:966][375]LogShaderCompilers: Display: Shaders left to compile 58
+[2018.10.28-22.26.02:966][375]LogShaderCompilers: Display: Shaders left to compile 57
+[2018.10.28-22.26.02:966][375]LogShaderCompilers: Display: Shaders left to compile 56
+[2018.10.28-22.26.02:966][375]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.10.28-22.26.03:003][375]LogMaterial: Display: Missing cached shader map for material spiderman_body_4, compiling. 
+[2018.10.28-22.26.03:336][388]LogMaterialEditor: Saving and Compiling material spiderman_body_4
+[2018.10.28-22.26.04:671][388]LogShaderCompilers: Display: Shaders left to compile 61
+[2018.10.28-22.26.04:671][388]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.10.28-22.26.04:671][388]LogShaderCompilers: Display: Shaders left to compile 59
+[2018.10.28-22.26.04:671][388]LogShaderCompilers: Display: Shaders left to compile 58
+[2018.10.28-22.26.04:671][388]LogShaderCompilers: Display: Shaders left to compile 57
+[2018.10.28-22.26.04:671][388]LogShaderCompilers: Display: Shaders left to compile 56
+[2018.10.28-22.26.04:671][388]LogShaderCompilers: Display: Shaders left to compile 55
+[2018.10.28-22.26.04:672][388]LogShaderCompilers: Display: Shaders left to compile 54
+[2018.10.28-22.26.04:703][388]LogMaterial: Display: Missing cached shader map for material spiderman_body_4, compiling. 
+[2018.10.28-22.26.04:779][388]LogShaderCompilers: Display: Shaders left to compile 59
+[2018.10.28-22.26.04:780][388]LogShaderCompilers: Display: Shaders left to compile 58
+[2018.10.28-22.26.04:780][388]LogShaderCompilers: Display: Shaders left to compile 57
+[2018.10.28-22.26.04:780][388]LogShaderCompilers: Display: Shaders left to compile 56
+[2018.10.28-22.26.04:802][388]LogMaterial: Display: Missing cached shader map for material spiderman_body_4, compiling. 
+[2018.10.28-22.26.04:947][388]LogMaterial: Display: Missing cached shader map for material spiderman_body_4, compiling. 
+[2018.10.28-22.26.05:238][388]LogShaderCompilers: Display: Shaders left to compile 115
+[2018.10.28-22.26.05:238][388]LogShaderCompilers: Display: Shaders left to compile 114
+[2018.10.28-22.26.05:239][388]LogShaderCompilers: Display: Shaders left to compile 113
+[2018.10.28-22.26.05:240][388]LogShaderCompilers: Display: Shaders left to compile 112
+[2018.10.28-22.26.05:257][388]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy spiderman_body_4, compiling. 
+[2018.10.28-22.26.10:741][388]LogShaderCompilers: Display: Shaders left to compile 112
+[2018.10.28-22.26.10:741][388]LogShaderCompilers: Display: Shaders left to compile 111
+[2018.10.28-22.26.10:742][388]LogShaderCompilers: Display: Shaders left to compile 110
+[2018.10.28-22.26.10:742][388]LogShaderCompilers: Display: Shaders left to compile 109
+[2018.10.28-22.26.10:742][388]LogShaderCompilers: Display: Shaders left to compile 108
+[2018.10.28-22.26.10:742][388]LogShaderCompilers: Display: Shaders left to compile 107
+[2018.10.28-22.26.10:742][388]LogShaderCompilers: Display: Shaders left to compile 106
+[2018.10.28-22.26.10:742][388]LogShaderCompilers: Display: Shaders left to compile 105
+[2018.10.28-22.26.10:742][388]LogShaderCompilers: Display: Shaders left to compile 104
+[2018.10.28-22.26.10:743][388]LogShaderCompilers: Display: Shaders left to compile 103
+[2018.10.28-22.26.10:743][388]LogShaderCompilers: Display: Shaders left to compile 102
+[2018.10.28-22.26.10:743][388]LogShaderCompilers: Display: Shaders left to compile 101
+[2018.10.28-22.26.10:743][388]LogShaderCompilers: Display: Shaders left to compile 100
+[2018.10.28-22.26.10:743][388]LogShaderCompilers: Display: Shaders left to compile 99
+[2018.10.28-22.26.10:743][388]LogShaderCompilers: Display: Shaders left to compile 98
+[2018.10.28-22.26.10:743][388]LogShaderCompilers: Display: Shaders left to compile 97
+[2018.10.28-22.26.10:743][388]LogShaderCompilers: Display: Shaders left to compile 96
+[2018.10.28-22.26.10:743][388]LogShaderCompilers: Display: Shaders left to compile 95
+[2018.10.28-22.26.10:744][388]LogShaderCompilers: Display: Shaders left to compile 94
+[2018.10.28-22.26.10:744][388]LogShaderCompilers: Display: Shaders left to compile 93
+[2018.10.28-22.26.10:744][388]LogShaderCompilers: Display: Shaders left to compile 92
+[2018.10.28-22.26.10:744][388]LogShaderCompilers: Display: Shaders left to compile 91
+[2018.10.28-22.26.10:744][388]LogShaderCompilers: Display: Shaders left to compile 90
+[2018.10.28-22.26.10:744][388]LogShaderCompilers: Display: Shaders left to compile 89
+[2018.10.28-22.26.10:744][388]LogShaderCompilers: Display: Shaders left to compile 88
+[2018.10.28-22.26.10:744][388]LogShaderCompilers: Display: Shaders left to compile 87
+[2018.10.28-22.26.10:745][388]LogShaderCompilers: Display: Shaders left to compile 86
+[2018.10.28-22.26.10:745][388]LogShaderCompilers: Display: Shaders left to compile 85
+[2018.10.28-22.26.10:745][388]LogShaderCompilers: Display: Shaders left to compile 84
+[2018.10.28-22.26.10:745][388]LogShaderCompilers: Display: Shaders left to compile 83
+[2018.10.28-22.26.10:745][388]LogShaderCompilers: Display: Shaders left to compile 82
+[2018.10.28-22.26.10:745][388]LogShaderCompilers: Display: Shaders left to compile 81
+[2018.10.28-22.26.10:745][388]LogShaderCompilers: Display: Shaders left to compile 80
+[2018.10.28-22.26.10:745][388]LogShaderCompilers: Display: Shaders left to compile 79
+[2018.10.28-22.26.10:745][388]LogShaderCompilers: Display: Shaders left to compile 78
+[2018.10.28-22.26.10:746][388]LogShaderCompilers: Display: Shaders left to compile 77
+[2018.10.28-22.26.10:746][388]LogShaderCompilers: Display: Shaders left to compile 76
+[2018.10.28-22.26.10:746][388]LogShaderCompilers: Display: Shaders left to compile 75
+[2018.10.28-22.26.10:746][388]LogShaderCompilers: Display: Shaders left to compile 74
+[2018.10.28-22.26.10:746][388]LogShaderCompilers: Display: Shaders left to compile 73
+[2018.10.28-22.26.10:746][388]LogShaderCompilers: Display: Shaders left to compile 72
+[2018.10.28-22.26.10:746][388]LogShaderCompilers: Display: Shaders left to compile 71
+[2018.10.28-22.26.10:746][388]LogShaderCompilers: Display: Shaders left to compile 70
+[2018.10.28-22.26.10:746][388]LogShaderCompilers: Display: Shaders left to compile 69
+[2018.10.28-22.26.10:747][388]LogShaderCompilers: Display: Shaders left to compile 68
+[2018.10.28-22.26.10:747][388]LogShaderCompilers: Display: Shaders left to compile 67
+[2018.10.28-22.26.10:747][388]LogShaderCompilers: Display: Shaders left to compile 66
+[2018.10.28-22.26.10:747][388]LogShaderCompilers: Display: Shaders left to compile 65
+[2018.10.28-22.26.10:747][388]LogShaderCompilers: Display: Shaders left to compile 64
+[2018.10.28-22.26.10:747][388]LogShaderCompilers: Display: Shaders left to compile 63
+[2018.10.28-22.26.10:747][388]LogShaderCompilers: Display: Shaders left to compile 62
+[2018.10.28-22.26.10:747][388]LogShaderCompilers: Display: Shaders left to compile 61
+[2018.10.28-22.26.10:747][388]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.10.28-22.26.10:748][388]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.10.28-22.26.10:748][388]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.10.28-22.26.10:748][388]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.10.28-22.26.10:750][388]TextureStreamingBuild: Display: Compiling optional shaders took 5.504 seconds.
+[2018.10.28-22.26.16:651][388]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.10.28-22.26.16:651][388]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.10.28-22.26.16:883][388]LogSavePackage: Moving '../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Saved/spiderman_body_43481C6C64474AFD841DE01AC2D6972AB.tmp' to '../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Content/Models/Spiderman/spiderman_body_4.uasset'
+[2018.10.28-22.26.16:933][388]MaterialEditorStats: Base pass shader: 102 instructions
+[2018.10.28-22.26.16:933][388]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 175 instructions
+[2018.10.28-22.26.16:933][388]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2018.10.28-22.26.16:933][388]MaterialEditorStats: Base pass vertex shader: 88 instructions
+[2018.10.28-22.26.16:934][388]MaterialEditorStats: Texture samplers: 4/16
+[2018.10.28-22.26.16:934][388]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2018.10.28-22.26.16:934][388]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.10.28-22.26.45:696][562]LogSavePackage: Moving '../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Saved/Minimal_DefaultD55BC98D4077BC129D4EAEA11B277E6A.tmp' to '../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.10.28-22.26.48:620][694]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.28-22.26.48:651][694]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.28-22.26.48:651][694]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.28-22.26.48:651][694]PIE: New page: PIE session: Minimal_Default (28 Oct 2018 22:26:48)
+[2018.10.28-22.26.48:652][694]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.10.28-22.26.50:214][694]LogPlayLevel: PIE: StaticDuplicateObject took: (1.562135s)
+[2018.10.28-22.26.50:216][694]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.28-22.26.50:216][694]LogPlayLevel: PIE: World Init took: (0.001350s)
+[2018.10.28-22.26.50:218][694]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (1.565738s)
+[2018.10.28-22.26.50:257][694]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.28-22.26.50:276][694]LogInit: FAudioDevice initialized.
+[2018.10.28-22.26.50:314][694]LogLoad: Game class is 'MySideyCPPGameModeBase_C'
+[2018.10.28-22.26.50:963][694]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.10.28-22.26.50
+[2018.10.28-22.26.51:085][694]LogWorld: Bringing up level for play took: 0.769655
+[2018.10.28-22.26.51:130][694]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 2.28
+[2018.10.28-22.26.51:134][694]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.28-22.27.06:181][206]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.28-22.27.06:182][206]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.28-22.27.07:608][206]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.28-22.27.07:612][206]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.10.28-22.27.07:725][206]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.28-22.27.07:927][207]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-22.27.30:680][207]LogSavePackage: Moving '../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Saved/Minimal_DefaultD46A9E284F05CA8BA81FA7BE37F558DD.tmp' to '../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.10.28-22.27.30:835][207]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2018.10.28-22.28.25:653][419]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-22.28.28:492][423]LogSlate: Window 'Save Content' being destroyed
+[2018.10.28-22.28.28:711][423]LogSavePackage: Moving '../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Saved/spiderman_body_d_-_SuperiorC13A60874B07A36B1F2608A409379394.tmp' to '../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Content/Models/Spiderman/spiderman_body_d_-_Superior.uasset'
+[2018.10.28-22.28.28:883][423]LogSlate: Window 'SideyCPP - Unreal Editor' being destroyed
+[2018.10.28-22.28.28:884][423]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.28-22.28.29:190][424]Cmd: QUIT_EDITOR
+[2018.10.28-22.28.30:183][424]LogExit: Preparing to exit.
