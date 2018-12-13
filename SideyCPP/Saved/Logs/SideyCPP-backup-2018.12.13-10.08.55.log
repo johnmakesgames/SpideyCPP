@@ -1,0 +1,578 @@
+﻿Log file open, 10/28/18 22:28:59
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: SideyCPP
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.464218
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin ApexDestruction
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.327s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU:        Intel(R) Xeon(R) CPU E5-1620 0 @ 3.60GHz, GPU: NVIDIA GeForce GTX 660 Ti
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Epic/UE4/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.013s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.10.28-22.28.59:770][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.28-22.28.59:770][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.28-22.28.59:788][  0]LogHAL: Display: Platform has ~ 16 GB [17100050432 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.28-22.28.59:788][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.28-22.28.59:788][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.28-22.28.59:788][  0]LogInit: Computer: C108-34A
+[2018.10.28-22.28.59:788][  0]LogInit: User: w017177h
+[2018.10.28-22.28.59:788][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.28-22.28.59:788][  0]LogInit: High frequency timer resolution =3.507174 MHz
+[2018.10.28-22.28.59:789][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.10.28-22.28.59:789][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.28-22.28.59:789][  0]LogMemory: Process Physical Memory: 102.14 MB used, 102.14 MB peak
+[2018.10.28-22.28.59:789][  0]LogMemory: Process Virtual Memory: 93.12 MB used, 93.12 MB peak
+[2018.10.28-22.28.59:789][  0]LogMemory: Physical Memory: 6800.79 MB used,  9507.09 MB free, 16307.88 MB total
+[2018.10.28-22.28.59:789][  0]LogMemory: Virtual Memory: 4642.15 MB used,  9507.09 MB free, 134217728.00 MB total
+[2018.10.28-22.28.59:929][  0]LogInit: Using OS detected language (en-US).
+[2018.10.28-22.28.59:929][  0]LogInit: Using OS detected locale (en-GB).
+[2018.10.28-22.28.59:931][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.10.28-22.29.00:464][  0]LogStreaming: Display: Took  0.535s to InitEngineTextLocalization.
+[2018.10.28-22.29.00:465][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.28-22.29.00:565][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.28-22.29.00:566][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.28-22.29.00:976][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.28-22.29.00:977][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.28-22.29.01:086][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660 Ti' (Feature Level 11_0)
+[2018.10.28-22.29.01:086][  0]LogD3D11RHI:       1998/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.10.28-22.29.01:093][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.28-22.29.01:093][  0]LogD3D11RHI:       0/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.28-22.29.01:093][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.28-22.29.01:104][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.28-22.29.01:104][  0]LogD3D11RHI:     GPU DeviceId: 0x1183 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.28-22.29.01:104][  0]LogWindows: EnumDisplayDevices:
+[2018.10.28-22.29.01:105][  0]LogWindows:    0. 'NVIDIA GeForce GTX 660 Ti' (P:1 D:1)
+[2018.10.28-22.29.01:105][  0]LogWindows:    1. 'NVIDIA GeForce GTX 660 Ti' (P:0 D:1)
+[2018.10.28-22.29.01:105][  0]LogWindows:    2. 'NVIDIA GeForce GTX 660 Ti' (P:0 D:0)
+[2018.10.28-22.29.01:106][  0]LogWindows:    3. 'NVIDIA GeForce GTX 660 Ti' (P:0 D:0)
+[2018.10.28-22.29.01:106][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.10.28-22.29.01:106][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660 Ti
+[2018.10.28-22.29.01:106][  0]LogD3D11RHI:   Driver Version: 399.24 (internal:24.21.13.9924, unified:399.24)
+[2018.10.28-22.29.01:106][  0]LogD3D11RHI:      Driver Date: 9-5-2018
+[2018.10.28-22.29.01:107][  0]LogRHI: Texture pool is 1398 MB (70% of 1998 MB)
+[2018.10.28-22.29.01:175][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.28-22.29.01:193][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.10.28-22.29.01:197][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Intermediate/Shaders/WorkingDirectory/18564/).
+[2018.10.28-22.29.01:197][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/w017177h/AppData/Local/Temp/UnrealShaderWorkingDir/1DC452DF4AA8381E03D3D9A5DBE9BE0A/'.
+[2018.10.28-22.29.01:663][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.28-22.29.01:684][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.28-22.29.01:714][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.28-22.29.01:744][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.28-22.29.01:766][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.28-22.29.01:787][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.28-22.29.01:825][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.28-22.29.01:864][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.28-22.29.01:891][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.28-22.29.02:045][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-22.29.02:045][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-22.29.02:045][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-22.29.02:045][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-22.29.02:045][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-22.29.02:045][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-22.29.02:045][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-22.29.02:046][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-22.29.02:046][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-22.29.02:046][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-22.29.02:046][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-22.29.02:046][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-22.29.02:046][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-22.29.02:046][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-22.29.02:046][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-22.29.02:046][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-22.29.02:047][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-22.29.02:047][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.28-22.29.02:055][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.28-22.29.02:160][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.28-22.29.02:160][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.28-22.29.02:210][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.28-22.29.02:210][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.28-22.29.02:256][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.28-22.29.02:283][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.28-22.29.02:303][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.28-22.29.02:345][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.28-22.29.02:370][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.28-22.29.02:370][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.28-22.29.02:600][  0]LogXGEController: Cleaning working directory: C:/Users/w017177h/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.10.28-22.29.02:601][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.28-22.29.02:601][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.28-22.29.02:601][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.28-22.29.03:856][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.28-22.29.04:014][  0]LogDerivedDataCache: Loaded boot cache 0.16s 71MB C:/Users/w017177h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.28-22.29.04:015][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/w017177h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.28-22.29.04:015][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.28-22.29.04:016][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.28-22.29.04:016][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.28-22.29.04:016][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.28-22.29.04:032][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.28-22.29.04:050][  0]LogDerivedDataCache: Using Local data cache path C:/Users/w017177h/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.28-22.29.04:051][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.28-22.29.04:051][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.28-22.29.04:096][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.28-22.29.04:098][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.28-22.29.04:101][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.28-22.29.04:235][  0]LogAssetRegistry: FAssetRegistry took 0.0320 seconds to start up
+[2018.10.28-22.29.04:821][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.28-22.29.05:034][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.28-22.29.05:046][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.28-22.29.05:046][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.28-22.29.05:046][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.28-22.29.05:046][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.28-22.29.05:070][  0]LogNetVersion: SideyCPP 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 583984258)
+[2018.10.28-22.29.06:159][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.280888 seconds
+[2018.10.28-22.29.06:168][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.28-22.29.06:168][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.10.28-22.29.06:168][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.28-22.29.07:526][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.28-22.29.07:545][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.28-22.29.07:897][  0]SourceControl: Source control is disabled
+[2018.10.28-22.29.07:898][  0]SourceControl: Source control is disabled
+[2018.10.28-22.29.07:903][  0]SourceControl: Source control is disabled
+[2018.10.28-22.29.07:907][  0]SourceControl: Source control is disabled
+[2018.10.28-22.29.08:290][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.28-22.29.08:409][  0]LogOcInput: OculusInput pre-init called
+[2018.10.28-22.29.08:516][  0]LogEngine: Initializing Engine...
+[2018.10.28-22.29.08:517][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.28-22.29.08:522][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.28-22.29.08:523][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.28-22.29.08:523][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.28-22.29.08:523][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.28-22.29.08:840][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.28-22.29.08:870][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.28-22.29.08:887][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.28-22.29.08:923][  0]LogInit: FAudioDevice initialized.
+[2018.10.28-22.29.08:923][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.28-22.29.09:293][  0]LogDerivedDataCache: Saved boot cache 0.37s 71MB C:/Users/w017177h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.28-22.29.09:340][  0]LogInit: Texture streaming: Enabled
+[2018.10.28-22.29.09:393][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.28-22.29.09:394][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={55547726-447D-7A6C-30BE-BEA735CCA669}
+[2018.10.28-22.29.09:414][  0]LogInit: Transaction tracking system initialized
+[2018.10.28-22.29.09:488][  0]BlueprintLog: New page: Editor Load
+[2018.10.28-22.29.09:728][  0]LocalizationService: Localization service is disabled
+[2018.10.28-22.29.10:222][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.28-22.29.10:223][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.28-22.29.10:223][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.28-22.29.10:223][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.28-22.29.10:223][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.28-22.29.10:224][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.28-22.29.10:224][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.28-22.29.10:529][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Content/' took 0.03s
+[2018.10.28-22.29.10:546][  0]SourceControl: Source control is disabled
+[2018.10.28-22.29.10:547][  0]Cmd: MAP LOAD FILE="../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.28-22.29.10:548][  0]LightingResults: New page: Lighting Build
+[2018.10.28-22.29.10:554][  0]MapCheck: New page: Map Check
+[2018.10.28-22.29.10:554][  0]LightingResults: New page: Lighting Build
+[2018.10.28-22.29.14:838][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.28-22.29.23:569][  0]LogEditorServer: Finished looking for orphan Actors (0.007 secs)
+[2018.10.28-22.29.24:291][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.28-22.29.24:618][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 326.845ms to complete.
+[2018.10.28-22.29.24:622][  0]LogFileHelpers: Loading map 'Minimal_Default' took 14.077
+[2018.10.28-22.29.24:766][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.28-22.29.24:781][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.28-22.29.24:793][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.28-22.29.24:805][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.28-22.29.24:820][  0]LogCollectionManager: Loaded 0 collections in 0.004338 seconds
+[2018.10.28-22.29.24:876][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Saved/Collections/' took 0.01s
+[2018.10.28-22.29.24:876][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Content/Developers/w017177h/Collections/' took 0.01s
+[2018.10.28-22.29.24:876][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Content/Collections/' took 0.01s
+[2018.10.28-22.29.24:876][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.10.28-22.29.24:889][  0]LogContentBrowser: Native class hierarchy populated in 0.0121 seconds. Added 2586 classes and 610 folders.
+[2018.10.28-22.29.24:902][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.10.28-22.29.25:020][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.10.28-22.29.25:045][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2018.10.28-22.29.25:351][  0]LogSlate: Took 0.000328 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.28-22.29.25:354][  0]LogSlate: Took 0.000320 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.28-22.29.25:361][  0]LogSlate: Took 0.000299 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.28-22.29.25:477][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.10.28-22.29.25:743][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.10.28-22.29.25:744][  0]LogLoad: (Engine Initialization) Total time: 30.23 seconds
+[2018.10.28-22.29.25:744][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.28-22.29.25:756][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.28-22.29.25:789][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.28-22.29.25:839][  0]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.28-22.29.25:962][  2]LogAssetRegistry: Asset discovery search completed in 21.7524 seconds
+[2018.10.28-22.29.25:964][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.10.28-22.29.25:964][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000146 seconds (updated 0 objects)
+[2018.10.28-22.29.28:399][ 10]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-22.29.30:948][206]MapCheck: New page: Map Check
+[2018.10.28-22.29.31:012][206]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-22.29.31:036][206]LightingResults: New page: Lighting Build - 28 Oct 2018 22:29:31
+[2018.10.28-22.29.32:329][206]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.10.28-22.29.32:581][206]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.10.28-22.29.32:726][206]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.10.28-22.29.35:210][206]LogSwarmInterface: Error: [TryOpenConnection] Waiting for the agent to start up ...
+[2018.10.28-22.29.35:947][206]LogSwarmInterface: Error: System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:8008
+
+Server stack trace: 
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   at System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
+   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
+   at NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags) in D:\Build\++UE4\Sync\Saved\CsTools\Engine\Source\Editor\SwarmInterface\DotNET\SwarmInterface.cs:line 2811
+[2018.10.28-22.29.41:394][206]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.10.28-22.29.41:394][206]LogSwarmInterface: [TryOpenConnection] Local Process ID is 18564
+[2018.10.28-22.30.06:495][206]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2018.10.28-22.30.06:578][206]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.10.28-22.30.06:578][206]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.10.28-22.30.06:578][206]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.10.28-22.30.06:578][206]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.10.28-22.30.06:578][206]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.10.28-22.30.07:126][206]LogEditorBuildUtils: Build time 0:36
+[2018.10.28-22.30.07:148][206]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Steel, compiling. 
+[2018.10.28-22.30.07:167][206]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.28-22.30.07:167][206]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Steel, compiling. 
+[2018.10.28-22.30.07:195][207]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
+[2018.10.28-22.30.07:204][207]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
+[2018.10.28-22.30.07:281][207]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.10.28-22.30.07:301][208]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2018.10.28-22.30.07:312][208]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2018.10.28-22.30.07:342][208]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.10.28-22.30.22:090][234]Job is a success!
+[2018.10.28-22.30.22:449][235]LogSlate: Took 0.000338 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.28-22.30.22:688][235]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.189s
+[2018.10.28-22.30.22:689][235]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
+[2018.10.28-22.30.22:689][235]LogVolumetricLightmapImport:      BrickData 530x5x5 = 0.5Mb
+[2018.10.28-22.30.22:689][235]LogVolumetricLightmapImport:      Bricks at Level
+[2018.10.28-22.30.22:689][235]LogVolumetricLightmapImport:          0: 7.5% covering 100.0% of volume
+[2018.10.28-22.30.22:691][235]LogVolumetricLightmapImport:          1: 92.5% covering 19.1% of volume
+[2018.10.28-22.30.22:691][235]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2018.10.28-22.30.23:336][235]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 256X128)
+[2018.10.28-22.30.23:336][235]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2018.10.28-22.30.23:337][235]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2018.10.28-22.30.23:337][235]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2018.10.28-22.30.23:337][235]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2018.10.28-22.30.23:338][235]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2018.10.28-22.30.23:338][235]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2018.10.28-22.30.23:338][235]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 128X128)
+[2018.10.28-22.30.23:427][235]Lightmass on C108-34A: 6.33 sec total, 599 ms importing, 22 ms setup, 577 ms photons, 5.03 sec processing, 0 ms extra exporting [2/2 mappings]. Threads: 35.0 sec total, 662 ms processing.
+[2018.10.28-22.30.23:658][235]LogStaticLightingSystem: Illumination: 52.2 sec (387 ms encoding lightmaps, 40 ms encoding shadowmaps)
+[2018.10.28-22.30.23:658][235]LogStaticLightingSystem: Lightmap texture memory:  0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.10.28-22.30.23:658][235]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.10.28-22.30.42:478][235]DumpUnbuiltLightIteractions
+[2018.10.28-22.30.42:479][235]Lights with unbuilt interactions: 0
+[2018.10.28-22.30.42:479][235]
+[2018.10.28-22.30.42:479][235]Primitives with unbuilt interactions: 0
+[2018.10.28-22.30.42:761][236]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.10.28-22.30.42:762][236]MapCheck: New page: Minimal_Default - 28 Oct 2018 22:30:42
+[2018.10.28-22.30.42:786][236]MapCheck: Warning: RedBuilding10 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:786][236]MapCheck: Warning: RedBuilding10 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:787][236]MapCheck: Warning: RedBuilding2_5 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:787][236]MapCheck: Warning: RedBuilding3_10 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:787][236]MapCheck: Warning: RedBuilding4_13 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:787][236]MapCheck: Warning: RedBuilding5_16 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:787][236]MapCheck: Warning: RedBuilding6_19 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:788][236]MapCheck: Warning: RedBuilding6_19 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:788][236]MapCheck: Warning: RedBuilding7_24 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:788][236]MapCheck: Warning: RedBuilding7_24 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:788][236]MapCheck: Warning: RedBuilding8 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:789][236]MapCheck: Warning: RedBuilding8 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:789][236]MapCheck: Warning: RedBuilding9 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:789][236]MapCheck: Warning: RedBuilding9 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:789][236]MapCheck: Warning: RedBuilding_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:790][236]MapCheck: Warning: BlackBuilding_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:790][236]MapCheck: Warning: BlackBuilding2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:790][236]MapCheck: Warning: BlackBuilding3 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:790][236]MapCheck: Warning: WhiteBuilding2_5 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:790][236]MapCheck: Warning: WhiteBuilding3_8 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:791][236]MapCheck: Warning: WhiteBuilding4_11 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:791][236]MapCheck: Warning: WhiteBuilding5 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:791][236]MapCheck: Warning: WhiteBuilding_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:791][236]MapCheck: Warning: ShortBuilding_Base2_5 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:792][236]MapCheck: Warning: ShortBuilding_Base2_5 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:792][236]MapCheck: Warning: ShortBuilding_Base3 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:792][236]MapCheck: Warning: ShortBuilding_Base3 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:792][236]MapCheck: Warning: ShortBuilding_Base4_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:793][236]MapCheck: Warning: ShortBuilding_Base4_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:793][236]MapCheck: Warning: ShortBuilding_Base_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:793][236]MapCheck: Warning: ShortBuilding_Base_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:793][236]MapCheck: Warning: ShortRed_4 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:793][236]MapCheck: Warning: ShortRed_4 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:794][236]MapCheck: Warning: ShortRed2_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:794][236]MapCheck: Warning: ShortRed2_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:794][236]MapCheck: Warning: RedBuilding11_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:795][236]MapCheck: Warning: WhiteBuilding_New_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:795][236]MapCheck: Warning: RedBuilding12_5 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:795][236]MapCheck: Warning: BlackBuilding4_6 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:795][236]MapCheck: Warning: BlackBuilding4_6 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:795][236]MapCheck: Warning: Grass_Area_10 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:796][236]MapCheck: Warning: Grass_Area_10 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:796][236]MapCheck: Warning: WhiteBuilding6 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:796][236]MapCheck: Warning: RedBuilding13_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:796][236]MapCheck: Warning: RedBuilding14 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:797][236]MapCheck: Warning: RedBuilding15 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:797][236]MapCheck: Warning: RedBuilding16 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:797][236]MapCheck: Warning: WhiteBuilding7 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:797][236]MapCheck: Warning: ShortRed3_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:797][236]MapCheck: Warning: ShortRed3_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:798][236]MapCheck: Warning: RedBuilding17_8 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:798][236]MapCheck: Warning: BlackBuilding5_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:798][236]MapCheck: Warning: BlackBuilding6 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:799][236]MapCheck: Warning: WhiteBuilding_New2_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:799][236]MapCheck: Warning: WhiteBuilding_New3 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:799][236]MapCheck: Warning: WhiteBuilding_New3 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:799][236]MapCheck: Warning: BlackBuilding7 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:799][236]MapCheck: Warning: RedBuilding18 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:800][236]MapCheck: Warning: SkyScraper_Base2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:800][236]MapCheck: Warning: SkyScraper_Base3 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:800][236]MapCheck: Warning: SkyScraper_Base4_8 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:800][236]MapCheck: Warning: SkyScraper_Base5 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:801][236]MapCheck: Warning: SkyScraper_Base_3 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:801][236]MapCheck: Warning: RedBuilding19_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:801][236]MapCheck: Warning: BlackBuilding8_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:801][236]MapCheck: Warning: WhiteBuilding_New4_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:802][236]MapCheck: Warning: WhiteBuilding_New4_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:802][236]MapCheck: Warning: SkyScraper_Base6_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:802][236]MapCheck: Warning: SkyScraper_Base6_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:802][236]MapCheck: Warning: RedBuilding20_5 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:803][236]MapCheck: Warning: RedBuilding21_8 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:803][236]MapCheck: Warning: WhiteBuilding_New5 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:803][236]MapCheck: Warning: WhiteBuilding_New5 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:803][236]MapCheck: Warning: RedBuilding22_11 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:803][236]MapCheck: Warning: Grass_Area2_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:804][236]MapCheck: Warning: Grass_Area2_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:804][236]MapCheck: Warning: RedBuilding23 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:804][236]MapCheck: Warning: BlackBuilding9 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:804][236]MapCheck: Warning: BlackBuilding9 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:805][236]MapCheck: Warning: WhiteBuilding_New6 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:805][236]MapCheck: Warning: WhiteBuilding_New6 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:805][236]MapCheck: Warning: ShortRed4 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:805][236]MapCheck: Warning: ShortRed4 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:806][236]MapCheck: Warning: ShortRed5 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:806][236]MapCheck: Warning: ShortRed5 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:806][236]MapCheck: Warning: WhiteBuilding_New7 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:806][236]MapCheck: Warning: WhiteBuilding_New7 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:806][236]MapCheck: Warning: RedBuilding24_3 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:807][236]MapCheck: Warning: RedBuilding24_3 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:807][236]MapCheck: Warning: Grass_Area3_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:807][236]MapCheck: Warning: Grass_Area3_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:807][236]MapCheck: Warning: WhiteBuilding_New8 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:807][236]MapCheck: Warning: WhiteBuilding_New8 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:807][236]MapCheck: Warning: WhiteBuilding_New9 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:808][236]MapCheck: Warning: WhiteBuilding_New9 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:808][236]MapCheck: Warning: ShortRed6 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:808][236]MapCheck: Warning: ShortRed6 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:808][236]MapCheck: Warning: WhiteBuilding_New10 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:808][236]MapCheck: Warning: WhiteBuilding_New10 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:809][236]MapCheck: Warning: WhiteBuilding_New11 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.42:809][236]MapCheck: Warning: WhiteBuilding_New11 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.10.28-22.30.43:305][236]MapCheck: Map check complete: 0 Error(s), 101 Warning(s), took 542.915ms to complete.
+[2018.10.28-22.34.22:130][961]LogSlate: Window 'Message Log' being destroyed
+[2018.10.28-22.34.22:134][961]LogSlate: Window 'Message Log' being destroyed
+[2018.10.28-22.34.28:037][122]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.28-22.34.46:357][122]LogSavePackage: Moving '../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Saved/Minimal_DefaultC5ABD3A24042F3578A77228834596E3D.tmp' to '../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.10.28-22.34.46:569][122]LogSavePackage: Moving '../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Saved/Minimal_Default_BuiltData15D651934AFCBEF29280F29AEEF38E3A.tmp' to '../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2018.10.28-22.51.25:943][102]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.28-22.51.50:740][106]LogSavePackage: Moving '../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Saved/Minimal_DefaultE46613E647C376E407EB089F5010EFED.tmp' to '../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.10.28-22.51.51:367][106]LogSavePackage: Moving '../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Saved/Minimal_Default_BuiltData9945E7D148D4D9DBBB48219D5B19F3F4.tmp' to '../../../../../../Users/w017177h/Documents/GitHub/SpideyCPP/SideyCPP/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2018.10.28-22.52.01:956][755]LogSlate: Window 'SideyCPP - Unreal Editor' being destroyed
+[2018.10.28-22.52.01:961][755]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.28-22.52.02:273][756]Cmd: QUIT_EDITOR
+[2018.10.28-22.52.02:330][756]LogExit: Preparing to exit.
+[2018.10.28-22.52.03:320][756]LogExit: Editor shut down
+[2018.10.28-22.52.03:321][756]LogExit: Transaction tracking system shut down
+[2018.10.28-22.52.04:428][756]LogExit: Object subsystem successfully closed.
+[2018.10.28-22.52.04:460][756]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.10.28-22.52.04:466][756]LogD3D11RHI: Shutdown
+[2018.10.28-22.52.04:466][756]LogD3D11RHI: CleanupD3DDevice
+[2018.10.28-22.52.04:480][756]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.10.28-22.52.04:815][756]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (616)
+[2018.10.28-22.52.04:815][756]LogModuleManager: Shutting down and abandoning module SceneOutliner (614)
+[2018.10.28-22.52.04:816][756]LogModuleManager: Shutting down and abandoning module AddContentDialog (612)
+[2018.10.28-22.52.04:827][756]LogModuleManager: Shutting down and abandoning module WidgetCarousel (611)
+[2018.10.28-22.52.04:828][756]LogModuleManager: Shutting down and abandoning module EditorWidgets (608)
+[2018.10.28-22.52.04:828][756]LogModuleManager: Shutting down and abandoning module CollectionManager (606)
+[2018.10.28-22.52.04:828][756]LogModuleManager: Shutting down and abandoning module StatsViewer (604)
+[2018.10.28-22.52.04:838][756]LogModuleManager: Shutting down and abandoning module FoliageEdit (602)
+[2018.10.28-22.52.04:838][756]LogModuleManager: Shutting down and abandoning module LandscapeEditor (600)
+[2018.10.28-22.52.04:840][756]LogModuleManager: Shutting down and abandoning module MeshPaintMode (598)
+[2018.10.28-22.52.04:841][756]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (596)
+[2018.10.28-22.52.04:841][756]LogModuleManager: Shutting down and abandoning module ActorPickerMode (594)
+[2018.10.28-22.52.04:841][756]LogModuleManager: Shutting down and abandoning module GeometryMode (592)
+[2018.10.28-22.52.04:841][756]LogModuleManager: Shutting down and abandoning module TextureAlignMode (590)
+[2018.10.28-22.52.04:842][756]LogModuleManager: Shutting down and abandoning module BspMode (588)
+[2018.10.28-22.52.04:853][756]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (586)
+[2018.10.28-22.52.04:853][756]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (584)
+[2018.10.28-22.52.04:854][756]LogModuleManager: Shutting down and abandoning module AutomationWorker (582)
+[2018.10.28-22.52.04:854][756]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (580)
+[2018.10.28-22.52.04:867][756]LogModuleManager: Shutting down and abandoning module SequenceRecorder (579)
+[2018.10.28-22.52.04:867][756]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (576)
+[2018.10.28-22.52.04:867][756]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (574)
+[2018.10.28-22.52.04:877][756]LogModuleManager: Shutting down and abandoning module PlacementMode (573)
+[2018.10.28-22.52.04:877][756]LogModuleManager: Shutting down and abandoning module MaterialEditor (572)
+[2018.10.28-22.52.04:878][756]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (568)
+[2018.10.28-22.52.04:878][756]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (566)
+[2018.10.28-22.52.04:878][756]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (564)
+[2018.10.28-22.52.04:880][756]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (562)
+[2018.10.28-22.52.04:881][756]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (560)
+[2018.10.28-22.52.04:881][756]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (558)
+[2018.10.28-22.52.04:881][756]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (556)
+[2018.10.28-22.52.04:882][756]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (554)
+[2018.10.28-22.52.04:882][756]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (552)
+[2018.10.28-22.52.04:882][756]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (550)
+[2018.10.28-22.52.04:883][756]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (548)
+[2018.10.28-22.52.04:883][756]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (546)
+[2018.10.28-22.52.04:883][756]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (544)
+[2018.10.28-22.52.04:883][756]LogModuleManager: Shutting down and abandoning module CharacterAI (542)
+[2018.10.28-22.52.04:884][756]LogModuleManager: Shutting down and abandoning module SmartSnapping (540)
+[2018.10.28-22.52.04:884][756]LogModuleManager: Shutting down and abandoning module SessionServices (538)
+[2018.10.28-22.52.04:884][756]LogModuleManager: Shutting down and abandoning module ViewportSnapping (536)
+[2018.10.28-22.52.04:885][756]LogModuleManager: Shutting down and abandoning module ViewportInteraction (534)
+[2018.10.28-22.52.04:885][756]LogModuleManager: Shutting down and abandoning module ClothPainter (532)
+[2018.10.28-22.52.04:904][756]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (531)
+[2018.10.28-22.52.04:923][756]LogModuleManager: Shutting down and abandoning module LogVisualizer (528)
+[2018.10.28-22.52.04:925][756]LogModuleManager: Shutting down and abandoning module IntroTutorials (526)
+[2018.10.28-22.52.04:943][756]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (525)
+[2018.10.28-22.52.04:963][756]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (522)
+[2018.10.28-22.52.04:963][756]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (520)
+[2018.10.28-22.52.04:964][756]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (518)
+[2018.10.28-22.52.04:964][756]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (516)
+[2018.10.28-22.52.04:964][756]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (515)
